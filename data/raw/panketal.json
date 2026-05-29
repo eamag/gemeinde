@@ -1,0 +1,477 @@
+{
+	"municipality": {
+		"id": "panketal",
+		"name": "Panketal",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "panketal-https-panketal-de-rathaus-amtsblatt-html",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://panketal.de/rathaus/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "panketal-https-panketal-de-aktuelles-grundstuecks",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://panketal.de/aktuelles/grundstuecksangebote.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "panketal",
+			"source": {
+				"id": "panketal-https-panketal-de-rathaus-amtsblatt-html",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://panketal.de/rathaus/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:47.351Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://panketal.de/rathaus/satzungen-verordnungen.html",
+					"text": "Satzungen & Verordnungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/rathaus/oeffentliche-bekanntmachungen.html",
+					"text": "öffentliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/rathaus/amtsblatt.html",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/s/amtsblatt.html",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2025/AB_01_2025.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2025/AB_02_2025.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_01_2024.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_02_2024.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_03_2024.pdf",
+					"text": "Amtsblatt Nummer 03",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/0336_Amtsblatt_sonder2.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_05_2024.pdf",
+					"text": "Amtsblatt Nummer 05",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_06_2024.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_07_2024.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/Amtsblatt_08_2024.pdf",
+					"text": "Amtsblatt Nummer 08",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_09_2024.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_10_2024.pdf",
+					"text": "Amtsblatt Nummer 10",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_11_2024.pdf",
+					"text": "Amtsblatt Nummer 11",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_12_2024.pdf",
+					"text": "Amtsblatt Nummer 12",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_13_2024.pdf",
+					"text": "Amtsblatt Nummer 13",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_14_2024.pdf",
+					"text": "Amtsblatt Nummer 14",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_15_2024.pdf",
+					"text": "Amtsblatt Nummer 15",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2024/AB_16_2024.pdf",
+					"text": "Amtsblatt Nummer 16",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/0106_Panke%20AB_01.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/AB_02_2023.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/0260_Panke%20AB_03.pdf",
+					"text": "Amtsblatt Nummer 03",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/0379_Panke%20AB_04.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/0458_Panke%20AB_05_2023.pdf",
+					"text": "Amtsblatt Nummer 05",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/AB_06_2023.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/0648_Panke%20AB_07_web.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/Panke_AB_08_2023.pdf",
+					"text": "Amtsblatt Nummer 08",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/AB_09_2023.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2023/AB_10_2023.pdf",
+					"text": "Amtsblatt Nummer 10",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_01_2022.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_02_2022.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_03_2022.pdf",
+					"text": "Amtsblatt Nummer 03",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_04_2022.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_05_2022.pdf",
+					"text": "Amtsblatt Nummer 05",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_06_2022.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_07_2022.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_08_2022.pdf",
+					"text": "Amtsblatt Nummer 08",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_09_2022.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2022/AB_10_2022.pdf",
+					"text": "Amtsblatt Nummer 10",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0024_Panketal%20AB_01.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0120_Panketal%20AB_02.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0148_Panketal%20AB_03.pdf",
+					"text": "Amtsblatt Nummer 03 (Sonderveröffentlichung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0192_Panketal%20AB_04.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0276_Panketal%20AB_05.pdf",
+					"text": "Amtsblatt Nummer 05",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0353_Panketal_AB_06.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0461_Panke%20AB%2007%20web.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0557_Panke%20AB%2008.pdf",
+					"text": "Amtsblatt Nummer 08",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0640_Panke_AB_09_web.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0755_Panke_AB_10.pdf",
+					"text": "Amtsblatt Nummer 10",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0886_Panke%20AB_11_web.pdf",
+					"text": "Amtsblatt Nummer 11",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/0987_Panke%20AB_12.pdf",
+					"text": "Amtsblatt Nummer 12",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2021/1095_Panke%20AB_13.pdf",
+					"text": "Amtsblatt Nummer 13",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_01_2020.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_02_2020.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_03_2020.pdf",
+					"text": "Amtsblatt Nummer 03",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_04_2020.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_05_2020.pdf",
+					"text": "Amtsblatt Nummer 05",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_06_2020.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_07_2020.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_08_2020.pdf",
+					"text": "Amtsblatt Nummer 08",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_09_2020.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_10_2020.pdf",
+					"text": "Amtsblatt Nummer 10",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_11_2020.pdf",
+					"text": "Amtsblatt Nummer 11",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2020/Amtsblatt_12_2020.pdf",
+					"text": "Amtsblatt Nummer 12",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_01_19_web.pdf",
+					"text": "Amtsblatt Nummer 01",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_02_2019_web.pdf",
+					"text": "Amtsblatt Nummer 02",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Sonder_Amtsblatt_03_web.pdf",
+					"text": "Amtsblatt Nummer 03 (Sonderausgabe)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_04_2019_web.pdf",
+					"text": "Amtsblatt Nummer 04",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Sonder_Amtsblatt_05_19_web.pdf",
+					"text": "Amtsblatt Nummer 05 (Sonderausgabe)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_06_2019_web.pdf",
+					"text": "Amtsblatt Nummer 06",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_07_2019r_web.pdf",
+					"text": "Amtsblatt Nummer 07",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Sonder_Amtsblatt_08_19_web.pdf",
+					"text": "Amtsblatt Nummer 08 (Sonderausgabe)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_09_2019_web.pdf",
+					"text": "Amtsblatt Nummer 09",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Sonder_Amtsblatt_10_19_web.pdf",
+					"text": "Amtsblatt Nummer 10 (Sonderausgabe)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_11_2019_web.pdf",
+					"text": "Amtsblatt Nummer 11",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Sonder_Amtsblatt_12_19_web.pdf",
+					"text": "Amtsblatt Nummer 12 (Sonderausgabe)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Amtsblatt/2019/Amtsblatt_13_2019_web.pdf",
+					"text": "Amtsblatt Nummer 13",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "panketal",
+			"source": {
+				"id": "panketal-https-panketal-de-aktuelles-grundstuecks",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://panketal.de/aktuelles/grundstuecksangebote.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:47.351Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://panketal.de/aktuelles/grundstuecksangebote.html",
+					"text": "Grundstücksangebote",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/rathaus/orts-und-regionalplanung/liegenschaften.html",
+					"text": "Liegenschaften",
+					"kind": "html"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Grundst%C3%BCcksangebote/2026_04_21_Ausschreibung_Schooenower_Str_114_Expose.pdf",
+					"text": "Ortsteil Zepernick – Schönower Straße 114",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://panketal.de/images/Downloads/Grundst%C3%BCcksangebote/Bieterverfahren_Grundstueck_Gebotsabgabe.pdf",
+					"text": "Formular zur Gebotsabgabe",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

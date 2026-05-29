@@ -1,0 +1,90 @@
+{
+	"municipality": {
+		"id": "hoppegarten",
+		"name": "Hoppegarten",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "hoppegarten-https-www-gemeinde-hoppegarten-de-amtsbl",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "hoppegarten",
+			"source": {
+				"id": "hoppegarten-https-www-gemeinde-hoppegarten-de-amtsbl",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:44.468Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/seite/111569/bekanntmachungen-informationen.html",
+					"text": "Bekanntmachungen & Informationen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/",
+					"text": "Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/rechtsgrundlagen/1/satzungen.html",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/seite/511498/bekanntmachungen.html",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/seite/186967/ansprechpartner-formulare-satzungen.html",
+					"text": "Ansprechpartner/ Formulare/ Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/seite/623295/baumschutzsatzung.html",
+					"text": "Baumschutzsatzung",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php?modus=drucken",
+					"text": "print Druckansicht öffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeinde-hoppegarten.de/contact/index/link?referrer=https%3A%2F%2Fwww.gemeinde-hoppegarten.de%2Famtsblatt%2Findex.php",
+					"text": "mail Link verschicken",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.gemeinde-hoppegarten.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				},
+				{
+					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.gemeinde-hoppegarten.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf X",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,435 @@
+{
+	"municipality": {
+		"id": "wustermark",
+		"name": "Wustermark",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wustermark-https-www-wustermark-de-verwaltung-polit",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/Amtsblatt",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "wustermark",
+			"source": {
+				"id": "wustermark-https-www-wustermark-de-verwaltung-polit",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/Amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:39:09.336Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/Amtsblatt",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/%C3%B6ffentliche-Bekanntmachungen",
+					"text": "�ffentliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/Verwaltung-Politik/B%C3%BCrgerservice/Satzungen-Ortsrecht",
+					"text": "Satzungen & Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.988.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 1 der Gemeinde Wustermark aus 2026 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.268.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 1 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.595.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 2 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.619.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 3 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.765.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 4 der Gmeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.808.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 5 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.855.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 6 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.911.1&amp%3BExt=PDF",
+					"text": "Amtsblatt 7 der Gemeinde Wustermark aus 2025 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.232.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_1_2024 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.231.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2_2024 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.230.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_3_2024 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.229.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_4_2024 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.269.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_5_2024 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.222.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_1_Sonderamtsblatt : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.223.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.224.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_3_Sonderamtsblatt : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.225.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.226.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.227.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.228.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2023_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.216.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.217.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.218.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.219.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.220.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.221.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2022_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.209.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.210.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.211.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.212.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.213.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.214.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.215.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2021_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.202.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.203.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.204.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.205.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.206.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.207.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.208.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2020_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.196.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.197.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.198.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.199.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.200.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.201.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2019_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.189.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.190.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.191.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.192.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.193.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.194.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.195.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2018_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.182.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.183.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.184.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.185.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.186.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.187.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.188.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2017_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.175.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.176.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.177.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.178.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.179.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.180.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.181.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2016_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.167.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.168.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.169.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_3 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.170.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_4 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.171.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_5 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.172.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_6 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.173.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_7 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.174.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2015_8 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.162.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2014_1 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wustermark.de/loadDocument.phtml?FID=3847.163.1&amp%3BExt=PDF",
+					"text": "Amtsblatt_2014_2 : Datei in neuem Fenster &ouml;ffnen",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

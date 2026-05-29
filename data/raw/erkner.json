@@ -1,0 +1,177 @@
+{
+	"municipality": {
+		"id": "erkner",
+		"name": "Erkner",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt.html",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerservice/anliegen-a-z/liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "erkner",
+			"source": {
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt.html",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:38.717Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt.html",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/bekanntmachungen.html",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/verordnungen-und-satzungen.html",
+					"text": "Verordnungen & Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/umwelt-und-stadtentwicklung/stadtplanung/baurechtliche-satzungen.html",
+					"text": "Baurechtliche Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblatt-2025.html",
+					"text": "Amtsbl&auml;tter 2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2024.html",
+					"text": "Amtsbl&auml;tter 2024",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2023.html",
+					"text": "Amtsbl&auml;tter 2023",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2022.html",
+					"text": "Amtsbl&auml;tter 2022",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2021.html",
+					"text": "Amtsbl&auml;tter 2021",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2020.html",
+					"text": "Amtsbl&auml;tter 2020",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2019.html",
+					"text": "Amtsbl&auml;tter 2019",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2018.html",
+					"text": "Amtsbl&auml;tter 2018",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2017.html",
+					"text": "Amtsbl&auml;tter 2017",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2016.html",
+					"text": "Amtsbl&auml;tter 2016",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2015.html",
+					"text": "Amtsbl&auml;tter 2015",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt/amtsblaetter-2014.html",
+					"text": "Amtsbl&auml;tter 2014",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/0/8/0/1/080148bc51fc94e0dbdecfa8c78c74fb6bb52b41/Amtsblatt%20Erkner%205I2026.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/c/6/6/1/c661b6c21cf011f339b9984254fde15c28860d38/Amtsblatt%20Erkner%204I2026.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/7/4/d/7/74d780d9a1fcb26b1527626ad588c649bc06c361/Amtsblatt%20Erkner%204I2026%20Einleger.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/c/2/4/c/c24cf0e8b591e013862a3f31efc38e58b8025322/Amtsblatt%20Erkner%203I2026.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/2/3/5/3/2353f4d38f0f7ffc4713b260e3256c536b4f2f04/Amtsblatt%20Erkner%202I2026.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.erkner.de/_Resources/Persistent/6/f/1/1/6f11f31b086c74aeb165b0fb6bf5fb885037944f/Amtsblatt%20Erkner%201I2026.pdf",
+					"text": "Download",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "erkner",
+			"source": {
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerservice/anliegen-a-z/liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:38.717Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.erkner.de/umwelt-und-stadtentwicklung/bauen-und-verkehr/baugrundstuecke.html",
+					"text": "Baugrundst&uuml;cke",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.erkner.de/umwelt-und-stadtentwicklung/bauen-und-verkehr/pachtgrundstuecke.html",
+					"text": "Pachtgrundst&uuml;cke",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

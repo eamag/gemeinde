@@ -1,0 +1,60 @@
+{
+	"municipality": {
+		"id": "mittenwalde",
+		"name": "Mittenwalde",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "mittenwalde-https-www-mittenwalde-de-de-service-wie-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.mittenwalde.de/de/service-wie-was-wo/kontakte/amtsblatt-nicht-erhalten",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "mittenwalde",
+			"source": {
+				"id": "mittenwalde-https-www-mittenwalde-de-de-service-wie-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.mittenwalde.de/de/service-wie-was-wo/kontakte/amtsblatt-nicht-erhalten",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:45.766Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.mittenwalde.de/de/verwaltung-wirtschaft/verwaltung/stadtplanung/staedtebauliche-satzungen-und-bebauungsplaene",
+					"text": "Bebauungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.mittenwalde.de/de/verwaltung-wirtschaft/politik/satzungen",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://ris.mittenwalde.de/ti-termine",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.mittenwalde.de/de/service-wie-was-wo/kontakte/amtsblatt-nicht-erhalten",
+					"text": "Amtsblatt nicht erhalten?",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.mittenwalde.de/de/service-wie-was-wo/downloadbereich/amtsblaetter",
+					"text": "Amtsblatt",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"municipality": {
+		"id": "schonwalde-glien",
+		"name": "Schönwalde-Glien",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-rathau",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-leben-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.schoenwalde-glien.de/de/leben-wohnen/bauen-wohnen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "schonwalde-glien",
+			"source": {
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-rathau",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:54.828Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.schoenwalde-glien.de/de/rathaus-service/buergerservice/satzungen-richtlinien",
+					"text": "Satzungen & Richtlinien",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/amtsblatt",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schoenwalde-glien.de/de/erklaerungen/datenschutzerklaerungen-der-aemter/erhebung-personenbezogener-daten.pdf",
+					"text": "Informationspflicht bei der Erhebung von personenbezogenen Daten bei der betroffenen Person gemäß Artikel 13 DSGVO",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "schonwalde-glien",
+			"source": {
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-leben-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.schoenwalde-glien.de/de/leben-wohnen/bauen-wohnen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:54.828Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.schoenwalde-glien.de/de/leben-wohnen/bauen-wohnen/grundstuecksangebote",
+					"text": "Grundstücksangebote",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

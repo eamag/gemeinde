@@ -1,0 +1,70 @@
+{
+	"municipality": {
+		"id": "michendorf",
+		"name": "Michendorf",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "michendorf-https-www-michendorf-de-amtsblatt-index-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.michendorf.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "michendorf",
+			"source": {
+				"id": "michendorf-https-www-michendorf-de-amtsblatt-index-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.michendorf.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:45.487Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.michendorf.de/amtsblatt/index.php",
+					"text": "Amtsbl&auml;tter",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.michendorf.de/bekanntmachungen/index.php",
+					"text": "Ausschreibung / Vergabe",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.michendorf.de/seite/601241/ortsrecht-satzungen.html",
+					"text": "Ortsrecht / Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.michendorf.de/seite/714930/%C3%B6ffentliche-bekanntmachungen.html",
+					"text": "&Ouml;ffentliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.michendorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.michendorf.de%2Famtsblatt%2Findex.php",
+					"text": "link?referrer=https%3A%2F%2Fwww.michendorf.de%2Famtsblatt%2Findex.php",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.michendorf.de/amtsblatt/index.php?modus=drucken",
+					"text": "index.php?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/7aa4fa9327e3862ec1c9dd911ceec43f17107/allgemeine_richtlinie_der_gemeinde_michendorf_fr_das_amtliche_bekanntmachungsblatt.pdf",
+					"text": "Allgemeinen Richtlinie der Gemeinde Michendorf zur Veröffentlichung im Amtsblatt",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,435 @@
+{
+	"municipality": {
+		"id": "oranienburg",
+		"name": "Oranienburg",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "oranienburg-https-oranienburg-de-rathaus-service-akt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "oranienburg",
+			"source": {
+				"id": "oranienburg-https-oranienburg-de-rathaus-service-akt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:47.203Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen/Archiv-2025",
+					"text": "Archiv 2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen/Archiv-2024",
+					"text": "Archiv 2024",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen/Archiv-2023",
+					"text": "Archiv 2023",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Amtsblatt-Archiv-",
+					"text": "Amtsblatt (Archiv)",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/Rathaus-Service/B%C3%BCrgerinformationen/Satzungen",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/St%C3%A4dtebau-Wirtschaft/Stadtentwicklung/B-Pl%C3%A4ne-Satzungen",
+					"text": "B-Pl�ne/Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10968.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10967.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung am Montag, den 08.06.2026, um 18:00 Uhr in der Stadt Oranienburg, Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10960.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10959.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie am Donnerstag, den 04.06.2026, um 18:00 Uhr in der Stadt Oranienburg, Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10948.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Eigenbetriebe, kommunale Unternehmen sowie Finanzen, Rechnungspr&uuml;fung und Vergaben",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10947.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Eigenbetriebe, kommunale Unternehmen sowie Finanzen, Rechnungspr&uuml;fung und Vergaben am Mittwoch, den 03.06.2026, um 17:00 Uhr in der Stadt Oranienburg, Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10954.1..PDF",
+					"text": "Allgemeinverf&uuml;gung anl&auml;sslich einer Kampfmittelbeseitigungsma&szlig;nahme",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10941.1..PDF",
+					"text": "Beschluss &uuml;ber den gepr&uuml;ften Jahresabschluss der Stadt Oranienburg zum 31.12.2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10940.1..PDF",
+					"text": "Beschluss &uuml;ber die Entlastung des B&uuml;rgermeisters f&uuml;r das Haushaltsjahr 2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10939.1..PDF",
+					"text": "Beschl&uuml;sse der Sitzung der Stadtverordnetenversammlung und des Hauptausschusses",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10934.1..PDF",
+					"text": "Bombenfund Bachstelzenwiese - Allgemeinverf&uuml;gung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10903.1..PDF",
+					"text": "Entw&auml;sserungsbetrieb Oranienburg - Eigenbetrieb der Stadt Oranienburg: Festsetzungen nach &sect; 14 Absatz 1 Nummer 1 EigV f&uuml;r das Wirtschaftsjahr 2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10849.1..PDF",
+					"text": "Einladung zur Sitzung der Stadtverordnetenversammlung am 11.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10850.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung der Stadtverordnetenversammlung am Montag, den 11.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10846.1..PDF",
+					"text": "&Ouml;ffentliche Zahlungserinnerung - &Ouml;ffentlich-rechtliche Geldleistungen, insbesondere kommunaler Steuern",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10847.1..PDF",
+					"text": "&Ouml;ffentliche Zahlungserinnerung - &Ouml;ffentlich-rechtliche Geldleistungen, insbesondere Kostenbeitr&auml;ge f&uuml;r die Inanspruchnahme der st&auml;dtischen Kindertagesst&auml;tten",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10841.1..PDF",
+					"text": "Ge&auml;nderte Bekanntmachung: 17. &Auml;nderung des Fl&auml;chennutzungsplanes der Stadt Oranienburg f&uuml;r den Geltungsbereich des vorhabenbezogenen Bebauungsplanes Nr. 141 &raquo;Gnadenhof & Wildtierrettung Notkleintiere G&auml;rtnerweg&laquo;",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10764.1..PDF",
+					"text": "17. &Auml;nderung des Fl&auml;chennutzungsplanes der Stadt Oranienburg f&uuml;r den Geltungsbereich des vorhabenbezogenen Bebauungsplanes Nr. 141 &raquo;Gnadenhof & Wildtierrettung Notkleintiere G&auml;rtnerweg&laquo; [siehe ge&auml;nderte Fassung am 29.04.2026]",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10738.1..PDF",
+					"text": "Inkrafttreten der Au&szlig;enbereichssatzung Siedlung am Rahmer See, Ortsteil Wensickendorf, Siedlung am Rahmer See",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10786.1..PDF",
+					"text": "15. &Auml;nderung des Fl&auml;chennutzungsplanes f&uuml;r den Bereich n&ouml;rdlich der Germendorfer Dorfstra&szlig;e (im Parallelverfahren zur Aufstellung des Bebauungsplans Nr. 136 &raquo;Gewerbegebiet n&ouml;rdlich Germendorfer Dorfstra&szlig;e&laquo; gem&auml;&szlig; &sect; 8 Abs. 3 BauGB) - Erneute Beteiligung...",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10703.1..PDF",
+					"text": "Vorhabenbezogener Bebauungsplan Nr. 171 &raquo;Solarpark Zehlendorf Rehmater Weg/Rotphule&laquo; gem&auml;&szlig; &sect; 12 BauGB und 28. &Auml;nderung des Fl&auml;chennutzungsplanes der Stadt Oranienburg: Bekanntmachung des Aufstellungsbeschlusses. Fr&uuml;hzeitige Beteiligung der &Ouml;ffentlichkeit.",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10788.1..PDF",
+					"text": "Versendung von Kostenersatzbescheiden f&uuml;r Zufahrten und Zug&auml;nge in der Stra&szlig;burger Stra&szlig;e in Oranienburg",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10772.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Hauptausschusses am 27.04.2026 in der Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10771.1..PDF",
+					"text": "Einladung zur Sitzung des Hauptausschusses",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10746.1..PDF",
+					"text": "&Ouml;ffentliche Zahlungserinnerung - &Ouml;ffentlich-rechtliche Geldleistungen, insbesondere Kostenbeitr&auml;ge f&uuml;r die Inanspruchnahme der st&auml;dtischen Kindertagesst&auml;tten und Kindertagespflege",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10665.1..PDF",
+					"text": "Beitragssatzung &uuml;ber die Betreuung und Verpflegung von Kindern in Kindertagesst&auml;tten in Tr&auml;gerschaft der Stadt Oranienburg (Kitasatzung - KitaS)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10727.1..PDF",
+					"text": "Widmungserweiterung und &Auml;nderung der Stra&szlig;enuntergruppe eines Teilabschnitts &raquo;Im Wensickendorfer Felde&laquo; im Ortsteil Wensickendorf",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10723.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie am 16.04.2026 in der Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10722.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10717.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Eigenbetriebe, kommunale Unternehmen sowie Finanzen, Rechnungspr&uuml;fung und Vergaben am 15.04.2026 in der Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10716.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Eigenbetriebe, kommunale Unternehmen sowie Finanzen, Rechnungspr&uuml;fung und Vergaben",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10719.1..PDF",
+					"text": "Versteigerung von Fundsachen am 20. Mai",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10698.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Sicherheit, Ordnung, Kampfmittel, Feuerwehr und Digitales am Dienstag, den 14.04.2026, um 18:00 Uhr in der Stadt Oranienburg, Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10697.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Sicherheit, Ordnung, Kampfmittel, Feuerwehr und Digitales",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10696.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung am Montag, den 13.04.2026, um 18:00 Uhr in der Stadt Oranienburg, Schmachtenhagen, Aula der Grundschule, Schmachtenhagener Dorfstr. 33",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10695.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10705.1..PDF",
+					"text": "Beschluss &uuml;ber die Feststellung des gepr&uuml;ften Jahresabschlusses 2023 des EBO und die Ergebnisverwendung Beschluss der Stadtverordnetenversammlung 179/10/26 vom 09.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10704.1..PDF",
+					"text": "Korrektur eines Beschlusses der Sitzung der Stadtverordnetenversammlung (Jahresabschluss 2023 EBO)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10694.1..PDF",
+					"text": "Einladung zur Jahreshauptversammlung der Jagdgenossenschaft Schmachtenhagen am 22.5.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10691.1..PDF",
+					"text": "Satzung &uuml;ber die Erhebung einer Zweitwohnungssteuer in der Stadt Oranienburg (Zweitwohnungssteuersatzung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10688.1..PDF",
+					"text": "Versendung von Kostenersatzbescheiden f&uuml;r Zufahrten in der Stra&szlig;e zum Wald in Oranienburg im Ortsteil Friedrichsthal",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10684.1..PDF",
+					"text": "Beschl&uuml;sse der Sitzung der Stadtverordnetenversammlung vom 09.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10675.1..PDF",
+					"text": "Zust&auml;ndigkeitsordnung der Stadtverordnetenversammlung Oranienburg",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10674.1..PDF",
+					"text": "Satzung &uuml;ber die Gew&auml;hrung von Aufwandsentsch&auml;digungen und die Zuwendungen an Angeh&ouml;rige der Freiwilligen Feuerwehr der Stadt Oranienburg (Feuerwehrentsch&auml;digungssatzung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10673.1..PDF",
+					"text": "Satzung &uuml;ber die Benutzung der Stadtbibliothek der Stadt Oranienburg sowie &uuml;ber die Erhebung von Geb&uuml;hren (Bibliotheksbenutzungs- und Geb&uuml;hrensatzung - BiboS)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10672.1..PDF",
+					"text": "2. Satzung zur &Auml;nderung der Hauptsatzung der Stadt Oranienburg",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10671.1..PDF",
+					"text": "2. Satzung zur &Auml;nderung der Satzung &uuml;ber die Einzelheiten der f&ouml;rmlichen Einwohnerbeteiligung in der Stadt Oranienburg (Einwohnerbeteiligungssatzung - EbetS)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10667.1..PDF",
+					"text": "Verwaltungsgeb&uuml;hrensatzung der Stadt Oranienburg",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10666.1..PDF",
+					"text": "Satzung &uuml;ber die Teilnahme an der Essenversorgung und die Kostenbeteiligung f&uuml;r die Essenversorgung in den st&auml;dtischen Schulen f&uuml;r Sch&uuml;lerinnen und Sch&uuml;ler, die nicht den Hort besuchen (Satzung Schulspeisung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10664.1..PDF",
+					"text": "Satzung &uuml;ber die Erhebung einer Hundesteuer in der Stadt Oranienburg (Hundesteuersatzung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10737.1..PDF",
+					"text": "Bebauungsplan Nr. 176 &raquo;Betriebshof Oberhavel Verkehrsgesellschaft zwischen Annahofer Stra&szlig;e und Germendorfer Dorfstra&szlig;e&laquo;: fr&uuml;hzeitige Beteiligung der &Ouml;ffentlichkeit an der Bauleitplanung gem&auml;&szlig; &sect; 3 (1) BauGB",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10651.1..PDF",
+					"text": "Mitgliederversammlung der Jagdgenossenschaft Wensickendorf am 24. April",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10646.1..PDF",
+					"text": "Widmungsverf&uuml;gung Erweiterung \"Kanalstra&szlig;e\"",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10645.1..PDF",
+					"text": "Widmungsverf&uuml;gung Erweiterung \"Sch&auml;ferweg\"",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10616.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur gemeinsamen Sondersitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie und des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung am Mittwoch, den 18.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10615.1..PDF",
+					"text": "Einladung zur gemeinsamen Sondersitzung des Ausschusses f&uuml;r Stadtplanung und Bauen, Wirtschaft, Wohnen, Tourismus und &Ouml;kologie und des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung am 18.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10611.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung der Stadtverordnetenversammlung am 09.03.2026 in der Orangerie",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10610.1..PDF",
+					"text": "Einladung zur Sitzung der Stadtverordnetenversammlung am 09.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10603.1..PDF",
+					"text": "&Ouml;ffentliche Zahlungserinnerung - &Ouml;ffentlich-rechtliche Geldleistungen, insbesondere Kostenbeitr&auml;ge f&uuml;r die Inanspruchnahme der st&auml;dtischen Kindertagesst&auml;tten und Kindertagespflege",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10609.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses zur Konsolidierung des st&auml;dtischen Haushalts am 12.03.2026, um 18:00 Uhr im B&uuml;rgerzentrum,",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10608.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses zur Konsolidierung des st&auml;dtischen Haushalts am 12.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10604.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Ergebnisse der Neuwahl des Ortsbeirates Zehlendorf der Stadt Oranienburg am 22. Februar 2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10574.1..PDF",
+					"text": "Einladung zur Hauptversammlung der Jagdgenossenschaft Germendorf am 20.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10557.1..PDF",
+					"text": "Entw&auml;sserungsbetrieb Oranienburg - Eigenbetrieb der Stadt Oranienburg Festsetzungen nach &sect; 14 Absatz 1 Nummer 1 EigV f&uuml;r das Wirtschaftsjahr 2026 (korrigierte Fassung)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10553.1..PDF",
+					"text": "Entw&auml;sserungsbetrieb Oranienburg - Eigenbetrieb der Stadt Oranienburg Festsetzungen nach &sect; 14 Absatz 1 Nummer 1 EigV f&uuml;r das Wirtschaftsjahr 2026 (Achtung: korrigiert am 17.02.2026)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10547.1..PDF",
+					"text": "Einladung zur Sitzung des Hauptausschusses am 23.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10548.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Hauptausschusses am 23.02.2026 um 17:00 Uhr in der Orangerie im Schlosspark",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10549.1..PDF",
+					"text": "Einladung zur 2. &ouml;ffentlichen Sitzung des Wahlausschusses der Stadt Oranienburg f&uuml;r die Neuwahl des Ortsbeirates Zehlendorf der Stadt Oranienburg am 22. Februar 2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10529.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Sicherheit, Ordnung, Kampfmittel, Feuerwehr und Digitales am 17.02.2026 in der Orangerie im Schlo&szlig;park",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10528.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Sicherheit, Ordnung, Kampfmittel, Feuerwehr und Digitales",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10524.1..PDF",
+					"text": "&Ouml;ffentliche Bekanntmachung der Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung am 16.02.2026 in der Orangerie",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10523.1..PDF",
+					"text": "Einladung zur Sitzung des Ausschusses f&uuml;r Soziales und Bildung sowie B&uuml;rgerbeteiligung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://oranienburg.de/output/download.php?fid=2967.10507.1..PDF",
+					"text": "&Ouml;ffentliche Zahlungserinnerung - &Ouml;ffentlich-rechtliche Geldleistungen, insbesondere kommunaler Steuern",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

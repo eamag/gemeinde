@@ -1,0 +1,117 @@
+{
+	"municipality": {
+		"id": "fredersdorf-vogelsdorf",
+		"name": "Fredersdorf-Vogelsdorf",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-news",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/news/1/1172837/nachrichten/aktuelles-orts-und-amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-seit",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "fredersdorf-vogelsdorf",
+			"source": {
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-news",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/news/1/1172837/nachrichten/aktuelles-orts-und-amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:39.291Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/seite/742280/amtliche-bekanntmachungen.html",
+					"text": "Amtliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/seite/229881/orts-und-amtsblatt.html",
+					"text": "Orts- und Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/rechtsgrundlagen",
+					"text": "Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten.verwaltungsportal.de/dateien/news/1/1/7/2/8/3/7/20260423_Amtsblatt_Nr._4_final_A4-Format_WEB.pdf",
+					"text": "Amtsblatt Nr. 4 vom 23.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten.verwaltungsportal.de/dateien/news/1/1/7/2/8/3/7/Final_OB_Mai_1.pdf",
+					"text": "Ortblatt Mai vom 14.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.fredersdorf-vogelsdorf.de%2Fnews%2F1%2F1172837%2Fnachrichten%2Faktuelles-orts-und-amtsblatt.html",
+					"text": "mail Link verschicken",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/news/1/1172837/nachrichten/aktuelles-orts-und-amtsblatt.html?modus=drucken",
+					"text": "print Druckansicht &ouml;ffnen",
+					"kind": "html"
+				}
+			]
+		},
+		{
+			"municipalityId": "fredersdorf-vogelsdorf",
+			"source": {
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-seit",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:39.291Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html",
+					"text": "Grundst&uuml;cksausschreibungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/43a5786d6fd2a0ed483591d6982910c722855/2026_Froebelstr._denkmalgeschuetztes_Gartengrundst.pdf",
+					"text": "Teilfläche des Gartendenkmals Fröbelstraße, Vogelsdorf",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/43a5786d6fd2a0ed483591d6982910c722855/2026_Erbbaurecht_Siegfriedring_29_30.pdf",
+					"text": "Siegfriedring 29/30",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.fredersdorf-vogelsdorf.de%2Fseite%2F483449%2Fausschreibung-liegenschaften.html",
+					"text": "mail Link verschicken",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html?modus=drucken",
+					"text": "print Druckansicht &ouml;ffnen",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

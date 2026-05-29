@@ -1,0 +1,55 @@
+{
+	"municipality": {
+		"id": "teltow",
+		"name": "Teltow",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "teltow-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.teltow.de/amtsblatt/index.php",
+				"discoveryMethod": "manual"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "teltow",
+			"source": {
+				"id": "teltow-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.teltow.de/amtsblatt/index.php",
+				"discoveryMethod": "manual"
+			},
+			"fetchedAt": "2026-05-22T11:39:04.825Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.teltow.de/contact/index/link?referrer=https%3A%2F%2Fwww.teltow.de%2Famtsblatt%2Findex.php",
+					"text": "link?referrer=https%3A%2F%2Fwww.teltow.de%2Famtsblatt%2Findex.php",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.teltow.de/amtsblatt/index.php?modus=drucken",
+					"text": "index.php?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "https://app-eu.readspeaker.com/cgi-bin/rsent?amp%3Blang=de_de&amp%3Breadid=readspeaker&amp%3Burl=https%3A%2F%2Fwww.teltow.de%2Famtsblatt%2Findex.php&customerid=14755",
+					"text": "Vorlesen",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.teltow.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

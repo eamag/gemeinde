@@ -1,0 +1,172 @@
+{
+	"municipality": {
+		"id": "rudersdorf-bei-berlin",
+		"name": "Rüdersdorf bei Berlin",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2024-08-au",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.ruedersdorf.de/news/2024/08-aug/amtsblatt-des-wse",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2025-09-se",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.ruedersdorf.de/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "rudersdorf-bei-berlin",
+			"source": {
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2024-08-au",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.ruedersdorf.de/news/2024/08-aug/amtsblatt-des-wse",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:48.169Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://mil.brandenburg.de/sixcms/media.php/9/Bericht_und_wopo_Kompass_2025.665660.pdf",
+					"text": "Wohnungsmarktbeobachtungsbericht des MIL",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtsblatt",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/bekanntmachungen-oeffentlicher-sitzungen",
+					"text": "Bekanntmachungen öffentlicher Sitzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/",
+					"text": "Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/satzungen",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/richtlinien",
+					"text": "Richtlinien",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/haushalt",
+					"text": "Haushalt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/schiedsstelle",
+					"text": "Schiedsstelle",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/gleichstellung-integration",
+					"text": "Gleichstellung & Integration",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/politik-verwaltung/ortsrecht/hinweisgeberschutzgesetz",
+					"text": "Hinweisgeberschutzgesetz",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/en/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2024/08-aug/amtsblatt-des-wse",
+					"text": "English",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/pl/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2024/08-aug/amtsblatt-des-wse",
+					"text": "Polski",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/fr/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2024/08-aug/amtsblatt-des-wse",
+					"text": "Français",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/uk/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2024/08-aug/amtsblatt-des-wse",
+					"text": "Українська",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/news/2024/08-aug/amtsblatt-des-wse",
+					"text": "Deutsch",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.w-s-e.de/fileadmin/user_upload/02_wasserverband/amtsblaetter/20240815_AMTSBLATT_Jg7_Nr2_2024.pdf",
+					"text": "Amtsblatt Nr. 2 Jahrgang 7 vom 15.08.2024",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "rudersdorf-bei-berlin",
+			"source": {
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2025-09-se",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.ruedersdorf.de/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:48.169Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://mil.brandenburg.de/sixcms/media.php/9/Bericht_und_wopo_Kompass_2025.665660.pdf",
+					"text": "Wohnungsmarktbeobachtungsbericht des MIL",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/en/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"text": "English",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/pl/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"text": "Polski",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/fr/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"text": "Français",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/:translation/uk/gv-ruedersdorf/startseite-gemeinde-ruedersdorf-bei-berlin/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"text": "Українська",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.ruedersdorf.de/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"text": "Deutsch",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

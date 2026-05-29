@@ -1,0 +1,95 @@
+{
+	"municipality": {
+		"id": "leegebruch",
+		"name": "Leegebruch",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "leegebruch-https-www-leegebruch-de-seite-137933-bek",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "leegebruch",
+			"source": {
+				"id": "leegebruch-https-www-leegebruch-de-seite-137933-bek",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:45.350Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.leegebruch.de/seite/143590/satzungen.html",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/Praesentation_aktueller_Sachstand_Gemeindeentwicklungskonzept_Maerz_2023_GV_30_03_2023.pdf",
+					"text": "Praesentation_aktueller_Sachstand_Gemeindeentwicklungskonzept_Maerz_2023_GV_30_03_2023.pdf",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.leegebruch.de/contact/index/link?referrer=https%3A%2F%2Fwww.leegebruch.de%2Fseite%2F137933%2Fbekanntmachungen.html",
+					"text": "link?referrer=https%3A%2F%2Fwww.leegebruch.de%2Fseite%2F137933%2Fbekanntmachungen.html",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html?modus=drucken",
+					"text": "bekanntmachungen.html?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/Bekanntmachung.pdf",
+					"text": "Bekanntmachung der Aufstellung des Bebauungsplanes als Planungsmaßnahme der Innenentwicklung im beschleunigten Verfahren nach §13a Baugesetzbuch (BauGB) sowie der Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 Baugesetzbuch (BauGB)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/5_Infoblatt_Datenschutz.pdf",
+					"text": "Allgemeine Information zur Verarbeitung personenbezogener Daten durch die Gemeinde Leegebruch, gemäß Artikel 12 bis 22 und 34 der Europäischen Datenschutz-Grundverordnung (DSGVO)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/Lageplan_Plangebiet.pdf",
+					"text": "Lageplan Plangebiet",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/1_Planzeichung_BP_19_1_1.pdf",
+					"text": "Planzeichnung mit zeichnerischen und textlichen Festsetzungen des Entwurfs des Änderungsbebauungsplans Nr. 19.1 „Gemeindezentrum Birkenallee / Am Wasserwerk\", Bebauungsplan, Stand Mai 2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/2_Begruendung_BP_19_1.pdf",
+					"text": "Begründung einschließlich Umweltinformationen und Fachbeitrag Artenschutz zum Entwurf des Änderungsbebauungsplans Nr. 19.1 „Gemeindezentrum Birkenallee / Am Wasserwerk“, Bebauungsplan, Stand Mai 2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/3_Schalltechnische_Untersuchung_BP_19_1.pdf",
+					"text": "Schalltechnische Untersuchung der HOFFMANN-LEICHTER Ingenieurgesellschaft mbH vom 15.05.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/381d36a6b67b050cceff4c27b37691db41775/4_Geotechnischer_Bericht_BP_19_1.pdf",
+					"text": "Geotechnischer Bericht 048/05/25, Leegebruch, Birkenallee 2, Neubau Feuerwehrgerätehaus und Jugendclub, Dipl. Geologe Andreas Rott, 08.05.2025",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

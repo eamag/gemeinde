@@ -1,0 +1,477 @@
+{
+	"municipality": {
+		"id": "neuenhagen-bei-berlin",
+		"name": "Neuenhagen bei Berlin",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "neuenhagen-bei-berlin",
+			"source": {
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:46.146Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/satzungen",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/planung-konzepte/bebauungplaene-fnp/oeffentliche-bekanntmachungen-b-plaene-und-fnp",
+					"text": "Öffentliche Bekanntmachungen B-Pläne und FNP",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/verkehr-verwaltung-aktuell/amtsblatt-digitalisiert-1",
+					"text": "Amtsblatt digitalisiert-1",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/digitales-amtsblatt-jg-31-04-2026.pdf",
+					"text": "Amtsblatt 04/2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/digitales-amtsblatt-jg-31-03-2026.pdf",
+					"text": "Amtsblatt 03/2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/digitales-amtsblatt-jg-31-02-2026.pdf",
+					"text": "Amtsblatt 02/2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/digitales-amtsblatt-jg-31-01-2026.pdf",
+					"text": "Amtsblatt 01/2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/final-digitales-amtsblatt-12-2025.pdf",
+					"text": "Amtsblatt 12/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-november-2025-final.pdf",
+					"text": "Amtsblatt 11/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-oktober-2025-final.pdf",
+					"text": "Amtsblatt 10/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-september-2025-final.pdf",
+					"text": "Amtsblatt 09/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-august-2025-final.pdf",
+					"text": "Amtsblatt 08/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-juli-2025-final.pdf",
+					"text": "Amtsblatt 07/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-juni-2025-final.pdf",
+					"text": "Amtsblatt 06/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-mai-2025-final.pdf",
+					"text": "Amtsblatt 05/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-april-2025-final.pdf",
+					"text": "Amtsblatt 04/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-maerz-2025-final.pdf",
+					"text": "Amtsblatt 03/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-februar-2025-final.pdf",
+					"text": "Amtsblatt 02/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-januar-2025-final-aenderung-gvt-termin.pdf",
+					"text": "Amtsblatt 01/2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-dezember-2024-final.pdf",
+					"text": "Amtsblatt 12/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-november-2024-final.pdf",
+					"text": "Amtsblatt 11/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-oktober-2024-final.pdf",
+					"text": "Amtsblatt 10/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-september-2024-final.pdf",
+					"text": "Amtsblatt 09/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-august-2024-final.pdf",
+					"text": "Amtsblatt 08/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-juli-2024-final.pdf",
+					"text": "Amtsblatt 07/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-juni-2024-final.pdf",
+					"text": "Amtsblatt 06/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-mai-2024-final.pdf",
+					"text": "Amtsblatt 05/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-april-2024-final.pdf",
+					"text": "Amtsblatt 04/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-maerz-2024-final.pdf",
+					"text": "Amtsblatt 03/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-februar-2024-final.pdf",
+					"text": "Amtsblatt 02/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-januar-2024-final.pdf",
+					"text": "Amtsblatt 01/2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-12-2023.pdf",
+					"text": "Amtsblatt 12/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-11-2023.pdf",
+					"text": "Amtsblatt 11/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-10-2023.pdf",
+					"text": "Amtsblatt 10/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-09-2023.pdf",
+					"text": "Amtsblatt 09/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-08-2023.pdf",
+					"text": "Amtsblatt 08/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-07-2023.pdf",
+					"text": "Amtsblatt 07/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-06-2023.pdf",
+					"text": "Amtsblatt 06/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-05-2023.pdf",
+					"text": "Amtsblatt 05/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-04-2023.pdf",
+					"text": "Amtsblatt 04/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-03-2023.pdf",
+					"text": "Amtsblatt 03/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-02-2023.pdf",
+					"text": "Amtsblatt 02/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-01-2023.pdf",
+					"text": "Amtsblatt 01/2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-12-2022.pdf",
+					"text": "Amtsblatt 12/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-11-2022.pdf",
+					"text": "Amtsblatt 11/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-10-2022.pdf",
+					"text": "Amtsblatt 10/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-09-2022.pdf",
+					"text": "Amtsblatt 09/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-08-2022.pdf",
+					"text": "Amtsblatt 08/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-07-2022.pdf",
+					"text": "Amtsblatt 07/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-06-2022.pdf",
+					"text": "Amtsblatt 06/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-05-2022.pdf",
+					"text": "Amtsblatt 05/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-04-2022.pdf",
+					"text": "Amtsblatt 04/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-03-2022.pdf",
+					"text": "Amtsblatt 03/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-02-2022.pdf",
+					"text": "Amtsblatt 02/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-01-2022.pdf",
+					"text": "Amtsblatt 01/2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-12-2021.pdf",
+					"text": "Amtsblatt 12/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-11-2021.pdf",
+					"text": "Amtsblatt 11/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-10-2021.pdf",
+					"text": "Amtsblatt 10/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-09-2021.pdf",
+					"text": "Amtsblatt 09/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-08-2021.pdf",
+					"text": "Amtsblatt 08/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-07-2021.pdf",
+					"text": "Amtsblatt 07/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-06-2021.pdf",
+					"text": "Amtsblatt 06/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-05-2021.pdf",
+					"text": "Amtsblatt 05/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-04-2021.pdf",
+					"text": "Amtsblatt 04/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-03-2021.pdf",
+					"text": "Amtsblatt 03/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-02-2021.pdf",
+					"text": "Amtsblatt 02/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-01-2021.pdf",
+					"text": "Amtsblatt 01/2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-12-2020.pdf",
+					"text": "Amtsblatt 12/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-11-2020.pdf",
+					"text": "Amtsblatt 11/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-10-2020.pdf",
+					"text": "Amtsblatt 10/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-09-2020.pdf",
+					"text": "Amtsblatt 09/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-08-2020.pdf",
+					"text": "Amtsblatt 08/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-07-2020.pdf",
+					"text": "Amtsblatt 07/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-06-2020.pdf",
+					"text": "Amtsblatt 06/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-05-2020.pdf",
+					"text": "Amtsblatt 05/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-04-2020.pdf",
+					"text": "Amtsblatt 04/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-03-2020.pdf",
+					"text": "Amtsblatt 03/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt/amtsblatt-02-2020.pdf",
+					"text": "Amtsblatt 02/2020",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "neuenhagen-bei-berlin",
+			"source": {
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:46.146Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/bauen/grundstueckszufahrten",
+					"text": "Grundstückszufahrten",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote",
+					"text": "Grundstücks- und Wohnungsangebote",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote/brandenburgviewer",
+					"text": "BrandenburgViewer",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/wirtschaft/gewerberecht/makler-bautraeger-u-betreuer-wohnimmobilienverwalter",
+					"text": "Makler, Bauträger u. -betreuer, Wohnimmobilienverwalter",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

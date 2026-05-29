@@ -1,0 +1,122 @@
+{
+	"municipality": {
+		"id": "brieselang",
+		"name": "Brieselang",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "brieselang-https-www-gemeindebrieselang-de-aktuelle",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "brieselang-http-www-gemeindebrieselang-de-aktuelles",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "http://www.gemeindebrieselang.de/Aktuelles/Verkauf-eines-Grundstueckes-Abgabe-eines-Angebots-moeglich.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "brieselang",
+			"source": {
+				"id": "brieselang-https-www-gemeindebrieselang-de-aktuelle",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:37.258Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422085&region_id=342",
+					"text": "Bekanntmachung Straßenreinigungssatzung Datum 22.05.2026 Die Satzung über die Straßenreinigung der Gemeinde Brieselang (Straßenreinigungssatzung) wird öffentlich bekanntgemacht.",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422086&region_id=342",
+					"text": "Bekanntmachung Baumschutzsatzung Datum 22.05.2026 Die Baumschutzsatzung wird öffentlich bekannt gemacht.",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422084&region_id=342",
+					"text": "Bekanntmachung Hausnummernverordnung Datum 22.05.2026 Die ordnungsbehördliche Verordnung über die Festsetzung, Anbringung und Gestaltung von Hausnummern (Hausnummernverordnung) wird öffentlich bekannt gemacht.",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422051&region_id=342",
+					"text": "Mandatsverzicht in der Gemeindevertretung Datum 14.04.2026 Thomas Wolter hat auf sein Mandat in der Gemeindevertretung verzichtet. Eine Nachbesetzung erfolgt nicht, da keine Ersatzperson vorhanden ist. Die Öffentliche Bekanntmachung des Wahlleiters ist hier abrufbar.",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422012&region_id=342",
+					"text": "Frühzeitige Beteiligung der Öffentlichkeit zum Vorentwurf des Bebauungsplans Nr. 110 „GVZ Berlin West - Teilfläche Brieselang” Datum 10.04.2026 Öffentliche Bekanntmachung der Frühzeitigen Beteiligung der Öffentlichkeit zum Vorentwurf des Bebauungsplans Nr. 110 „GVZ Berlin West - Teilfläche Brieselang”",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/city_info/display/dokument/show.cfm?amp%3Bid=422038&region_id=342",
+					"text": "Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 Baugesetzbuch (BauGB) zum Entwurf des Bebauungsplans Nr. 120 „GVZ Brieselang Nord – östlich der A 10“ der Gemeinde Brieselang Datum 10.04.2026 Öffentliche Bekanntmachung der Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 Baugesetzbuch (BauGB) zum Entwurf des Bebauungsplans Nr. 120 „GVZ Brieselang Nord – östlich der A 10“ der Gemeinde Brieselang",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=2&amp%3Bperpage=20",
+					"text": "2",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=3&amp%3Bperpage=20",
+					"text": "3",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=4&amp%3Bperpage=20",
+					"text": "4",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=12&amp%3Bperpage=20",
+					"text": "12",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=21&amp%3Bperpage=20",
+					"text": "21",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm/Relaunch-2021/Bekanntmachungen/News-Bekanntmachungen-Teaser?amp%3Baz=all&amp%3Bdirection=desc&amp%3Border=&amp%3Bpage=39&amp%3Bperpage=20",
+					"text": "39",
+					"kind": "html"
+				}
+			]
+		},
+		{
+			"municipalityId": "brieselang",
+			"source": {
+				"id": "brieselang-http-www-gemeindebrieselang-de-aktuelles",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "http://www.gemeindebrieselang.de/Aktuelles/Verkauf-eines-Grundstueckes-Abgabe-eines-Angebots-moeglich.html",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:37.258Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "mailto:ligenschaften@gemeindebrieselang.de",
+					"text": "liegenschaften@gemeindebrieselang.de",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

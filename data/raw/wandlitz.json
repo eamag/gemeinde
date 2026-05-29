@@ -1,0 +1,137 @@
+{
+	"municipality": {
+		"id": "wandlitz",
+		"name": "Wandlitz",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wandlitz-https-www-wandlitz-de-amtsblatt-index-ph",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wandlitz.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "wandlitz-https-www-wandlitz-de-seite-225197-grund",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "wandlitz",
+			"source": {
+				"id": "wandlitz-https-www-wandlitz-de-amtsblatt-index-ph",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wandlitz.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:39:05.241Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.wandlitz.de/bekanntmachungen/index.php",
+					"text": "Amtliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/amtsblatt/index.php",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/ao",
+					"text": "Allgemeines Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/contact/index/link?referrer=https%3A%2F%2Fwww.wandlitz.de%2Famtsblatt%2Findex.php",
+					"text": "link?referrer=https%3A%2F%2Fwww.wandlitz.de%2Famtsblatt%2Findex.php",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/amtsblatt/index.php?modus=drucken",
+					"text": "index.php?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "https://ris.wandlitz.de/bi/download/Downloads/Zeitplan_Amtsblatt_2026.pdf",
+					"text": "Amtsblatt-Ausgaben im Jahr 2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.wandlitz.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				},
+				{
+					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.wandlitz.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Twitter",
+					"kind": "html"
+				}
+			]
+		},
+		{
+			"municipalityId": "wandlitz",
+			"source": {
+				"id": "wandlitz-https-www-wandlitz-de-seite-225197-grund",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:39:05.241Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html",
+					"text": "Grundst&uuml;cksangebote",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/contact/index/link?referrer=https%3A%2F%2Fwww.wandlitz.de%2Fseite%2F225197%2Fgrundst%C3%BCcksangebote.html",
+					"text": "link?referrer=https%3A%2F%2Fwww.wandlitz.de%2Fseite%2F225197%2Fgrundst%C3%BCcksangebote.html",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html?modus=drucken",
+					"text": "grundst%C3%BCcksangebote.html?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/49c3db09946085182c78f9ba53ec2d8416773/Berliner_Allee_19_c_Flur_4_Flurstueck_192.pdf",
+					"text": "» Zur Ausschreibung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/49c3db09946085182c78f9ba53ec2d8416773/Igelstrasse_4_Flur_2_Flurstueck_359.pdf",
+					"text": "» Zur Ausschreibung",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/49c3db09946085182c78f9ba53ec2d8416773/Weichselstrasse_8_Flur_4_Flurstueck_1662.pdf",
+					"text": "» Zur Ausschreibung",
+					"kind": "pdf"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.wandlitz.de%2Fseite%2F225197%2Fgrundst%25C3%25BCcksangebote.html",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				},
+				{
+					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.wandlitz.de%2Fseite%2F225197%2Fgrundst%25C3%25BCcksangebote.html",
+					"text": "Teilen auf Twitter",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"page_title": "Property listings in the Berlin metropolitan area",
+	"page_description": "Map of all municipalities. Click a marker to see links to the official gazette and property listings.",
+	"last_update": "Last updated: {date}",
+	"update_command": "Update command",
+	"no_data_title": "No data found",
+	"no_data_description": "Run {command}. Then this page will load the file {file}.",
+	"no_coordinates_title": "No coordinates found",
+	"no_coordinates_description": "Could not load municipality coordinates for the map.",
+	"municipalities_on_map": "{count} municipalities on the map",
+	"map_attribution": "Map data © OpenStreetMap contributors",
+	"map_aria_label": "Municipality map",
+	"official_gazette": "Official gazette",
+	"property_offers": "Property listings",
+	"open_link": "Open link",
+	"no_gazette_link": "No gazette link available",
+	"no_property_link": "No property listing link available",
+	"railway_overlay": "Railway lines (OpenRailwayMap)",
+	"language_de": "Deutsch",
+	"language_en": "English"
+}

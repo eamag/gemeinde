@@ -1,0 +1,80 @@
+{
+	"municipality": {
+		"id": "bernau-bei-berlin",
+		"name": "Bernau bei Berlin",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "bernau-bei-berlin-https-www-bernau-bei-berlin-de-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "bernau-bei-berlin",
+			"source": {
+				"id": "bernau-bei-berlin-https-www-bernau-bei-berlin-de-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:36.003Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html?contrastMode=1",
+					"text": "hoher Kontrast",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/rathaus-service/aktuelles/amtsblatt.html",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/rathaus-service/buergerinformation/bernauer-amtsblatt.html",
+					"text": "#BERNAUER & Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/rathaus-service/buergerinformation/satzungen-verordnungen.html",
+					"text": "Satzungen & Verordnungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/politik-beteiligung/buergerbeteiligung/bekanntmachungen.html",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/politik-beteiligung/buergerbeteiligung/bekanntmachungen.html?folder=629",
+					"text": "Öffentliche Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/politik-beteiligung/buergerbeteiligung/bekanntmachungen.html?folder=630",
+					"text": "Sonstige Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html?privacyAcceptAll=1",
+					"text": "Allen zustimmen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html?privacyDeclineAll=1",
+					"text": "nur notwendige Cookies zulassen",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

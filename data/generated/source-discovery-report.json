@@ -1,0 +1,936 @@
+{
+	"generatedAt": "2026-05-22T11:29:35.157Z",
+	"sourceListUrl": "https://de.wikipedia.org/wiki/Liste_von_Orten_im_Berliner_Umland",
+	"municipalityCount": 51,
+	"coverage": {
+		"withOffersSource": 26,
+		"withAmtsblattSource": 48,
+		"withAnySource": 49
+	},
+	"municipalities": [
+		{
+			"id": "ahrensfelde",
+			"name": "Ahrensfelde",
+			"website": "https://www.ahrensfelde.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "altlandsberg",
+			"name": "Altlandsberg",
+			"website": "https://www.altlandsberg.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "berlin",
+			"name": "Berlin",
+			"website": "https://www.berlin.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "berlin-amtsblatt-manual",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin",
+					"discoveryMethod": "manual"
+				}
+			]
+		},
+		{
+			"id": "bernau-bei-berlin",
+			"name": "Bernau bei Berlin",
+			"website": "https://www.bernau-bei-berlin.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "bernau-bei-berlin-https-www-bernau-bei-berlin-de-de-bekann",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "birkenwerder",
+			"name": "Birkenwerder",
+			"website": "https://www.birkenwerder.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "birkenwerder-https-www-birkenwerder-de-rathaus-politi",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.birkenwerder.de/rathaus/politik/wahlen-abstimmungen/wahlbekanntmachungen",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "birkenwerder-https-www-birkenwerder-de-rathaus-dienst",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.birkenwerder.de/rathaus/dienstleistungen/grundstuecksangebote",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "blankenfelde-mahlow",
+			"name": "Blankenfelde-Mahlow",
+			"website": "https://www.blankenfelde-mahlow.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "blankenfelde-mahlow-https-www-blankenfelde-mahlow-de-rathaus",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.blankenfelde-mahlow.de/rathaus/veroeffentlichungen/bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "blankenfelde-mahlow-https-www-blankenfelde-mahlow-de-planen-",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.blankenfelde-mahlow.de/planen-bauen/bauen/immobilienangebote",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "brieselang",
+			"name": "Brieselang",
+			"website": "https://www.gemeindebrieselang.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "brieselang-https-www-gemeindebrieselang-de-aktuelle",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "brieselang-http-www-gemeindebrieselang-de-aktuelles",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "http://www.gemeindebrieselang.de/Aktuelles/Verkauf-eines-Grundstueckes-Abgabe-eines-Angebots-moeglich.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "dallgow-doberitz",
+			"name": "Dallgow-Döberitz",
+			"website": "https://www.dallgow.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.dallgow.de/amtsblatt/index.php",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "eichwalde",
+			"name": "Eichwalde",
+			"website": "https://www.eichwalde.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "eichwalde-https-www-eichwalde-de-bekanntmachungen",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.eichwalde.de/bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "erkner",
+			"name": "Erkner",
+			"website": "https://www.erkner.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt.html",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerservice/anliegen-a-z/liegenschaften.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "falkensee",
+			"name": "Falkensee",
+			"website": "https://www.falkensee.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "falkensee-http-www-falkensee-de-amtsblatt",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "http://www.falkensee.de/amtsblatt",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "fredersdorf-vogelsdorf",
+			"name": "Fredersdorf-Vogelsdorf",
+			"website": "https://www.fredersdorf-vogelsdorf.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-news",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.fredersdorf-vogelsdorf.de/news/1/1172837/nachrichten/aktuelles-orts-und-amtsblatt.html",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-seit",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "glienicke-nordbahn",
+			"name": "Glienicke/Nordbahn",
+			"website": "https://www.glienicke.eu/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "gosen-neu-zittau",
+			"name": "Gosen-Neu Zittau",
+			"website": "https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=131797/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "gro-beeren",
+			"name": "Großbeeren",
+			"website": "https://www.grossbeeren.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "grunheide-mark",
+			"name": "Grünheide (Mark)",
+			"website": "https://www.gruenheide-mark.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "grunheide-mark-https-www-gruenheide-mark-de-amtsblatt-i",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.gruenheide-mark.de/amtsblatt/index.php",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "hennigsdorf",
+			"name": "Hennigsdorf",
+			"website": "https://www.hennigsdorf.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "hohen-neuendorf",
+			"name": "Hohen Neuendorf",
+			"website": "https://hohen-neuendorf.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://hohen-neuendorf.de/de/liegenschaften",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "hoppegarten",
+			"name": "Hoppegarten",
+			"website": "https://www.gemeinde-hoppegarten.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "hoppegarten-https-www-gemeinde-hoppegarten-de-amtsbl",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "kleinmachnow",
+			"name": "Kleinmachnow",
+			"website": "https://www.kleinmachnow.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "kleinmachnow-https-www-kleinmachnow-de-politik-verwal",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Amtsblatt-Kleinmachnow",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "konigs-wusterhausen",
+			"name": "Königs Wusterhausen",
+			"website": "https://www.koenigs-wusterhausen.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-bekann",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.koenigs-wusterhausen.de/bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-liegen",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.koenigs-wusterhausen.de/liegenschaften",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "leegebruch",
+			"name": "Leegebruch",
+			"website": "https://www.leegebruch.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "leegebruch-https-www-leegebruch-de-seite-137933-bek",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "ludwigsfelde",
+			"name": "Ludwigsfelde",
+			"website": "https://www.ludwigsfelde.de/",
+			"sourcesFound": 0,
+			"sources": []
+		},
+		{
+			"id": "michendorf",
+			"name": "Michendorf",
+			"website": "https://www.michendorf.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "michendorf-https-www-michendorf-de-amtsblatt-index-",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.michendorf.de/amtsblatt/index.php",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "mittenwalde",
+			"name": "Mittenwalde",
+			"website": "https://www.mittenwalde.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "mittenwalde-https-www-mittenwalde-de-de-service-wie-",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.mittenwalde.de/de/service-wie-was-wo/kontakte/amtsblatt-nicht-erhalten",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "muhlenbecker-land",
+			"name": "Mühlenbecker Land",
+			"website": "https://www.muehlenbecker-land.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "muhlenbecker-land-amtsblatt-manual",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
+					"discoveryMethod": "manual"
+				}
+			]
+		},
+		{
+			"id": "neuenhagen-bei-berlin",
+			"name": "Neuenhagen bei Berlin",
+			"website": "https://www.neuenhagen-bei-berlin.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "nuthetal",
+			"name": "Nuthetal",
+			"website": "https://www.nuthetal.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "nuthetal-https-www-nuthetal-de-amtsblatt-index-ph",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.nuthetal.de/amtsblatt/index.php",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "oberkramer",
+			"name": "Oberkrämer",
+			"website": "https://www.oberkraemer.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.oberkraemer.de/bekanntmachungen",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "oranienburg",
+			"name": "Oranienburg",
+			"website": "https://oranienburg.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "oranienburg-https-oranienburg-de-rathaus-service-akt",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "panketal",
+			"name": "Panketal",
+			"website": "https://panketal.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "panketal-https-panketal-de-rathaus-amtsblatt-html",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://panketal.de/rathaus/amtsblatt.html",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "panketal-https-panketal-de-aktuelles-grundstuecks",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://panketal.de/aktuelles/grundstuecksangebote.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "petershagen-eggersdorf",
+			"name": "Petershagen/Eggersdorf",
+			"website": "https://doppeldorf.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "potsdam",
+			"name": "Potsdam",
+			"website": "https://www.potsdam.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.potsdam.de/de/amtsblatt-12023",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "rangsdorf",
+			"name": "Rangsdorf",
+			"website": "https://www.rangsdorf.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "rangsdorf-https-www-rangsdorf-de-news-1-687606-nac",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.rangsdorf.de/news/1/687606/nachrichten/neues-amtsblatt-erschienen.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "rudersdorf-bei-berlin",
+			"name": "Rüdersdorf bei Berlin",
+			"website": "https://www.ruedersdorf.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2024-08-au",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.ruedersdorf.de/news/2024/08-aug/amtsblatt-des-wse",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2025-09-se",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.ruedersdorf.de/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "schonefeld",
+			"name": "Schönefeld",
+			"website": "https://gemeinde-schoenefeld.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "schoneiche-bei-berlin",
+			"name": "Schöneiche bei Berlin",
+			"website": "https://www.schoeneiche-bei-berlin.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "schonwalde-glien",
+			"name": "Schönwalde-Glien",
+			"website": "http://www.gemeinde-schoenwalde-glien.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-rathau",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-leben-",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.schoenwalde-glien.de/de/leben-wohnen/bauen-wohnen/grundstuecksangebote",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "schulzendorf",
+			"name": "Schulzendorf",
+			"website": "https://www.schulzendorf.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.schulzendorf.de/amtsblatt/index.php",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "schwielowsee-gemeinde",
+			"name": "Schwielowsee",
+			"website": "https://www.schwielowsee.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "schwielowsee-gemeinde-https-www-schwielowsee-de-buergerservice",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "stahnsdorf",
+			"name": "Stahnsdorf",
+			"website": "https://www.stahnsdorf.de/",
+			"sourcesFound": 0,
+			"sources": []
+		},
+		{
+			"id": "strausberg",
+			"name": "Strausberg",
+			"website": "https://www.stadt-strausberg.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.stadt-strausberg.de/bekanntmachungen",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "teltow",
+			"name": "Teltow",
+			"website": "https://www.teltow.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "teltow-amtsblatt-manual",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.teltow.de/amtsblatt/index.php",
+					"discoveryMethod": "manual"
+				}
+			]
+		},
+		{
+			"id": "velten",
+			"name": "Velten",
+			"website": "https://velten.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "velten-https-velten-de-verwaltung-politik-aktue",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "wandlitz",
+			"name": "Wandlitz",
+			"website": "https://www.wandlitz.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "wandlitz-https-www-wandlitz-de-amtsblatt-index-ph",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.wandlitz.de/amtsblatt/index.php",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "wandlitz-https-www-wandlitz-de-seite-225197-grund",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "werder-havel",
+			"name": "Werder (Havel)",
+			"website": "https://www.werder-havel.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "werder-havel-https-www-werder-havel-de-service-ortsre",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.werder-havel.de/service/ortsrecht-werder/bekanntmachungen.html",
+					"discoveryMethod": "homepage"
+				},
+				{
+					"id": "werder-havel-https-www-werder-havel-de-politik-rathau",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.werder-havel.de/politik-rathaus/aktuelles/neuigkeiten/service/1730-sachgebiet-liegenschaften-zieht-um.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "werneuchen",
+			"name": "Werneuchen",
+			"website": "https://www.werneuchen-barnim.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
+					"discoveryMethod": "homepage"
+				}
+			]
+		},
+		{
+			"id": "wildau",
+			"name": "Wildau",
+			"website": "https://wildau.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "wildau-https-www-wildau-de-dienstleistung-amtsb",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.wildau.de/dienstleistung/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "wildau-https-www-wildau-de-dienstleistung-zufah",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.wildau.de/dienstleistung/zufahrten-zu-grundstuecken",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "woltersdorf-bei-berlin",
+			"name": "Woltersdorf",
+			"website": "https://www.woltersdorf-schleuse.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "wustermark",
+			"name": "Wustermark",
+			"website": "https://www.wustermark.de/",
+			"sourcesFound": 1,
+			"sources": [
+				{
+					"id": "wustermark-https-www-wustermark-de-verwaltung-polit",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/Amtsblatt",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		},
+		{
+			"id": "zeuthen",
+			"name": "Zeuthen",
+			"website": "https://www.zeuthen.de/",
+			"sourcesFound": 2,
+			"sources": [
+				{
+					"id": "zeuthen-https-www-zeuthen-de-amtsblatt",
+					"type": "amtsblatt",
+					"label": "Amtsblatt / Bekanntmachungen",
+					"url": "https://www.zeuthen.de/amtsblatt",
+					"discoveryMethod": "sitemap"
+				},
+				{
+					"id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
+					"type": "offers_page",
+					"label": "Grundstücksangebote / Ausschreibungen",
+					"url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
+					"discoveryMethod": "sitemap"
+				}
+			]
+		}
+	]
+}

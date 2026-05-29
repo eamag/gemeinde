@@ -1,0 +1,435 @@
+{
+	"municipality": {
+		"id": "kleinmachnow",
+		"name": "Kleinmachnow",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "kleinmachnow-https-www-kleinmachnow-de-politik-verwal",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Amtsblatt-Kleinmachnow",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "kleinmachnow",
+			"source": {
+				"id": "kleinmachnow-https-www-kleinmachnow-de-politik-verwal",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Amtsblatt-Kleinmachnow",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:44.945Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.kleinmachnow.de/Kleinmachnow/%C3%9Cber-uns/Ortsrecht",
+					"text": "Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Amtsblatt-Kleinmachnow",
+					"text": "Amtsblatt Kleinmachnow",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Satzungen-und-Verordnungen",
+					"text": "Satzungen und Verordnungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/Umwelt-Planung/Ortsentwicklung/Bauvorgaben-und-satzungen",
+					"text": "Bauvorgaben und -satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5676.1.PDF",
+					"text": "Amtsblatt_03-2026_barrierefrei",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5536.1.PDF",
+					"text": "Amtsblatt_02-2026_barrierefrei",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5388.1.PDF",
+					"text": "Amtsblatt_01-2026_barrierefrei (PDF-Datei: PDF, 1.1 MB)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5324.1.PDF",
+					"text": "Amtsblatt KLM 12-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5257.1.PDF",
+					"text": "Amtsblatt KLM 11-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5197.1.PDF",
+					"text": "Amtsblatt KLM 10-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5094.1.PDF",
+					"text": "Amtsblatt KLM 09-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.5009.1.PDF",
+					"text": "Amtsblatt KLM 08-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4817.1.PDF",
+					"text": "Amtsblatt KLM 07-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4739.1.PDF",
+					"text": "Amtsblatt KLM 06-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4682.1.PDF",
+					"text": "Amtsblatt KLM 05-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4641.1.PDF",
+					"text": "Amtsblatt KLM 04-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4579.1.PDF",
+					"text": "Amtsblatt KLM 03-2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4445.1.PDF",
+					"text": "Amtsblatt 02 vom 28.2.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4347.1.PDF",
+					"text": "Amtsblatt 01 vom 30.1.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3097.1.PDF",
+					"text": "Amtsblatt 01 vom 22.1.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3265.1.PDF",
+					"text": "Amtsblatt 02 vom 23.2.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3320.1.PDF",
+					"text": "Amtsblatt 03 vom 28.3.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3394.1.PDF",
+					"text": "Amtsblatt 04 vom 22.4.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3468.1.PDF",
+					"text": "Amtsblatt 05 vom 16.5.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3521.1.PDF",
+					"text": "Amtsblatt 06 vom 31.5.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3655.1.PDF",
+					"text": "Amtsblatt 07 vom 28.6.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3769.1.PDF",
+					"text": "Amtsblatt 08 vom 31.7.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3821.1.PDF",
+					"text": "Amtsblatt 09 vom 29.8.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.3957.1.PDF",
+					"text": "Amtsblatt 10 vom 30.09.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4055.1.PDF",
+					"text": "Amtsblatt 11 vom 25.10.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4144.1.PDF",
+					"text": "Amtsblatt 12/2024 vom 29.11.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.4260.1.PDF",
+					"text": "Amtsblatt 13 vom 20.12.2024",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1896.1.PDF",
+					"text": "Amtsblatt KLM 01-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1999.1.PDF",
+					"text": "Amtsblatt KLM 02-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2115.1.PDF",
+					"text": "Amtsblatt KLM 03-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2287.1.PDF",
+					"text": "Amtsblatt KLM 04-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2471.1.PDF",
+					"text": "Amtsblatt KLM 05-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2529.1.PDF",
+					"text": "Amtsblatt KLM 06-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2553.1.PDF",
+					"text": "Amtsblatt KLM 07-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2800.1.PDF",
+					"text": "Amtsblatt KLM 08-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2892.1.PDF",
+					"text": "Amtsblatt KLM 09-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.2975.1.PDF",
+					"text": "Amtsblatt Nr. 10-2023",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1755.1.PDF",
+					"text": "Amtsblatt KLM 09-2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1547.1.PDF",
+					"text": "Amtsblatt_KLM_08-2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1532.1.PDF",
+					"text": "Amtsblatt_KLM_07-2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1326.1.PDF",
+					"text": "Amtsblatt KLM 06-2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1117.1.PDF",
+					"text": "Amtsblatt KLM 05-2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1013.1.PDF",
+					"text": "Amtsblatt Nr. 04 vom 11.04.2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.819.1.PDF",
+					"text": "Amtsblatt Nr. 03 vom 28.02.2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.775.1.PDF",
+					"text": "Amtsblatt 02 vom 15.2.2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.688.1.PDF",
+					"text": "Amtsblatt 01 vom 20.1.2022",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.264.1.PDF",
+					"text": "Amtsblatt 01 vom 31.3.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.265.1.PDF",
+					"text": "Amtsblatt 02 vom 15.6.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.269.1.PDF",
+					"text": "Amtsblatt 03 vom 16.7.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.266.1.PDF",
+					"text": "Amtsblatt 04 vom 16.8.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.267.1.PDF",
+					"text": "Amtsblatt 05 vom 31. August 2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.268.1.PDF",
+					"text": "Amtsblatt 06 vom 24.9.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.552.1.PDF",
+					"text": "Amtsblatt 07 vom 30.11.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.553.1.PDF",
+					"text": "Amtsblatt 08 vom 22.12.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.273.1.PDF",
+					"text": "(PDF) Amtsblatt 01 vom 31.1.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.274.1.PDF",
+					"text": "(PDF) Amtsblatt 02 vom 16.03.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.275.1.PDF",
+					"text": "(PDF) Amtsblatt 03 vom 29.05.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.276.1.PDF",
+					"text": "(PDF) Amtsblatt 04 vom 30.06.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.277.1.PDF",
+					"text": "(PDF) Amtsblatt 05 vom 31.07.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.278.1.PDF",
+					"text": "(PDF) Amtsblatt 06 vom 31.08.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.271.1.PDF",
+					"text": "(PDF) Anhang Lageplan Gebiets&auml;nderung Amtsblatt 06/2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.279.1.PDF",
+					"text": "(PDF) Amtsblatt 07 vom 09.10.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.280.1.PDF",
+					"text": "(PDF) Amtsblatt 08 vom 02.11.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.281.1.PDF",
+					"text": "(PDF) Amtsblatt 09 vom 30.11.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.282.1.PDF",
+					"text": "(PDF) Amtsblatt 10 vom 18.12.2020",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1871.1.PDF",
+					"text": "Amtsblatt KLM 01-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1872.1.PDF",
+					"text": "Amtsblatt KLM 02-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1873.1.PDF",
+					"text": "Amtsblatt KLM 03-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1874.1.PDF",
+					"text": "Amtsblatt KLM 04-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1876.1.PDF",
+					"text": "Amtsblatt KLM 05-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1875.1.PDF",
+					"text": "Amtsblatt KLM 06-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1877.1.PDF",
+					"text": "Amtsblatt KLM 07-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1878.1.PDF",
+					"text": "Amtsblatt KLM 08-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1879.1.PDF",
+					"text": "Amtsblatt KLM 09-2019",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.kleinmachnow.de/output/download.php?fid=3692.1880.1.PDF",
+					"text": "Amtsblatt KLM 10-2019",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

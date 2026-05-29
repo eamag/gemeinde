@@ -1,0 +1,87 @@
+{
+	"municipality": {
+		"id": "wildau",
+		"name": "Wildau",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wildau-https-www-wildau-de-dienstleistung-amtsb",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wildau.de/dienstleistung/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "wildau-https-www-wildau-de-dienstleistung-zufah",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wildau.de/dienstleistung/zufahrten-zu-grundstuecken",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "wildau",
+			"source": {
+				"id": "wildau-https-www-wildau-de-dienstleistung-amtsb",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wildau.de/dienstleistung/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:39:08.521Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.wildau.de/stadt/aktuelles/oeffentliche-auslegungen",
+					"text": "Öffentliche Bekanntmachungen / Öffentliche Auslegungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wildau.de/stadt/rathaus-online/amtsblatt",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wildau.de/stadt/buergerservice/dienstleistungsverzeichnis/formulare-satzungen",
+					"text": "Formulare / Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wildau.de/stadt/rathaus-online/amtsblatt/archiv",
+					"text": "Archiv",
+					"kind": "html"
+				}
+			]
+		},
+		{
+			"municipalityId": "wildau",
+			"source": {
+				"id": "wildau-https-www-wildau-de-dienstleistung-zufah",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wildau.de/dienstleistung/zufahrten-zu-grundstuecken",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:39:08.521Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.wildau.de/stadt/aktuelles/grundsteuerreform",
+					"text": "Grundsteuerreform",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.wildau.de/stadt/buergerservice/stadtverwaltung/liegenschaftsverwaltung",
+					"text": "Liegenschaftsverwaltung",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

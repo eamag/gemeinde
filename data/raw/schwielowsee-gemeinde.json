@@ -1,0 +1,435 @@
+{
+	"municipality": {
+		"id": "schwielowsee-gemeinde",
+		"name": "Schwielowsee",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schwielowsee-gemeinde-https-www-schwielowsee-de-buergerservice",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "schwielowsee-gemeinde",
+			"source": {
+				"id": "schwielowsee-gemeinde-https-www-schwielowsee-de-buergerservice",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:39:01.026Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht.html",
+					"text": "Bekanntmachungen & Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/fl%C3%A4chennutzungsplaene.html",
+					"text": "Flächennutzungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/laermaktionsplan.html",
+					"text": "Lärmaktionsplan",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/bebauungspl%C3%A4ne.html",
+					"text": "Bebauungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/weitere-bekanntmachungen.html",
+					"text": "Weitere Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/satzungen-verordnungen.html",
+					"text": "Satzungen und Verordnungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/widmungsverf%C3%BCgungen.html",
+					"text": "Widmungsverfügungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/fl%C3%A4chennutzungsplaene/aktuelle-flaechennutzungsplaene.html",
+					"text": "Aktuelle Flächennutzungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/fl%C3%A4chennutzungsplaene/rechtskraeftige-flaechennutzungspl%C3%A4ne.html",
+					"text": "Rechtskräftige Flächennutzungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/bebauungspl%C3%A4ne/aktuelle-bebauungsplaene.html",
+					"text": "Aktuelle Bebauungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/bekanntmachungen-ortsrecht/bebauungspl%C3%A4ne/rechtskraeftige-bebauungsplaene.html",
+					"text": "Rechtskräftige Bebauungspläne",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html?start=100",
+					"text": "2",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html?start=200",
+					"text": "3",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html?start=300",
+					"text": "4",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html?start=400",
+					"text": "5",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_04_2026.pdf",
+					"text": "vom 29.04.2026 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_03_2026.pdf",
+					"text": "vom 25.03.2026 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_02_2026.pdf",
+					"text": "vom 25.02.2026 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_01_2026.pdf",
+					"text": "vom 28.01.2026 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_12_2025.pdf",
+					"text": "vom 26.11.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_11_2025.pdf",
+					"text": "vom 29.10.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_10_2025.pdf",
+					"text": "vom 24.09.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_09_2025.pdf",
+					"text": "vom 27.08.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_08_2025.pdf",
+					"text": "vom 30.07.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_07_2025.pdf",
+					"text": "vom 25.06.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_06_2025.pdf",
+					"text": "vom 28.05.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_05_2025.pdf",
+					"text": "vom 30.04.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_04_2025.pdf",
+					"text": "vom 02.04.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_03_2025.pdf",
+					"text": "vom 26.03.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_02_2025.pdf",
+					"text": "vom 26.02.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2025/Amtsblatt_01_2025.pdf",
+					"text": "vom 29.01.2025 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_14_2024.pdf",
+					"text": "vom 18.12.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_13_2024.pdf",
+					"text": "vom 27.11.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_12_2024.pdf",
+					"text": "vom 30.10.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_11_2024.pdf",
+					"text": "vom 25.09.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_10_2024.pdf",
+					"text": "vom 28.08.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_09_2024.pdf",
+					"text": "vom 28.08.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_08_2024.pdf",
+					"text": "vom 31.07.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_07_2024.pdf",
+					"text": "vom 26.06.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_06_2024.pdf",
+					"text": "vom 29.05.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_05_2024.pdf",
+					"text": "vom 24.04.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_04_2024.pdf",
+					"text": "vom 19.04.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_03_2024.pdf",
+					"text": "vom 27.03.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_02_2024.pdf",
+					"text": "vom 28.02.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2024/Amtsblatt_01_2024.pdf",
+					"text": "vom 31.01.2024 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_13_2023.pdf",
+					"text": "vom 21.12.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_12_2023.pdf",
+					"text": "vom 20.12.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_11_2023.pdf",
+					"text": "vom 29.11.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_10_2023_web.pdf",
+					"text": "vom 25.10.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_09_2023_web.pdf",
+					"text": "vom 27.09.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_08_2023.pdf",
+					"text": "vom 30.08.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_07_2023.pdf",
+					"text": "vom 26.07.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_06_2023_Ansicht.pdf",
+					"text": "vom 28.06.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_05_2023.pdf",
+					"text": "vom 31.05.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_04_2023_web.pdf",
+					"text": "vom 26.04.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_03_2023.pdf",
+					"text": "vom 29.03.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_02_2023.pdf",
+					"text": "vom 22.02.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2023/Amtsblatt_01_2023_web.pdf",
+					"text": "vom 25.01.2023 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_12_2022.pdf",
+					"text": "vom 14.12.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_11_2022_web.pdf",
+					"text": "vom 30.11.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_10_2022_web.pdf",
+					"text": "vom 26.10.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_09_2022.pdf",
+					"text": "vom 28.09.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_08_2022.pdf",
+					"text": "vom 31.08.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_07_2022.pdf",
+					"text": "vom 27.07.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_06_2022.pdf",
+					"text": "vom 29.06.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_05_2022_web.pdf",
+					"text": "vom 25.05.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_04_2022_web.pdf",
+					"text": "vom 27.04.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_03_2022_komplett_WEB.pdf",
+					"text": "vom 29.03.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_02_2022.pdf",
+					"text": "vom 21.02.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2022/Amtsblatt_01_2022_Druck.pdf",
+					"text": "vom 26.01.2022 (PDF)",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_13_2021_.pdf",
+					"text": "vom 22.12.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_12_2021_.pdf",
+					"text": "vom 15.12.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_11_2021_.pdf",
+					"text": "vom 24.11.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_10_2021_.pdf",
+					"text": "vom 27.10.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_09_2021_.pdf",
+					"text": "vom 29.09.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_08__2021_.pdf",
+					"text": "vom 25.08.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_07__2021.pdf",
+					"text": "vom 28.07.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_06_2021_web.pdf",
+					"text": "vom 30.06.2021",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.schwielowsee.de/images/downloads/Amtsblatt/2021/Amt_05_2021.pdf",
+					"text": "vom 26.05.2021",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

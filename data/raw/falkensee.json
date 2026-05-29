@@ -1,0 +1,85 @@
+{
+	"municipality": {
+		"id": "falkensee",
+		"name": "Falkensee",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "falkensee-http-www-falkensee-de-amtsblatt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "http://www.falkensee.de/amtsblatt",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "falkensee",
+			"source": {
+				"id": "falkensee-http-www-falkensee-de-amtsblatt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "http://www.falkensee.de/amtsblatt",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:38.893Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/3ad0dae377296992aa797d0d2f44217222831/Organigramm_11.05.2026.pdf",
+					"text": "Organigramm",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.falkensee.de/amtsblatt/index.php",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.falkensee.de/satzungen",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/3ad0dae377296992aa797d0d2f44217222831/Verkehrszahlen_bis_Juli_25.pdf",
+					"text": "Verkehrszahlen",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/einzelhandelsgutachten_falkensee_bericht_april.pdf",
+					"text": "Einzelhandelsgutachten",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/3ad0dae377296992aa797d0d2f44217222831/familienwegweiser.pdf",
+					"text": "Familienwegweiser",
+					"kind": "pdf"
+				},
+				{
+					"url": "http://www.falkensee.de/contact/index/link?referrer=https%3A%2F%2Fwww.falkensee.de%2Famtsblatt%2Findex.php",
+					"text": "link?referrer=https%3A%2F%2Fwww.falkensee.de%2Famtsblatt%2Findex.php",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.falkensee.de/amtsblatt/index.php?modus=drucken",
+					"text": "index.php?modus=drucken",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.falkensee.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				},
+				{
+					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.falkensee.de%2Famtsblatt%2Findex.php",
+					"text": "Teilen auf Twitter",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

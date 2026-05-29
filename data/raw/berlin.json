@@ -1,0 +1,105 @@
+{
+	"municipality": {
+		"id": "berlin",
+		"name": "Berlin",
+		"district": "Land Berlin",
+		"state": "Berlin",
+		"sources": [
+			{
+				"id": "berlin-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin",
+				"discoveryMethod": "manual"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "berlin",
+			"source": {
+				"id": "berlin-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin",
+				"discoveryMethod": "manual"
+			},
+			"fetchedAt": "2026-05-22T11:38:35.181Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin",
+					"text": "Amtsblatt für Berlin",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin/newsletter",
+					"text": "Newsletter",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin/druckausgabe/formular.542319.php",
+					"text": "Druckausgabe",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin/veroeffentlichungsbeitraege",
+					"text": "Veröffentlichungs&shy;beiträge",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin/nutzungshinweise/artikel.544178.php",
+					"text": "Nutzungs&shy;hinweise",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/ueber-uns/artikel.230990.php",
+					"text": "PDF-Hinweise",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_21_1237_1304_online.pdf?ts=1779428550",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_20_1165_1236_online.pdf?ts=1778822226",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_19_1129_1164_online.pdf?ts=1778217865",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_18_1057_1128_online.pdf?ts=1777526741",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_17_0997_1056_online.pdf?ts=1777010699",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/_assets/logistikservice/amtsblatt-fuer-berlin/abl_2026_16_0917_0996_online.pdf?ts=1777010695",
+					"text": "Download",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin/artikel.1455620.php",
+					"text": "Amtsblatt für Berlin Sachwortregister",
+					"kind": "html"
+				},
+				{
+					"url": "mailto:amtsblatt@lvwa.berlin.de",
+					"text": "E-Mail an die Amtsblatt-Redaktion",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

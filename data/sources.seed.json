@@ -1,0 +1,926 @@
+[
+	{
+		"id": "ahrensfelde",
+		"name": "Ahrensfelde",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "altlandsberg",
+		"name": "Altlandsberg",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "berlin",
+		"name": "Berlin",
+		"district": "Land Berlin",
+		"state": "Berlin",
+		"sources": [
+			{
+				"id": "berlin-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.berlin.de/landesverwaltungsamt/logistikservice/amtsblatt-fuer-berlin",
+				"discoveryMethod": "manual"
+			}
+		]
+	},
+	{
+		"id": "bernau-bei-berlin",
+		"name": "Bernau bei Berlin",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "bernau-bei-berlin-https-www-bernau-bei-berlin-de-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.bernau-bei-berlin.de/de/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "birkenwerder",
+		"name": "Birkenwerder",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-politi",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.birkenwerder.de/rathaus/politik/wahlen-abstimmungen/wahlbekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-dienst",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.birkenwerder.de/rathaus/dienstleistungen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "blankenfelde-mahlow",
+		"name": "Blankenfelde-Mahlow",
+		"district": "Teltow-Fläming",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "blankenfelde-mahlow-https-www-blankenfelde-mahlow-de-rathaus",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.blankenfelde-mahlow.de/rathaus/veroeffentlichungen/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "blankenfelde-mahlow-https-www-blankenfelde-mahlow-de-planen-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.blankenfelde-mahlow.de/planen-bauen/bauen/immobilienangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "brieselang",
+		"name": "Brieselang",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "brieselang-https-www-gemeindebrieselang-de-aktuelle",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeindebrieselang.de/Aktuelles/Bekanntmachungen.htm",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "brieselang-http-www-gemeindebrieselang-de-aktuelles",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "http://www.gemeindebrieselang.de/Aktuelles/Verkauf-eines-Grundstueckes-Abgabe-eines-Angebots-moeglich.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "dallgow-doberitz",
+		"name": "Dallgow-Döberitz",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.dallgow.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "eichwalde",
+		"name": "Eichwalde",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "eichwalde-https-www-eichwalde-de-bekanntmachungen",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.eichwalde.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "erkner",
+		"name": "Erkner",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/amtsblatt.html",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "erkner-https-www-erkner-de-rathaus-und-buergers",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.erkner.de/rathaus-und-buergerservice/buergerservice/anliegen-a-z/liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "falkensee",
+		"name": "Falkensee",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "falkensee-http-www-falkensee-de-amtsblatt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "http://www.falkensee.de/amtsblatt",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "fredersdorf-vogelsdorf",
+		"name": "Fredersdorf-Vogelsdorf",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-news",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/news/1/1172837/nachrichten/aktuelles-orts-und-amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "fredersdorf-vogelsdorf-https-www-fredersdorf-vogelsdorf-de-seit",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.fredersdorf-vogelsdorf.de/seite/483449/ausschreibung-liegenschaften.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "glienicke-nordbahn",
+		"name": "Glienicke/Nordbahn",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "gosen-neu-zittau",
+		"name": "Gosen-Neu Zittau",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "gro-beeren",
+		"name": "Großbeeren",
+		"district": "Teltow-Fläming",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "grunheide-mark",
+		"name": "Grünheide (Mark)",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "grunheide-mark-https-www-gruenheide-mark-de-amtsblatt-i",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gruenheide-mark.de/amtsblatt/index.php",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "hennigsdorf",
+		"name": "Hennigsdorf",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "hohen-neuendorf",
+		"name": "Hohen Neuendorf",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://hohen-neuendorf.de/de/liegenschaften",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "hoppegarten",
+		"name": "Hoppegarten",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "hoppegarten-https-www-gemeinde-hoppegarten-de-amtsbl",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gemeinde-hoppegarten.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "kleinmachnow",
+		"name": "Kleinmachnow",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "kleinmachnow-https-www-kleinmachnow-de-politik-verwal",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.kleinmachnow.de/Politik-Verwaltung/Amtliche-Informationen/Amtsblatt-Kleinmachnow",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "konigs-wusterhausen",
+		"name": "Königs Wusterhausen",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.koenigs-wusterhausen.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-liegen",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.koenigs-wusterhausen.de/liegenschaften",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "leegebruch",
+		"name": "Leegebruch",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "leegebruch-https-www-leegebruch-de-seite-137933-bek",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.leegebruch.de/seite/137933/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "ludwigsfelde",
+		"name": "Ludwigsfelde",
+		"district": "Teltow-Fläming",
+		"state": "Brandenburg",
+		"sources": []
+	},
+	{
+		"id": "michendorf",
+		"name": "Michendorf",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "michendorf-https-www-michendorf-de-amtsblatt-index-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.michendorf.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "mittenwalde",
+		"name": "Mittenwalde",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "mittenwalde-https-www-mittenwalde-de-de-service-wie-",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.mittenwalde.de/de/service-wie-was-wo/kontakte/amtsblatt-nicht-erhalten",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "muhlenbecker-land",
+		"name": "Mühlenbecker Land",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "muhlenbecker-land-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
+				"discoveryMethod": "manual"
+			}
+		]
+	},
+	{
+		"id": "neuenhagen-bei-berlin",
+		"name": "Neuenhagen bei Berlin",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/rathaus/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "neuenhagen-bei-berlin-https-www-neuenhagen-bei-berlin-de-start",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.neuenhagen-bei-berlin.de/startseite-de/bauen-wohnen/wohnen/grundstuecks-und-wohnungsangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "nuthetal",
+		"name": "Nuthetal",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "nuthetal-https-www-nuthetal-de-amtsblatt-index-ph",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.nuthetal.de/amtsblatt/index.php",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "oberkramer",
+		"name": "Oberkrämer",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.oberkraemer.de/bekanntmachungen",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "oranienburg",
+		"name": "Oranienburg",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "oranienburg-https-oranienburg-de-rathaus-service-akt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://oranienburg.de/Rathaus-Service/Aktuelles/Bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "panketal",
+		"name": "Panketal",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "panketal-https-panketal-de-rathaus-amtsblatt-html",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://panketal.de/rathaus/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "panketal-https-panketal-de-aktuelles-grundstuecks",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://panketal.de/aktuelles/grundstuecksangebote.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "petershagen-eggersdorf",
+		"name": "Petershagen/Eggersdorf",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "potsdam",
+		"name": "Potsdam",
+		"district": "kreisfreie Stadt",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.potsdam.de/de/amtsblatt-12023",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "rangsdorf",
+		"name": "Rangsdorf",
+		"district": "Teltow-Fläming",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "rangsdorf-https-www-rangsdorf-de-news-1-687606-nac",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.rangsdorf.de/news/1/687606/nachrichten/neues-amtsblatt-erschienen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "rudersdorf-bei-berlin",
+		"name": "Rüdersdorf bei Berlin",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2024-08-au",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.ruedersdorf.de/news/2024/08-aug/amtsblatt-des-wse",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "rudersdorf-bei-berlin-https-www-ruedersdorf-de-news-2025-09-se",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.ruedersdorf.de/news/2025/09-sep/drei-kommunale-liegenschaften-zum-verkauf-angeboten",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "schonefeld",
+		"name": "Schönefeld",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "schoneiche-bei-berlin",
+		"name": "Schöneiche bei Berlin",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "schonwalde-glien",
+		"name": "Schönwalde-Glien",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-rathau",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schoenwalde-glien.de/de/rathaus-service/aktuelles/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "schonwalde-glien-https-www-schoenwalde-glien-de-de-leben-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.schoenwalde-glien.de/de/leben-wohnen/bauen-wohnen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "schulzendorf",
+		"name": "Schulzendorf",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schulzendorf.de/amtsblatt/index.php",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "schwielowsee-gemeinde",
+		"name": "Schwielowsee",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "schwielowsee-gemeinde-https-www-schwielowsee-de-buergerservice",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.schwielowsee.de/buergerservice/amtsblatt.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "stahnsdorf",
+		"name": "Stahnsdorf",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": []
+	},
+	{
+		"id": "strausberg",
+		"name": "Strausberg",
+		"district": "Märkisch-Oderland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.stadt-strausberg.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "teltow",
+		"name": "Teltow",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "teltow-amtsblatt-manual",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.teltow.de/amtsblatt/index.php",
+				"discoveryMethod": "manual"
+			}
+		]
+	},
+	{
+		"id": "velten",
+		"name": "Velten",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "velten-https-velten-de-verwaltung-politik-aktue",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "wandlitz",
+		"name": "Wandlitz",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wandlitz-https-www-wandlitz-de-amtsblatt-index-ph",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wandlitz.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "wandlitz-https-www-wandlitz-de-seite-225197-grund",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wandlitz.de/seite/225197/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "werder-havel",
+		"name": "Werder (Havel)",
+		"district": "Potsdam-Mittelmark",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "werder-havel-https-www-werder-havel-de-service-ortsre",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.werder-havel.de/service/ortsrecht-werder/bekanntmachungen.html",
+				"discoveryMethod": "homepage"
+			},
+			{
+				"id": "werder-havel-https-www-werder-havel-de-politik-rathau",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.werder-havel.de/politik-rathaus/aktuelles/neuigkeiten/service/1730-sachgebiet-liegenschaften-zieht-um.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "werneuchen",
+		"name": "Werneuchen",
+		"district": "Barnim",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	{
+		"id": "wildau",
+		"name": "Wildau",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wildau-https-www-wildau-de-dienstleistung-amtsb",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wildau.de/dienstleistung/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "wildau-https-www-wildau-de-dienstleistung-zufah",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.wildau.de/dienstleistung/zufahrten-zu-grundstuecken",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "woltersdorf-bei-berlin",
+		"name": "Woltersdorf",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "wustermark",
+		"name": "Wustermark",
+		"district": "Havelland",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "wustermark-https-www-wustermark-de-verwaltung-polit",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.wustermark.de/Verwaltung-Politik/Allgemeines/Amtsblatt",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	{
+		"id": "zeuthen",
+		"name": "Zeuthen",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "zeuthen-https-www-zeuthen-de-amtsblatt",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.zeuthen.de/amtsblatt",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	}
+]

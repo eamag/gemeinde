@@ -1,0 +1,137 @@
+{
+	"municipality": {
+		"id": "birkenwerder",
+		"name": "Birkenwerder",
+		"district": "Oberhavel",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-politi",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.birkenwerder.de/rathaus/politik/wahlen-abstimmungen/wahlbekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-dienst",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.birkenwerder.de/rathaus/dienstleistungen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "birkenwerder",
+			"source": {
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-politi",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.birkenwerder.de/rathaus/politik/wahlen-abstimmungen/wahlbekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:36.446Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.birkenwerder.de/rathaus/politik/amtsblaetter",
+					"text": "Amtsblätter und Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/rathaus/politik/wahlen-abstimmungen/wahlbekanntmachungen",
+					"text": "Wahlbekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/wohnen/bauen-und-planen/bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/ortsrecht-und-haushaltssatzungen/ortsrecht",
+					"text": "Ortsrecht und Haushaltssatzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/ortsrecht-und-haushaltssatzungen/haushaltssatzungen",
+					"text": "Haushaltssatzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/ortsrecht-und-haushaltssatzungen/jahresabschluesse",
+					"text": "Jahresabschlüsse",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/ortsrecht-und-haushaltssatzungen/buergervorschlag-1",
+					"text": "Aktuelle Satzungsentwürfe",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/leben-in-birkenwerder/ortsrecht-und-haushaltssatzungen/buergervorschlag-1-1",
+					"text": "Bürgervorschläge Haushalt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/user_upload/2025-01-02_Wahlbekanntmachung_BTW25.pdf",
+					"text": "Download als PDF",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/user_upload/2025-01-02_Bekanntgabe_Einsicht_WZ_BTW2025.pdf",
+					"text": "Download als PDF",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/user_upload/2025-03-18_Bekanntmachung_Mandatsverzicht_und_Nachruecker_Pro_Birke.pdf",
+					"text": "Download als PDF",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "birkenwerder",
+			"source": {
+				"id": "birkenwerder-https-www-birkenwerder-de-rathaus-dienst",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.birkenwerder.de/rathaus/dienstleistungen/grundstuecksangebote",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:36.446Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.birkenwerder.de/rathaus/dienstleistungen/grundstuecksangebote",
+					"text": "Grundstücksangebote",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/dokumente/Ausschreibungen/Expose_Grundstuecke/2025_04-08_Expose_Langversion_EBP_Sachsenstrasse_8.pdf",
+					"text": "Exposè Grundstück Sachsenstraße 8, 775&nbsp;m²",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/dokumente/Ausschreibungen/Expose_Grundstuecke/2025_04_09_Expose_Langversion_EBP_Stolper_Weg_42.pdf",
+					"text": "Exposè Grundstück Stolper Weg 42, 752&nbsp;m²",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/dokumente/Ausschreibungen/Expose_Grundstuecke/2025_04_09_Expose_Langversion_Hohen_Neuendorfer_Weg_8_VL.pdf",
+					"text": "Exposè Grundstück Hohen Neuendorfer Weg 8, Vorderland, 671 m²",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://www.birkenwerder.de/fileadmin/dokumente/Ausschreibungen/Expose_Grundstuecke/2025_04_08_Expose_Langversion_EBP_Hohen-Neuendorfer_Weg_8_HL.pdf",
+					"text": "Exposè Grundstück Hohen Neuendorfer Weg 8, Hinterland, 670 m²",
+					"kind": "pdf"
+				}
+			]
+		}
+	]
+}

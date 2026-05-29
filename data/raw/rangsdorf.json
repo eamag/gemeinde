@@ -1,0 +1,70 @@
+{
+	"municipality": {
+		"id": "rangsdorf",
+		"name": "Rangsdorf",
+		"district": "Teltow-Fläming",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "rangsdorf-https-www-rangsdorf-de-news-1-687606-nac",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.rangsdorf.de/news/1/687606/nachrichten/neues-amtsblatt-erschienen.html",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "rangsdorf",
+			"source": {
+				"id": "rangsdorf-https-www-rangsdorf-de-news-1-687606-nac",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.rangsdorf.de/news/1/687606/nachrichten/neues-amtsblatt-erschienen.html",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:47.992Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.rangsdorf.de/",
+					"text": "Bekanntmachungen & B&uuml;rgerbeteiligung",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.rangsdorf.de/amtsblatt/index.php",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.rangsdorf.de/seite/534340/satzungen.html",
+					"text": "Satzungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.rangsdorf.de/news/1/687606/nachrichten/neues-amtsblatt-erschienen.html?modus=drucken",
+					"text": "print Druckansicht &ouml;ffnen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.rangsdorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.rangsdorf.de%2Fnews%2F1%2F687606%2Fnachrichten%2Fneues-amtsblatt-erschienen.html",
+					"text": "mail Link verschicken",
+					"kind": "html"
+				},
+				{
+					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.rangsdorf.de%2Fnews%2F1%2F687606%2Fnachrichten%2Fneues-amtsblatt-erschienen.html",
+					"text": "Teilen auf Facebook",
+					"kind": "html"
+				},
+				{
+					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.rangsdorf.de%2Fnews%2F1%2F687606%2Fnachrichten%2Fneues-amtsblatt-erschienen.html",
+					"text": "Teilen auf Twitter",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

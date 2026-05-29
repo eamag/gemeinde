@@ -1,0 +1,472 @@
+{
+	"municipality": {
+		"id": "konigs-wusterhausen",
+		"name": "Königs Wusterhausen",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.koenigs-wusterhausen.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			{
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-liegen",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.koenigs-wusterhausen.de/liegenschaften",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "konigs-wusterhausen",
+			"source": {
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-bekann",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.koenigs-wusterhausen.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:45.112Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.koenigs-wusterhausen.de/bekanntmachungen",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/f4cefc31e961fc65/a5bcefbc1853/Bekanntmachung-Ortsbeirat-Zernsdorf-03.06.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf 03.06.2026 veröffentlicht am 22.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/f28f3bccc8641334/720c853a39d6/Bekanntmachung-OBR-Wernsdorf-02.06.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Wernsdorf 02.06.2026 veröffentlicht am 22.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/746a80cb525db3b3/75a22d096daa/Bekanntmachung-OBR-Senzig-02.06.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Senzig 02.06.2026 veröffentlicht am 22.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3db3fc2ce0de0eea/1bcf36616446/Bekanntmachung-Ortsbeirat-Diepensee-02.06.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Diepensee 02.06.2026 veröffentlicht am 22.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/cf4da43c0fc31e6e/91f902caeadc/Bekanntmachung-Ortsbeirat-Zeesen-01.06.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen 01.06.2026 veröffentlicht am 21.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/0bf1dd172c62b982/f6ea7df77fe0/Bekanntmachung-Stadtverordnetenversammlung-27.05.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Stadtverordnetenversammlung am 27.05.2026 veröffentlicht am 19.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/9952b361f6437800/688d80971704/Bekanntmachung-Hauptausschuss-27.05.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss am 27.05.2026 veröffentlicht 19.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/a7f6e8abf3a47852/0d64e18dc413/Bekanntmachung-WFDB-20.05.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen am 20.05.2026 veröffentlicht am 11.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/4c654e391098dbf8/fc8e79a7a7b1/Bekanntmachung_SBUMK_19.05.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ausschusses für Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz am 19.05.2026 veröffentlicht am 08.05.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/224802f40153e365/312927974433/Bekanntmachung-f-r-s..pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung der Stadtverordnetenversammlung am 11.05.2026 veröffentlicht am 30.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/7edeb48412bdc8f1/dba884e8b23c/Bekanntmachung--Hauptausschuss--27.04.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss 27.04.2026 veröffentlicht am 21.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8d1c92cc6d9496d1/59a909cd5acf/Bekanntmachung_WFDB_15.04.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen 15.04.2026 veröffentlicht am 07.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/90759e4a43f0ea91/1f3020b6139d/Bekanntmachung_SBFBOSK-14.04.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur 14.04.2026 veröffentlicht am 07.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/84996dc261e376d3/7dfb07af0b84/Bekanntmachung-.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ausschusses für Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz 13.04.2026 veröffentlicht am 02.04.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/bb4c448268fc9a96/72c17eb089dc/Bekanntmachung-Ortsbeirat-Zeesen-30.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen 30.03.2026 veröffentlicht am 19.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/b9092724d33405b7/bca70e91c3d5/Bekanntmachung-Ortsbeirat-K-nigs-Wusterhausen-26.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Königs Wusterhausen 26.03.2026 veröffentlicht am ​17.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/c382dc8efe398624/b9850a3c96c4/Bekanntmachung-Ortsbeirat-Niederlehme-26.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Niederlehme 26.03.2026 veröffentlicht am 17.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8e2c9adca631edc1/4f89ac1d46e1/2---BEKANNTMACHUNG.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Kablow am 26.03.2026 Veröffentlicht am 16.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3c423e7a0042aa8f/dc3198a439b7/Bekanntmachung-Ortsbeirat-Diepensee-24.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Diepensee 24.03.2026 veröffentlicht am 16.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/f7859263cdd367bf/8ba59d4e52bc/Bekanntmachung-Ortsbeirat-Senzig-24.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Senzig 24.03.2026 veröffentlicht am 13.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/f5acdb9fc2d691e0/c6689990ac2e/Bekanntmachung-Ortsbeirat-Wernsdorf-24.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Wernsdorf 24.03.2026 veröffentlicht am 13.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/66c472886df61d99/46450bed668f/Bekanntmachung-SVV-23.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Stadtverordnetenversammlung 23.03.2026 veröffentlicht am 13.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/34f34477c659e900/5940f67c151d/Bekanntmachung-24.3.2026-OBR-Zernsdorf.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf 24.03.2026 veröffentlicht am 13.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/cd822e25e40b50f3/c6f8d5a0fae1/Einladung-Hauptausschuss-16.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss 16.03.2026 veröffentlicht am 05.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3561b12df7a20944/1fc5cedcc4a4/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-12.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen 12.03.2026 veröffentlicht am 04.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/19ce3efc6ef02c51/1afefab62f08/Bekanntmachung_SBFBOSK_10.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur 10.03.2026 veröffentlicht am 02.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/76806cecab79bc07/894446f7d79c/Bekanntmachung_SVV_09.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Stadtverordnetenversammlung 09.03.2026 veröffentlicht am 02.03.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/ae131854ebe67c6d/0be7033a222f/Bekanntmachung-Ausschuss-f-r-Stadtentwicklung--Bauen--Umwelt--Mobilit-t-und-Klimaschutz-05.03.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz 05.03.2026 veröffentlicht am 27.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8b555a264d4a26d7/aca5c7f152b6/Bekanntmachung_gemeinsame-OBR-Sitzung-am-02.03.2026_18-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachungen der Ortsbeiräte zur Anhörung zum Haushalt am 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/5aaca4af730e09a7/91a2936b792b/Bekanntmachung_ZEE_02.03.2026_17-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/68b74f3f10d11fe8/3549bdb6ce83/Bekanntmachung_ZDF_02.03.2026_17-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/29bfbdeb8c5c554c/8d784e0d63e2/Bekanntmachung_SEN_02.03.2026_17-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Senzig 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/20a53c611bcc0589/ab22b7826f62/Bekanntmachung_NIE_02.03.2026_17-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Niederlehme 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/da1da23dee91568b/221ffa97c683/Bekanntmachung_WDF_02.03.2026_17-Uhr.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Wernsdorf 02.03.2026 veröffentlicht am 24.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3f49c72837a003d2/32ed600ebfcb/BEKANNTMACHUNG.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} ABGESAGT: Stadtverordnetenversammlung am 23.02.2026 aktualisiert am 23.02.2026; veröffentlicht am 13.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/d23811b5821d6e0b/6fcb3b3e35bd/Bekanntmachung-Hauptausschuss-16.02.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss 16.02.2026 veröffentlicht am 06.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/aeff5065cd94c685/77298fe6f19b/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-11.02.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen 11.02.2026 veröffentlicht am 03.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3c25c7c58f1deb74/7027e8f1ed0d/Bekanntmachung-SBFBOSK-10.02.2026--.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur 10.02.2026 veröffentlicht am 02.02.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/ce8af5e512b096f0/594c3e85b19c/Bekanntmachung.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz 09.02.2026 veröffentlicht am 30.01.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/181dbd1b6d98d247/80d5dce049f6/-B-OBR-Ndl-22.01.2026.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Niederlehme 22.01.2026 veröffentlicht ​am 13.01.2026",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/619c4e846c91ae24/644411cc558e/-B-OBR-KWh-22.01.2026.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Königs Wusterhausen 22.01.2026 veröffentlicht am 13.01.2026",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/dd7a1bdc3b7c1c63/45c449bdb494/-B-OBR-Zdf-21.01.26.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf 21.01.2026 veröffentlicht 13.01.2026",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/2c245c5ffa3f4777/11d9061dd95a/-B-OBR-Kab-22.01.2026.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Kablow 22.01.2026 veröffentlicht am 13.01.2026",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/84d1d727e09d0383/352aceca65bd/Bekanntmachung-Ortsbeirat-Diepensee-20.01.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Diepensee 20.01.2026 veröffentlicht am 12.01.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/e1afff37b2b943a5/6ab55992acfb/Bekanntmachung-Ortsbeirat-Zeesen-19.01.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen 19.01.2026 veröffentlicht am 12.01.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/e43ef5c467c5504c/470497e5ac21/Bekanntmachung-OBR-Wernsdorf-20.01.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ortsbeirates Wernsdorf 20.01.2026 veröffentlicht am 09.01.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8c6880d90e8cfcbc/6f974ae22e09/Bekanntmachung-OBR-Senzig-20.01.2026.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ortsbeirates Senzig 20.01.2026 veröffentlicht am 09.01.2026",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/eb6c01094e29ee90/535f1048ee2f/Bekanntmachung-SVV-15.12.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Stadtverordnetenversammlung 15.12.2025 veröffentlicht am 04.12.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/eb8b6e1505a64714/c85cdd62e1d6/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-08.12.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen 08.12.2025 veröffentlicht am ​28.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/6a04ff48c697d802/4d67f62ec39b/Bekanntmachung-Hauptausschuss-01.12.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss 01.12.2025 veröffentlicht am 21.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/61557d4bdc018052/e5dc293d0ba7/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-19.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen 19.11.2025 veröffentlicht am 14.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/b0c48d5a7aca128d/ba3c9b28d876/Bekanntmachung-Ausschuss-f-r-Soziales--Bildung--Familie--Brandschutz--Ordnung--Sport-und-Kultur-18.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur 18.11.2025 veröffentlicht am 10.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/32d982f491181d89/63d274f7f666/Bekanntmachung-Ortsbeirat-Diepensee-18.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Diepensee 18.11.2025 veröffentlicht am 10.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3090dbdd46b7bf1b/d341a3cad372/Bekanntmachung-Ausschusses-f-r-Stadtentwicklung--Bauen--Umwelt--Mobilit-t-und-Klimaschutz-17.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz 17.11.2025 veröffentlicht am 10.11.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/b216bcf51685b567/66a689208626/-B-OBR-Ndl-12.11.25.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Niederlehme am 12.11.2025 veröffentlicht am 04.11.2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/55480f0e5452f0b1/4f7bb36e5961/Bekanntmachung-Hauptausschuss-am-10.11.2025.docx.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Hauptausschusses am 10.11.2025 veröffentlicht am 30.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/598f9fe6d77676b0/167bd724b1f7/-B-KWh-06.11.25.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Königs Wusterhausen am 06.11.2025 veröffentlicht am 28.10.2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/bc4b79b5048a84dc/5864eaf60b77/Bekanntmachung-OBR-Zeesen.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen am 03.11.2025 veröffentlicht am 28.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8408c71dd347859d/e889e3260a94/-B-Kablow-06.11.2025.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Kablow am 06.11.2025 veröffentlicht am 27.10.2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/23776e627c23c2a5/583305889dd8/Bekanntmachung-Ortsbeirat-Senzig-04.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Senzig, 04.11.2025 veröffentlicht am 24.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/2df88c40a0ec118e/51a9cf812716/Bekanntmachung-Wernsdorf-04.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Wernsdorf am 04.11.2025 veröffentlicht am 27.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/a1e25e40d97cf419/63bd9391354e/Bekanntmachung-Ortsbeirat-Zernsdorf-05.11.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf am 05.11.2025 veröffentlicht am 27.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/30abe94f4ccffee1/94849ea433a6/Bekanntmachung-Stadtverordnetenversammlung-13.10.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Stadtverordnetenversammlung 13.10.2025 veröffentlicht am 02.10.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/0ced16b86446e0ca/e6e4f9b88038/Bekanntmachung-SBFBOSK-06.10.2025.docx",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ausschusses für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur am 06.10.2025 veröffentlicht am 26.09.2025",
+					"kind": "html"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/e30d25a339871b49/45bbb0ba1d57/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-06.10.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen am 06.10.2025 veröffentlicht am 26.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/ba4b9e3f0ef343ac/226bc5e06f9e/Bekanntmachung-Hauptausschuss-29.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss am 29.09.2025 veröffentlicht am 19.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/e69442f1a9504488/d048a0572972/Bekanntmachung-Ausschuss-f-r-Wirtschaft--Finanzen--Digitalisierung-und-Beteiligungen-17.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ausschuss für Wirtschaft, Finanzen, Digitalisierung und Beteiligungen am 17.09.2025 veröffentlicht am 10.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/2b5e5384b018865b/d4825340ec6f/Bekanntmachung-SBFBOSK-16.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ausschusses für Soziales, Bildung, Familie, Brandschutz, Ordnung, Sport und Kultur veröffentlicht am 09.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/118beae802441187/d7339d60e400/Bekanntmachung-SBUMK-15.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Ausschusses für Stadtentwicklung, Bauen, Umwelt, Mobilität und Klimaschutz veröffentlicht am 04.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/124c911543fe79f3/3dee3d3df99c/-B-OBR-Niederlehme-10.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} öffentliche Bekanntmachung Ortsbeirat Niederlehme 10.09.2025 veröffentlicht am 03.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/149657fe33e2b810/382bf19e767c/Bekanntmachung-Wernsdorf.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Wernsdorf, nächste Sitzung am 2.9.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/3bb5c9862f484978/1b1ebdfe19c5/Bekanntmachung-Diepensee.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Diepensee 2.9.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/c0624663e994fb8b/ec0995da51a2/-B-Kablow-04.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Kablow 04.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/8571c3d7cde67d1a/bee0a4509992/-B-KWh-04.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Königs Wusterhausen 04.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/401b53a15cb2327c/3a8ecc04fe96/Bekanntmachung-Senzig.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Senzig, nächste Sitzung 2.9.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/fa9703eb592d7c6f/83b111cccf69/Bekanntmachung-Zeesen.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zeesen, nächste Sitzung am 1.9.2025 veröffentlicht am 26.08.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/198902c64c29f0bf/8c2c4d5708a9/-B-OBR-Zerndorf-03.09.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Ortsbeirat Zernsdorf 03.09.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/9c3e6eb8f45a6544/08b22a565029/Bekanntmachung-des-Hauptuaschusses-am-25.08.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung Hauptausschuss am 25.08.2025 veröffentlicht am 15.08.2025",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://cdn0.scrvt.com/d19207df10fc2c2113c58b2103007ce0/30e1f6fac4565911/29cc347e99fd/Bekanntmachung-des-Hauptausschusses-28.07.2025.pdf",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Bekanntmachung des Hauptausschusses vom 28.07.2025 veröffentlicht am 21.07.2025",
+					"kind": "pdf"
+				}
+			]
+		},
+		{
+			"municipalityId": "konigs-wusterhausen",
+			"source": {
+				"id": "konigs-wusterhausen-https-www-koenigs-wusterhausen-de-liegen",
+				"type": "offers_page",
+				"label": "Grundstücksangebote / Ausschreibungen",
+				"url": "https://www.koenigs-wusterhausen.de/liegenschaften",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:45.112Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "mailto:liegenschaften@stadt-kw.de",
+					"text": "mailto:liegenschaften@stadt-kw.de",
+					"kind": "html"
+				},
+				{
+					"url": "mailto:liegenschaften@stadt-kw.-de",
+					"text": "mailto:liegenschaften@stadt-kw.-de",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.koenigs-wusterhausen.de/amtsleitung-stadtentwicklung-liegenschaften-gruenflaechen",
+					"text": ".css-q7mezt{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;} Amtsleitung Stadtentwicklung, Liegenschaften und Grünflächen",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

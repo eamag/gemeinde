@@ -1,0 +1,45 @@
+{
+	"municipality": {
+		"id": "eichwalde",
+		"name": "Eichwalde",
+		"district": "Dahme-Spreewald",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "eichwalde-https-www-eichwalde-de-bekanntmachungen",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.eichwalde.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "eichwalde",
+			"source": {
+				"id": "eichwalde-https-www-eichwalde-de-bekanntmachungen",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.eichwalde.de/bekanntmachungen",
+				"discoveryMethod": "sitemap"
+			},
+			"fetchedAt": "2026-05-22T11:38:37.805Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.eichwalde.de/wp-content/uploads/2026/05/Sitzungskalender-2026.pdf",
+					"text": "Sitzungskalender →",
+					"kind": "pdf"
+				},
+				{
+					"url": "https://session.dikom-bb.de/gemeindeeichwalde_bi/pa0053.asp?__cpanr=2&amp%3Bsmclayout=%3Ad",
+					"text": "Satzungen und Ortsrecht",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}

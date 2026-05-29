@@ -1,0 +1,60 @@
+{
+	"municipality": {
+		"id": "grunheide-mark",
+		"name": "Grünheide (Mark)",
+		"district": "Oder-Spree",
+		"state": "Brandenburg",
+		"sources": [
+			{
+				"id": "grunheide-mark-https-www-gruenheide-mark-de-amtsblatt-i",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gruenheide-mark.de/amtsblatt/index.php",
+				"discoveryMethod": "homepage"
+			}
+		]
+	},
+	"fetchedAt": "2026-05-22T11:38:34.577Z",
+	"sources": [
+		{
+			"municipalityId": "grunheide-mark",
+			"source": {
+				"id": "grunheide-mark-https-www-gruenheide-mark-de-amtsblatt-i",
+				"type": "amtsblatt",
+				"label": "Amtsblatt / Bekanntmachungen",
+				"url": "https://www.gruenheide-mark.de/amtsblatt/index.php",
+				"discoveryMethod": "homepage"
+			},
+			"fetchedAt": "2026-05-22T11:38:43.178Z",
+			"status": "ok",
+			"statusCode": 200,
+			"discoveredLinks": [
+				{
+					"url": "https://www.gruenheide-mark.de/amtsblatt/index.php",
+					"text": "Amtsblatt",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gruenheide-mark.de/seite/722890/bekanntmachungen.html",
+					"text": "Bekanntmachungen",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gruenheide-mark.de/rechtsgrundlagen/index.php?typ=1",
+					"text": "Ortsrecht",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gruenheide-mark.de/contact/index/link?referrer=https%3A%2F%2Fwww.gruenheide-mark.de%2Famtsblatt%2Findex.php",
+					"text": "link?referrer=https%3A%2F%2Fwww.gruenheide-mark.de%2Famtsblatt%2Findex.php",
+					"kind": "html"
+				},
+				{
+					"url": "https://www.gruenheide-mark.de/amtsblatt/index.php?modus=drucken",
+					"text": "index.php?modus=drucken",
+					"kind": "html"
+				}
+			]
+		}
+	]
+}
