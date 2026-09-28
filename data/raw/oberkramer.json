@@ -1,322 +1,202 @@
 {
-	"municipality": {
-		"id": "oberkramer",
-		"name": "Oberkrämer",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.oberkraemer.de/bekanntmachungen",
-				"discoveryMethod": "homepage"
-			},
-			{
-				"id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "oberkramer",
-			"source": {
-				"id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.oberkraemer.de/bekanntmachungen",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:46.943Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/buergerservice/downloads/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/buergerservice/downloads/satzungen",
-					"text": "Ortsrecht",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-des-ausschusses-fuer-bauen-entwicklung-und-tourismus-am-01062026",
-					"text": "Tagesordnung des Ausschusses für Bauen, Entwicklung und Tourismus am 01.06.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ausschusses-fuer-ordnung-soziales-und-umwelt-am-03062026",
-					"text": "Tagesordnung der Sitzung des Ausschusses für Ordnung, Soziales und Umwelt am 03.06.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/entlastung-des-buergermeisters-zum-jahresabschluss-2024-der-gemeinde-oberkraemer",
-					"text": "Bekanntmachungsanordnung – Entlastung des Bürgermeisters zum Jahresabschluss 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/jahresabschluss-2024-der-gemeinde-oberkraemer",
-					"text": "Bekanntmachungsanordnung – Jahresabschluss 2024 der Gemeinde Oberkrämer",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-boetzow-am-21052026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Bötzow am 21.05.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-des-ortsbeirates-baerenklau-am-27052026",
-					"text": "Tagesordnung des Ortsbeirates Bärenklau am 27.05.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-vehlefanz-am-20052026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Vehlefanz am 20.05.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-schwante-am-19052026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Schwante am 19.05.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/bebauungsplan-nr-89-2025-wohngebiet-hauptstrasse-ot-schwante-1",
-					"text": "Bebauungsplan Nr. 89/2025 „Wohngebiet Hauptstraße\" OT Schwante",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-des-ortsbeirates-neu-vehlefanz-am-18052026",
-					"text": "Tagesordnung des Ortsbeirates Neu-Vehlefanz am 18.05.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/ordnungsbehoerdliche-verordnung-ueber-die-anordnung-von-leinenzwang-im-landschaftsschutzgebiet-nauen-brieselang-kraemer-hier-muehlensee-in-der-gemeinde-oberkraemer",
-					"text": "Ordnungsbehördliche Verordnung über die Anordnung von Leinenzwang im Landschaftsschutzgebiet „Nauen-Brieselang-Krämer“ – hier Mühlensee in der Gemeinde Oberkrämer",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/beschluss-zur-aufhebung-des-b-planes-muehlenweg-24-am-see-i-ii-im-ot-schwante",
-					"text": "Beschluss zur Aufhebung des B-Planes \"Mühlenweg 24 – Am See I + II\" im OT Schwante",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/aufhebung-vep-oekologischer-siedlungspark-boetzow",
-					"text": "Aufhebung VEP Ökologischer Siedlungspark Bötzow",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/beschluesse-der-9-sitzung-der-gemeindevertretung-der-gemeinde-oberkraemer-am-30042026",
-					"text": "Beschlüsse der 9. Sitzung der Gemeindevertretung der Gemeinde Oberkrämer am 30.04.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-der-gemeindevertretung-am-30042026",
-					"text": "Tagesordnung der Sitzung der Gemeindevertretung am 30.04.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/einladung-zur-verbandsversammlung-am-27042026",
-					"text": "Einladung zur Verbandsversammlung am 27.04.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-arbeitskreises-klima-am-13042026",
-					"text": "Tagesordnung der Sitzung des Arbeitskreises Klima am 13.04.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-hauptausschusses-am-16042026",
-					"text": "Tagesordnung der Sitzung des Hauptausschusses am 16.04.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/oeffentliche-bekanntmachung-und-einladung-zur-jagdgenossenschaftsverammlung",
-					"text": "Öffentliche Bekanntmachung und Einladung zur Jagdgenossenschaftsverammlung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-9-sitzung-des-ausschusses-fuer-finanzen-und-wirtschaft-am-26032026",
-					"text": "Tagesordnung der 9. Sitzung des Ausschusses für Finanzen und Wirtschaft am 26.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/2-satzung-zur-aenderung-der-satzung-der-gemeinde-oberkraemer-zur-umlage-der-verbandsbeitraege-der-gewaesserunterhaltungsverbaende-schnelle-havel-und-grosser-havellaendischer-hauptkanal-havelkanal-havelseen-nauen",
-					"text": "2. Satzung zur Änderung der Satzung der Gemeinde Oberkrämer zur Umlage der Verbandsbeiträge der Gewässerunterhaltungsverbände „Schnelle Havel“ und „Großer Havelländischer Hauptkanal – Havelkanal – Havelseen“ Nauen“",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/10-satzung-zur-aenderung-der-hauptsatzung-der-gemeinde-oberkraemer",
-					"text": "10. Satzung zur Änderung der Hauptsatzung der Gemeinde Oberkrämer",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/1-satzung-zur-aenderung-der-verwaltungsgebuehrensatzung-der-gemeinde-oberkraemer",
-					"text": "1. Satzung zur Änderung der Verwaltungsgebührensatzung der Gemeinde Oberkrämer",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-schwante-am-10032026",
-					"text": "Sitzung des Ortsbeirates Schwante am 10.03.2026 entfällt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-9-sitzung-des-ausschusses-fuer-ordnung-soziales-und-umwelt-am-18032026",
-					"text": "Tagesordnung der 9. Sitzung des Ausschusses für Ordnung, Soziales und Umwelt am 18.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/4-aenderung-des-flaechennutzungsplans-im-ot-vehlefanz-beteiligung-der-oeffentlichkeit-an-der-bauleitplanung-gem-3-2-bau-gb",
-					"text": "4. Änderung des Flächennutzungsplans im OT Vehlefanz Beteiligung der Öffentlichkeit an der Bauleitplanung gem. §3 (2) Bau GB",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-10-sitzung-des-ausschusses-fuer-bauen-entwicklung-und-tourismus-der-gemeinde-oberkraemer-am-16032026",
-					"text": "Tagesordnung der 10. Sitzung des Ausschusses für Bauen, Entwicklung und Tourismus der Gemeinde Oberkrämer am 16.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/aufhebungssatzung-b-plan-bergstrasse",
-					"text": "Aufhebungssatzung B-Plan Bergstraße",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/aufhebungssatzung-b-plan-marwitzer-strasse-ecke-bergstrasse",
-					"text": "Aufhebungssatzung B-Plan Marwitzer Straße Ecke Bergstraße",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-eichstaedt-am-11032026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Eichstädt am 11.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-neu-vehlefanz-am-09032026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Neu-Vehlefanz am 09.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-schwante-vom-10032026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Bärenklau vom 11.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-ortsbeirat-vehlefanz-am-11032026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Vehlefanz am 11.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-sitzung-des-ortsbeirates-boetzow-am-12032026",
-					"text": "Tagesordnung der Sitzung des Ortsbeirates Bötzow am 12.03.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/beschluesse-der-8-sitzung-der-gemeindevertretung-der-gemeinde-oberkraemer-vom-26022026",
-					"text": "Beschlüsse der 8. Sitzung der Gemeindevertretung der Gemeinde Oberkrämer vom 26.02.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-der-8-sitzung-der-gemeindevertretung-am-26022026",
-					"text": "Tagesordnung der 8. Sitzung der Gemeindevertretung am 26.02.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/beschluesse-des-hauptausschusses-der-gemeinde-oberkraemer-vom-12022026",
-					"text": "Beschlüsse des Hauptausschusses der Gemeinde Oberkrämer vom 12.02.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/gewaesserschau-2026-wasser-und-bodenverband-schnelle-havel",
-					"text": "Gewässerschau 2026 – Wasser- und Bodenverband „Schnelle Havel“",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-des-hauptausschusses-am-12022026",
-					"text": "Tagesordnung des Hauptausschusses am 12.02.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/termine-der-gewaesserschauen-2026-des-wasser-und-bodenverbandes-ghhk-hk-hs-nauen",
-					"text": "Termine der Gewässerschauen 2026 des Wasser- und Bodenverbandes „GHHK-HK-HS\" Nauen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/jagdgenossenschaftsversammlung",
-					"text": "Jagdgenossenschaftsversammlung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/tagesordnung-des-ortsbeirats-des-ortsteils-boetzow-am-15012026",
-					"text": "Tagesordnung des Ortsbeirats des Ortsteils Bötzow am 15.01.2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/pflege-vor-ort-jahresbericht-2024",
-					"text": "Pflege vor Ort: Sachbericht 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/anordnungsbeschluss-vereinfachte-flurbereinigung-schnelle-havel-landesamt-fuer-laendliche-entwicklung-landwirtschaft-und-flurneuordnung",
-					"text": "Anordnungsbeschluss Vereinfachte Flurbereinigung Schnelle Havel- Landesamt für Ländliche Entwicklung, Landwirtschaft und Flurneuordnung.",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/show/beteiligung-der-oeffentlichkeit-zum-entwurf-des-laermaktionsplanes-2024-der-gemeinde-oberkraemer-1-1",
-					"text": "Beteiligung der Öffentlichkeit zum Entwurf des Lärmaktionsplanes 2024 der Gemeinde Oberkrämer",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/page/0",
-					"text": "«",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/rss",
-					"text": "RSS-Feed",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/bekanntmachungen/ical",
-					"text": "ICAL-Feed",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.oberkraemer.de/fileadmin/files/06_Service/Downloads/sonstige_Downloads/Information_-OZG-konforme_Rechnungseingangsplattform.pdf",
-					"text": "hier",
-					"kind": "pdf"
-				}
-			]
-		},
-		{
-			"municipalityId": "oberkramer",
-			"source": {
-				"id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:46.943Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
-					"text": "Grundstücke",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "oberkramer",
+    "name": "Oberkrämer",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.oberkraemer.de/bekanntmachungen",
+        "discoveryMethod": "homepage"
+      },
+      {
+        "id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "oberkramer",
+      "source": {
+        "id": "oberkramer-https-www-oberkraemer-de-bekanntmachunge",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.oberkraemer.de/bekanntmachungen",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:28.192Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.oberkraemer.de/bekanntmachungen/index.php",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.oberkraemer.de/amtsblatt/index.php",
+          "text": "Amtsblatt - Das Oberkrämer Magazin",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.oberkraemer.de/rechtsgrundlagen/1/satzungen.html",
+          "text": "Ortsrecht",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.oberkraemer.de/contact/index/link?referrer=https%3A%2F%2Fwww.oberkraemer.de%2Fbekanntmachungen",
+          "text": "link?referrer=https%3A%2F%2Fwww.oberkraemer.de%2Fbekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.oberkraemer.de/bekanntmachungen?modus=drucken",
+          "text": "bekanntmachungen?modus=drucken",
+          "kind": "html"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/7/5/7/2/5-_urspruenlicher_Satzungsplan.pdf",
+          "text": "5 - ursprünglicher Satzungsplan (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/6/1/4/3/4._Oeffentliche_Bekanntmachung_neue_Besetzung_OB_B.pdf",
+          "text": "4. Öffentliche Bekanntmachung neue Besetzung OB Bärenklau_keine Nachrücker.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/9/9/1/Oeffentliche_Bekanntmachung_Beteiligung_Oeffentlic.pdf",
+          "text": "Öffentliche Bekanntmachung Beteiligung Öffentlichkeit.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/9/6/9/Oeffentliche_Bekanntmachung_Mandatsniederlegung_No.pdf",
+          "text": "Öffentliche Bekanntmachung_Mandatsniederlegung_Nocke.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/8/9/4/oeffentliche_Bekanntmachung_Gewaesserunterhaltung_.pdf",
+          "text": "öffentliche Bekanntmachung Gewässerunterhaltung 26_27.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/2/6/OEffentliche_Bekanntmachung_neue_Besetzung_GV_Ober.pdf",
+          "text": "OEffentliche_Bekanntmachung_neue_Besetzung_GV_Oberkraemer_11.06.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/2/5/Hinweis_zur_Bekanntmachung_der_Erste_Satzung_zur_A.pdf",
+          "text": "Hinweis_zur_Bekanntmachung_der_Erste_Satzung_zur_AEnderung_der_Verbandssatzung_des_Zweckverbandes_Kremmen.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/2/2/Bekanntmachung_Satzungsbeschluss.pdf",
+          "text": "Bekanntmachung_Satzungsbeschluss.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/1/8/oeffentliche_Bekanntmachung_Tagesordnung_BA_am_01..pdf",
+          "text": "oeffentliche_Bekanntmachung_Tagesordnung_BA_am_01.06.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/1/6/Bekanntmachung_Hinweis_Entlastung_des_Buergermeist.pdf",
+          "text": "Bekanntmachung_Hinweis_Entlastung des Bürgermeisters zum Jahresabschluss 2024.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/1/5/Bekanntmachung_Jahresabschluss_2024_Hinweis_zur_Ei.pdf",
+          "text": "Bekanntmachung_Jahresabschluss_2024_Hinweis_zur_Einsichtnahme.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/0/6/Bekanntmachung_Aufhebung_VEP_OEkologischer_Siedlun.pdf",
+          "text": "Bekanntmachung_Aufhebung_VEP_OEkologischer_Siedlungspark_Boetzow.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/2/0/2/Bekanntmachung_BPlan_Muehlenweg_24_-_Am_See_I_II.pdf",
+          "text": "Bekanntmachung_BPlan_Muehlenweg_24_-_Am_See_I___II.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/9/6/oeffentlicheBekanntmachungJGEichstaedt2026.pdf",
+          "text": "oeffentlicheBekanntmachungJGEichstaedt2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/9/2/1._Satzung_zur_AEnderung_der_Verwaltungsgebuehrens.pdf",
+          "text": "1._Satzung_zur_AEnderung_der_Verwaltungsgebuehrensatzung_26.02.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/9/4/10._Satzung_zur_AEnderung_der_Hauptsatzung_26.02.2.pdf",
+          "text": "10._Satzung_zur_AEnderung_der_Hauptsatzung_26.02.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/9/3/2._Satzung_zur_AEnderung_der_Satzung_der_Gemeinde_.pdf",
+          "text": "2._Satzung_zur_AEnderung_der_Satzung_der_Gemeinde_Oberkraemer_zur_Umlage_der_Verbandsveitraege_der_Gewaesserunterhaltungsverbaende.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/9/0/1-OEffentliche_Bekanntmachung_FNP_AEnderung_zum_En.pdf",
+          "text": "1. Öffentliche Bekanntmachung FNP Änderung zum Entwurf mit Ergänzungen (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/8/7/OEffentliche_Bekanntmachung_Aufhebungsbeschluss_Sa.pdf",
+          "text": "OEffentliche_Bekanntmachung_Aufhebungsbeschluss_Satzung__Bergstrasse_.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/8/6/OEffentliche_Bekanntmachung_Aufhebung_Satzungsbesc.pdf",
+          "text": "OEffentliche_Bekanntmachung_Aufhebung_Satzungsbeschluss.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/5/1/8/8/oeffentliche_Bekanntmachung_Tagesordnung_BA_am_16..pdf",
+          "text": "oeffentliche_Bekanntmachung_Tagesordnung_BA_am_16.03.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/0/8/1/4/oeffentlche_Bekanntmachung_der_Beschluesse_HA_vom_.pdf",
+          "text": "Öffentliche Bekanntmachung der Beschlüsse (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/0/8/1/5/oeffentliche_Bekanntmachung_Tagesordnung_GV_am_26..pdf",
+          "text": "oeffentliche_Bekanntmachung_Tagesordnung_GV_am_26.02.2026.pdf (pdf)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://daten.verwaltungsportal.de/dateien//publicizing/9/0/8/1/8/OEffentliche_Bekanntmachung_Gewaesserschauen_2026_.pdf",
+          "text": "OEffentliche_Bekanntmachung_Gewaesserschauen_2026_-_Bereiche_Gemeinde_Oberkraemer.pdf (pdf)",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "municipalityId": "oberkramer",
+      "source": {
+        "id": "oberkramer-https-www-oberkraemer-de-wirtschaft-gewe",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.oberkraemer.de/wirtschaft-gewerbe/grundstuecke",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:27.294Z",
+      "status": "error",
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "discoveredLinks": []
+    }
+  ]
 }

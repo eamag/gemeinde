@@ -1,462 +1,462 @@
 {
-	"municipality": {
-		"id": "schonefeld",
-		"name": "Schönefeld",
-		"district": "Dahme-Spreewald",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "schonefeld",
-			"source": {
-				"id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:49.103Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://gemeinde-schoenefeld.de/rathaus-politik/rathaus/satzungen",
-					"text": "Satzungen und Ordnungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/rathaus-politik/bekanntmachungen",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/05/Amtsblatt-05_26.pdf",
-					"text": "Amtsblatt 05_26.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/04/Amtsblatt-2026_4.pdf",
-					"text": "Amtsblatt 04_26.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/03/Amtsblatt-2026_3.pdf",
-					"text": "Amtsblatt 03_26.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/02/Amtsblatt-2026_2.pdf",
-					"text": "Amtsblatt 02_26.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/01/Amtsblatt-2026_1.pdf",
-					"text": "Amtsblatt 01_26.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/12/Amtsblatt-2025_12.pdf",
-					"text": "Amtsblatt_12_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/11/Amtsblatt-2025_11.pdf",
-					"text": "Amtsblatt_11_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/10/Amtsblatt-2025_10.pdf",
-					"text": "Amtsblatt_10_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/10/Amtsblatt-2025_9.pdf",
-					"text": "Amtsblatt_09_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/09/Amtsblatt-2025_8.pdf",
-					"text": "Amtsblatt_08_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/08/Amtsblatt-2025_7.pdf",
-					"text": "Amtsblatt_07_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/07/Amtsblatt-2025_6.pdf",
-					"text": "Amtsblatt_06_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/04/Amtsblatt-2025_5.pdf",
-					"text": "Amtsblatt 05_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/04/Amtsblatt-2025_4.pdf",
-					"text": "Amtsblatt 04_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/03/Amtsblatt-2025_3.pdf",
-					"text": "Amtsblatt 03_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/02/Amtsblatt-2025_2.pdf",
-					"text": "Amtsblatt 02_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/01/Amtsblatt-2025_1.pdf",
-					"text": "Amtsblatt 01_25.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/12/Amtsblatt-2024_15.pdf",
-					"text": "Amtsblatt 15_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/11/Amtsblatt-2024_14.pdf",
-					"text": "Amtsblatt 14_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/10/Amtsblatt-2024_13.pdf",
-					"text": "Amtsblatt 13_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/08/Amtsblatt-2024_12.pdf",
-					"text": "Amtsblatt 12_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/07/Amtsblatt-2024_11.pdf",
-					"text": "Amtsblatt 11_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/06/Amtsblatt-2024_10.pdf",
-					"text": "Amtsblatt 10_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/06/Amtsblatt-2024_09.pdf",
-					"text": "Amtsblatt 09_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/05/Amtsblatt-2024_08.pdf",
-					"text": "Amtsblatt 08_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/05/Amtsblatt-2024_07.pdf",
-					"text": "Amtsblatt 07_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/04/Amtsblatt-2024_06.pdf",
-					"text": "Amtsblatt 06_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/04/Amtsblatt-2024_05.pdf",
-					"text": "Amtsblatt 05_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/03/Amtsblatt-2024_04.pdf",
-					"text": "Amtsblatt 04_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/02/Amtsblatt-2024.03.pdf",
-					"text": "Amtsblatt 03_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/01/Amtsblatt-2024_02_V1-Kopie.pdf",
-					"text": "Amtsblatt 02_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/01/Amtsblatt-2024.01.pdf",
-					"text": "Amtsblatt 01_24.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/12/Amtsblatt-2023.12.22.pdf",
-					"text": "Amtsblatt 13_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/12/Amtsblatt-2023.12.pdf",
-					"text": "Amtsblatt 12_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/10/Amtsblatt_11-2023.pdf",
-					"text": "Amtsblatt 11_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/09/Amtsblatt_10-2023.pdf",
-					"text": "Amtsblatt 10_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/09/Amtsblatt_09-2023.pdf",
-					"text": "Amtsblatt 09_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/08/Amtsblatt_08_23.pdf",
-					"text": "Amtsblatt 08_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/07/Amtsblatt_07-2023.pdf",
-					"text": "Amtsblatt 07_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/06/Amtsblatt_06-2023.pdf",
-					"text": "Amtsblatt 06_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/05/Amtsblatt_05-2023.pdf",
-					"text": "Amtsblatt 05_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_04-2023.pdf",
-					"text": "Amtsblatt 04_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_03-2023.pdf",
-					"text": "Amtsblatt 03_23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_02-2023.pdf",
-					"text": "Amtsblatt 02-23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/01/Amtsblatt_01-2023.pdf",
-					"text": "Amtsblatt 01-23.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2022/12/Amtsblatt_12-2022.pdf",
-					"text": "Amtsblatt 12-22.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2022/12/Amtsblatt_11-2022.pdf",
-					"text": "Amtsblatt 11-22.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+10-22.pdf",
-					"text": "Amtsblatt 10-22.pdf (697,9 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+09-22.pdf",
-					"text": "Amtsblatt 09-22.pdf (543,3 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+08-22.pdf",
-					"text": "Amtsblatt 08-22.pdf (273,4 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+07-22.pdf",
-					"text": "Amtsblatt 07-22.pdf (567,8 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+06-22.pdf",
-					"text": "Amtsblatt 06-22.pdf (1,4 MiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+05-22.pdf",
-					"text": "Amtsblatt 05-22.pdf (430,5 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+04-22.pdf",
-					"text": "Amtsblatt 04-22.pdf (569,6 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+03-22.pdf",
-					"text": "Amtsblatt 03-22.pdf (456,8 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+02-22.pdf",
-					"text": "Amtsblatt 02-22.pdf (1,4 MiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+01-22.pdf",
-					"text": "Amtsblatt 01-22.pdf (261,2 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+14-21.pdf",
-					"text": "Amtsblatt 14-21.pdf (922,6 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+13-21.pdf",
-					"text": "Amtsblatt 13-21.pdf (417,2 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+12-21.pdf",
-					"text": "Amtsblatt 12-21.pdf (869,3 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+11-21.pdf",
-					"text": "Amtsblatt 11-21.pdf (234,5 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+10-21.pdf",
-					"text": "Amtsblatt 10-21.pdf (704,8 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+09-21.pdf",
-					"text": "Amtsblatt 09-21.pdf (336,4 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+08-21.pdf",
-					"text": "Amtsblatt 08-21.pdf (403,5 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+07-21.pdf",
-					"text": "Amtsblatt 07-21.pdf (227,9 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+06-21.pdf",
-					"text": "Amtsblatt 06-21.pdf (768,7 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+05-21.pdf",
-					"text": "Amtsblatt 05-21.pdf (1,0 MiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+04-21.pdf",
-					"text": "Amtsblatt 04-21.pdf (671,4 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+03-21.pdf",
-					"text": "Amtsblatt 03-21.pdf (282,3 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+02-21.pdf",
-					"text": "Amtsblatt 02-21.pdf (309,7 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+01-21.pdf",
-					"text": "Amtsblatt 01-21.pdf (814,5 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+01-20.pdf",
-					"text": "Amtsblatt 01-20.pdf (233,9 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+02-20.pdf",
-					"text": "Amtsblatt 02-20.pdf (261,7 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+03-20.pdf",
-					"text": "Amtsblatt 03-20.pdf (522,4 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+04-20.pdf",
-					"text": "Amtsblatt 04-20.pdf (129,3 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+05-20.pdf",
-					"text": "Amtsblatt 05-20.pdf (602,0 KiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+06-20.pdf",
-					"text": "Amtsblatt 06-20.pdf (2,0 MiB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+07-20.pdf",
-					"text": "Amtsblatt 07-20.pdf (508,9 KiB)",
-					"kind": "pdf"
-				}
-			]
-		},
-		{
-			"municipalityId": "schonefeld",
-			"source": {
-				"id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:49.103Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://gemeinde-schoenefeld.de/verkaufsoffene-sonntage",
-					"text": "Verkaufsoffene Sonntage",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "schonefeld",
+    "name": "Schönefeld",
+    "district": "Dahme-Spreewald",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "schonefeld",
+      "source": {
+        "id": "schonefeld-https-gemeinde-schoenefeld-de-presse-amt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://gemeinde-schoenefeld.de/presse/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:35.718Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://gemeinde-schoenefeld.de/rathaus-politik/rathaus/satzungen",
+          "text": "Satzungen und Ordnungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/rathaus-politik/bekanntmachungen",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/09/Amtsblatt-09_26.pdf",
+          "text": "Amtsblatt 09_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/07/Amtsblatt-08_26.pdf",
+          "text": "Amtsblatt 08_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/07/Amtsblatt-2026_7.pdf",
+          "text": "Amtsblatt 07_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/06/Amtsblatt-2026_6.pdf",
+          "text": "Amtsblatt 06_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/05/Amtsblatt-05_26.pdf",
+          "text": "Amtsblatt 05_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/04/Amtsblatt-2026_4.pdf",
+          "text": "Amtsblatt 04_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/03/Amtsblatt-2026_3.pdf",
+          "text": "Amtsblatt 03_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/02/Amtsblatt-2026_2.pdf",
+          "text": "Amtsblatt 02_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2026/01/Amtsblatt-2026_1.pdf",
+          "text": "Amtsblatt 01_26.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/12/Amtsblatt-2025_12.pdf",
+          "text": "Amtsblatt_12_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/11/Amtsblatt-2025_11.pdf",
+          "text": "Amtsblatt_11_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/10/Amtsblatt-2025_10.pdf",
+          "text": "Amtsblatt_10_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/10/Amtsblatt-2025_9.pdf",
+          "text": "Amtsblatt_09_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/09/Amtsblatt-2025_8.pdf",
+          "text": "Amtsblatt_08_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/08/Amtsblatt-2025_7.pdf",
+          "text": "Amtsblatt_07_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/07/Amtsblatt-2025_6.pdf",
+          "text": "Amtsblatt_06_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/04/Amtsblatt-2025_5.pdf",
+          "text": "Amtsblatt 05_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/04/Amtsblatt-2025_4.pdf",
+          "text": "Amtsblatt 04_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/03/Amtsblatt-2025_3.pdf",
+          "text": "Amtsblatt 03_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/02/Amtsblatt-2025_2.pdf",
+          "text": "Amtsblatt 02_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2025/01/Amtsblatt-2025_1.pdf",
+          "text": "Amtsblatt 01_25.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/12/Amtsblatt-2024_15.pdf",
+          "text": "Amtsblatt 15_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/11/Amtsblatt-2024_14.pdf",
+          "text": "Amtsblatt 14_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/10/Amtsblatt-2024_13.pdf",
+          "text": "Amtsblatt 13_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/08/Amtsblatt-2024_12.pdf",
+          "text": "Amtsblatt 12_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/07/Amtsblatt-2024_11.pdf",
+          "text": "Amtsblatt 11_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/06/Amtsblatt-2024_10.pdf",
+          "text": "Amtsblatt 10_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/06/Amtsblatt-2024_09.pdf",
+          "text": "Amtsblatt 09_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/05/Amtsblatt-2024_08.pdf",
+          "text": "Amtsblatt 08_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/05/Amtsblatt-2024_07.pdf",
+          "text": "Amtsblatt 07_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/04/Amtsblatt-2024_06.pdf",
+          "text": "Amtsblatt 06_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/04/Amtsblatt-2024_05.pdf",
+          "text": "Amtsblatt 05_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/03/Amtsblatt-2024_04.pdf",
+          "text": "Amtsblatt 04_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/02/Amtsblatt-2024.03.pdf",
+          "text": "Amtsblatt 03_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/01/Amtsblatt-2024_02_V1-Kopie.pdf",
+          "text": "Amtsblatt 02_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2024/01/Amtsblatt-2024.01.pdf",
+          "text": "Amtsblatt 01_24.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/12/Amtsblatt-2023.12.22.pdf",
+          "text": "Amtsblatt 13_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/12/Amtsblatt-2023.12.pdf",
+          "text": "Amtsblatt 12_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/10/Amtsblatt_11-2023.pdf",
+          "text": "Amtsblatt 11_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/09/Amtsblatt_10-2023.pdf",
+          "text": "Amtsblatt 10_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/09/Amtsblatt_09-2023.pdf",
+          "text": "Amtsblatt 09_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/08/Amtsblatt_08_23.pdf",
+          "text": "Amtsblatt 08_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/07/Amtsblatt_07-2023.pdf",
+          "text": "Amtsblatt 07_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/06/Amtsblatt_06-2023.pdf",
+          "text": "Amtsblatt 06_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/05/Amtsblatt_05-2023.pdf",
+          "text": "Amtsblatt 05_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_04-2023.pdf",
+          "text": "Amtsblatt 04_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_03-2023.pdf",
+          "text": "Amtsblatt 03_23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/03/Amtsblatt_02-2023.pdf",
+          "text": "Amtsblatt 02-23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2023/01/Amtsblatt_01-2023.pdf",
+          "text": "Amtsblatt 01-23.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2022/12/Amtsblatt_12-2022.pdf",
+          "text": "Amtsblatt 12-22.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://gemeinde-schoenefeld.de/wp-content/uploads/2022/12/Amtsblatt_11-2022.pdf",
+          "text": "Amtsblatt 11-22.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+10-22.pdf",
+          "text": "Amtsblatt 10-22.pdf (697,9 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+09-22.pdf",
+          "text": "Amtsblatt 09-22.pdf (543,3 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+08-22.pdf",
+          "text": "Amtsblatt 08-22.pdf (273,4 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+07-22.pdf",
+          "text": "Amtsblatt 07-22.pdf (567,8 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+06-22.pdf",
+          "text": "Amtsblatt 06-22.pdf (1,4 MiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+05-22.pdf",
+          "text": "Amtsblatt 05-22.pdf (430,5 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+04-22.pdf",
+          "text": "Amtsblatt 04-22.pdf (569,6 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+03-22.pdf",
+          "text": "Amtsblatt 03-22.pdf (456,8 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+02-22.pdf",
+          "text": "Amtsblatt 02-22.pdf (1,4 MiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2022%2FAmtsblatt+01-22.pdf",
+          "text": "Amtsblatt 01-22.pdf (261,2 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+14-21.pdf",
+          "text": "Amtsblatt 14-21.pdf (922,6 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+13-21.pdf",
+          "text": "Amtsblatt 13-21.pdf (417,2 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+12-21.pdf",
+          "text": "Amtsblatt 12-21.pdf (869,3 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+11-21.pdf",
+          "text": "Amtsblatt 11-21.pdf (234,5 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+10-21.pdf",
+          "text": "Amtsblatt 10-21.pdf (704,8 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+09-21.pdf",
+          "text": "Amtsblatt 09-21.pdf (336,4 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+08-21.pdf",
+          "text": "Amtsblatt 08-21.pdf (403,5 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+07-21.pdf",
+          "text": "Amtsblatt 07-21.pdf (227,9 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+06-21.pdf",
+          "text": "Amtsblatt 06-21.pdf (768,7 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+05-21.pdf",
+          "text": "Amtsblatt 05-21.pdf (1,0 MiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+04-21.pdf",
+          "text": "Amtsblatt 04-21.pdf (671,4 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+03-21.pdf",
+          "text": "Amtsblatt 03-21.pdf (282,3 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+02-21.pdf",
+          "text": "Amtsblatt 02-21.pdf (309,7 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2021%2FAmtsblatt+01-21.pdf",
+          "text": "Amtsblatt 01-21.pdf (814,5 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+01-20.pdf",
+          "text": "Amtsblatt 01-20.pdf (233,9 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+02-20.pdf",
+          "text": "Amtsblatt 02-20.pdf (261,7 KiB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.gemeinde-schoenefeld.de/amtsblatt.html?file=tl_files%2FAmtsblatt%2F2020%2FAmtsblatt+03-20.pdf",
+          "text": "Amtsblatt 03-20.pdf (522,4 KiB)",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "municipalityId": "schonefeld",
+      "source": {
+        "id": "schonefeld-https-gemeinde-schoenefeld-de-news-aktue",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://gemeinde-schoenefeld.de/news/aktuelles/angebot-bvvg-verkauft-grundstueck-in-waltersdorf",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:33.917Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://gemeinde-schoenefeld.de/verkaufsoffene-sonntage",
+          "text": "Verkaufsoffene Sonntage",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

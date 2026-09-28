@@ -1,117 +1,112 @@
 {
-	"municipality": {
-		"id": "woltersdorf-bei-berlin",
-		"name": "Woltersdorf",
-		"district": "Oder-Spree",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "woltersdorf-bei-berlin",
-			"source": {
-				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:09.137Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
-					"text": "Mitteilungsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/rechtsgrundlagen/1/satzungen.html",
-					"text": "Satzungen, Verordnungen, Richtlinien",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/bekanntmachungen/index.php",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php?modus=drucken",
-					"text": "print Druckansicht &ouml;ffnen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/contact/index/link?referrer=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
-					"text": "mail Link verschicken",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
-					"text": "Teilen auf Facebook",
-					"kind": "html"
-				},
-				{
-					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
-					"text": "Teilen auf Twitter",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "woltersdorf-bei-berlin",
-			"source": {
-				"id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:09.138Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/976b0775bcdd8fba0f3017e5537f442b17544/bvvg_ausschreibung_unterlagen_2020_07_06.pdf",
-					"text": "Angebot BVVG",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html?modus=drucken",
-					"text": "print Druckansicht &ouml;ffnen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.woltersdorf-schleuse.de/contact/index/link?referrer=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%C3%BCcksangebote.html",
-					"text": "mail Link verschicken",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf Facebook",
-					"kind": "html"
-				},
-				{
-					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf Twitter",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "woltersdorf-bei-berlin",
+    "name": "Woltersdorf",
+    "district": "Oder-Spree",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "woltersdorf-bei-berlin",
+      "source": {
+        "id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-amtsbl",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:53.121Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php",
+          "text": "Mitteilungsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.woltersdorf-schleuse.de/rechtsgrundlagen/1/satzungen.html",
+          "text": "Satzungen, Verordnungen, Richtlinien",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.woltersdorf-schleuse.de/bekanntmachungen/index.php",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.woltersdorf-schleuse.de/amtsblatt/index.php?modus=drucken",
+          "text": "print Druckansicht öffnen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.woltersdorf-schleuse.de/contact/index/link?referrer=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
+          "text": "mail Link verschicken",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
+          "text": "Teilen auf Facebook",
+          "kind": "html"
+        },
+        {
+          "url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Famtsblatt%2Findex.php",
+          "text": "Teilen auf Twitter",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "woltersdorf-bei-berlin",
+      "source": {
+        "id": "woltersdorf-bei-berlin-https-www-woltersdorf-schleuse-de-seite-",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:53.026Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.woltersdorf-schleuse.de/seite/123278/grundst%C3%BCcksangebote.html?modus=drucken",
+          "text": "print Druckansicht öffnen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.woltersdorf-schleuse.de/contact/index/link?referrer=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%C3%BCcksangebote.html",
+          "text": "mail Link verschicken",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf Facebook",
+          "kind": "html"
+        },
+        {
+          "url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.woltersdorf-schleuse.de%2Fseite%2F123278%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf Twitter",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

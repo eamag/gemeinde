@@ -1,120 +1,130 @@
 {
-	"municipality": {
-		"id": "gro-beeren",
-		"name": "Großbeeren",
-		"district": "Teltow-Fläming",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "gro-beeren",
-			"source": {
-				"id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:39.877Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
-					"text": "Navigation &uuml;berspringen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:152/tn_152/Satzungen.html",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:125/tn_125/Amtsblatt.html",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:1542:125/tn_1542/Amtsblatt.html",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:2315:2367/tn_2315/Bekanntmachungen.html",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/2543/extLink",
-					"text": "Nachversorgungskonzept (PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:152/-/Satzungen.html",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7594/extLink",
-					"text": "Amtsblatt 08/2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7575/extLink",
-					"text": "Amtsblatt 06/2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7555/extLink",
-					"text": "Sonderamtsblatt 05/2026 (Sonderamtsblatt Auslegung)",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7553/extLink",
-					"text": "Amtsblatt 04/2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7525/extLink",
-					"text": "Amtsblatt 03/2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7510/extLink",
-					"text": "Amtsblatt 02/2026 (Sonderamtsblatt Haushalt 2026)",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7509/extLink",
-					"text": "Amtsblatt 01/2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/2/Amtsblatt.html",
-					"text": "Weitere Artikel anzeigen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/0/Amtsblatt.html",
-					"text": "Amtsblatt.html",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/1/Amtsblatt.html",
-					"text": "1",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "gro-beeren",
+    "name": "Großbeeren",
+    "district": "Teltow-Fläming",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "gro-beeren",
+      "source": {
+        "id": "gro-beeren-https-www-grossbeeren-de-seite-de-cnsa9e",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:15.709Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:125/-/Amtsblatt.html",
+          "text": "Navigation überspringen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:152/tn_152/Satzungen.html",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:125/tn_125/Amtsblatt.html",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:1542:125/tn_1542/Amtsblatt.html",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/035:2315:2367/tn_2315/Bekanntmachungen.html",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/0:35:152/-/Satzungen.html",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7668/extLink",
+          "text": "Amtsblatt 14/2026 (Sonderamtsblatt)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7662/extLink",
+          "text": "Amtsblatt 13/2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7646/extLink",
+          "text": "Amtsblatt 12/2026 (Sonderamtsblatt)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7653/extLink",
+          "text": "Amtsblatt 11/2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7639/extLink",
+          "text": "Amtsblatt 10/2026 (Sonderamtsblatt Entschädigungssatzung)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7628/extLink",
+          "text": "Amtsblatt 09/2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7594/extLink",
+          "text": "Amtsblatt 08/2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7575/extLink",
+          "text": "Amtsblatt 06/2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/datei/de/cnsa9e1a4b3050c13bfede/-/7555/extLink",
+          "text": "Amtsblatt 05/2026 (Sonderamtsblatt Auslegung)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/2/Amtsblatt.html",
+          "text": "Weitere Artikel anzeigen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/0/Amtsblatt.html",
+          "text": "Amtsblatt.html",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/1/Amtsblatt.html",
+          "text": "1",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.grossbeeren.de/seite/de/cnsa9e1a4b3050c13bfede/125/3/Amtsblatt.html",
+          "text": "3",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

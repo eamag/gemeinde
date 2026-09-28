@@ -1,157 +1,142 @@
 {
-	"municipality": {
-		"id": "glienicke-nordbahn",
-		"name": "Glienicke/Nordbahn",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
-				"discoveryMethod": "homepage"
-			},
-			{
-				"id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "glienicke-nordbahn",
-			"source": {
-				"id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:39.435Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen",
-					"text": "Amtliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/bekanntmachungen-des-landkreises-oberhavel",
-					"text": "Bekanntmachungen des Landkreises Oberhavel",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/verkuendungsblaetter-des-landes-brandenburg",
-					"text": "Verkündungsblätter des Landes Brandenburg",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/verwaltung/buergermeister/presse-und-oeffentlichkeitsarbeit/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/allris/si010_e.asp",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/satzungen",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/bauen-wirtschaft/interkommunales-bauamt/plaene-und-satzungen",
-					"text": "Pläne und Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/portal/short/link-900000002-22451.html",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/portal/seiten/amtsblatt-904000005-22451.html?amp%3BbrotID=904000831&amp%3Brubrik=904000013&naviID=904000831",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/downloads/datei/NjM3YzUyMzYwNzA1YTY5ZENnWXhUeEZDZnpSRDJsOExpRk9DUisyUlZmV2VVQWxnWDhSd2ZiWGJZMkxpcmFsMjY2dG5ZMkNyS1h2ak12UFVnMUlsakpMM28yZUZIcUlDbTF3SkxaWnZzMlFTeGcvYWxPMllaalBuYlpkSFloQWVwQnRyWVVwZ2Yvb1RiQjlDODdmVDE5bncrMURiZjVIMDFtWUpCbzFnMXdQbHFBVEdIZ3Z0TGJTZ05zTT0",
-					"text": "aktuelle Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/portal/seiten/online-ausgabe-des-amtsblatt-auflistung-904000380-22451.html?rubrik=904000013",
-					"text": "Amtsblatt nach Jahren sortiert",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/portal/seiten/newsletter-amtsblatt-904000273-22451.html?rubrik=904000013",
-					"text": "hier",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/buergerservice/online/angebot/anmeldung-newsletter-amtsblatt-900000021-22451.html",
-					"text": "Anmeldung Newsletter-Amtsblatt",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "glienicke-nordbahn",
-			"source": {
-				"id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:39.435Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/verwaltung/verwaltungsbereiche/fb-iii-soziales-und-ordnung/fachdienst-bauen-liegenschaften",
-					"text": "Fachdienst Bauen/Liegenschaften",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/verwaltung/verwaltungsbereiche/fb-iii-soziales-und-ordnung/fachdienst-bauen-liegenschaften/bauhof",
-					"text": "Bauhof",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/rathaus-politik/verwaltung/verwaltungsbereiche/fb-iii-soziales-und-ordnung/fachdienst-bauen-liegenschaften/liegenschaften-objektbetr-",
-					"text": "Liegenschaften/Objektbetr.",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
-					"text": "Grundstücke",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.glienicke.eu/portal/seiten/grundstuecke-904000514-22451.html?amp%3BbrotID=904000991&amp%3Brubrik=904000009&naviID=904000991",
-					"text": "Grundstücke",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "glienicke-nordbahn",
+    "name": "Glienicke/Nordbahn",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
+        "discoveryMethod": "homepage"
+      },
+      {
+        "id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "glienicke-nordbahn",
+      "source": {
+        "id": "glienicke-nordbahn-https-www-glienicke-eu-rathaus-politik-a",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:11.869Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen",
+          "text": "Amtliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/bekanntmachungen-des-landkreises-oberhavel",
+          "text": "Bekanntmachungen des Landkreises Oberhavel",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/amtliche-bekanntmachungen/verkuendungsblaetter-des-landes-brandenburg",
+          "text": "Verkündungsblätter des Landes Brandenburg",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/verwaltung/buergermeister/presse-und-oeffentlichkeitsarbeit/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/allris/si010_e.asp",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/rathaus-politik/satzungen",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/bauen-wirtschaft/interkommunales-bauamt/plaene-und-satzungen",
+          "text": "Pläne und Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/portal/short/link-900000002-22451.html",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/portal/seiten/amtsblatt-904000005-22451.html?amp%3BbrotID=904000831&amp%3Brubrik=904000013&naviID=904000831",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/downloads/datei/Y2VkYWIxYzllOGYwN2VlMUI0d3RXVDRjdFJ6Z2RhbnBnaEdVWWZMZ2o3VGRXd2tNOFN1dnZNZWtoeFUvTjNjZWJDLzFUcmJMYnNhclB1c29YNlhMTFppSkp3U0VtL09JWUMwbzJZcEpsakwzSXRNdjk3YVBoNE92T1ZNRDJLTzFpRnVjNVZ5dDQrTm5FTFhzWFZUeGpzYXRLQ1hXSW9MVzY3K2Vxdz09",
+          "text": "das aktuelle Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/portal/seiten/online-ausgabe-des-amtsblatt-auflistung-904000380-22451.html?rubrik=904000013",
+          "text": "Amtsblatt nach Jahren sortiert",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/portal/seiten/newsletter-amtsblatt-904000273-22451.html?rubrik=904000013",
+          "text": "hier",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/buergerservice/online/angebot/anmeldung-newsletter-amtsblatt-900000021-22451.html",
+          "text": "Anmeldung Newsletter-Amtsblatt",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "glienicke-nordbahn",
+      "source": {
+        "id": "glienicke-nordbahn-https-www-glienicke-eu-bauen-wirtschaft-",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:11.880Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.glienicke.eu/bauen-wirtschaft/grundstuecke",
+          "text": "Grundstücke",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.glienicke.eu/portal/seiten/grundstuecke-904000514-22451.html?amp%3BbrotID=904000991&amp%3Brubrik=904000009&naviID=904000991",
+          "text": "Grundstücke",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

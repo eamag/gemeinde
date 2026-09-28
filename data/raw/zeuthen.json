@@ -1,457 +1,457 @@
 {
-	"municipality": {
-		"id": "zeuthen",
-		"name": "Zeuthen",
-		"district": "Dahme-Spreewald",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "zeuthen-https-www-zeuthen-de-amtsblatt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.zeuthen.de/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "zeuthen",
-			"source": {
-				"id": "zeuthen-https-www-zeuthen-de-amtsblatt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.zeuthen.de/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:09.493Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.zeuthen.de/amtsblatt",
-					"text": "amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.zeuthen.de/formulare",
-					"text": "Formulare & Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.zeuthen.de/Erscheinungstermine-2026-Zeitung-Am-Zeuthener-See-mit-Amtsblatt-pdf-705773.pdf",
-					"text": "Erscheinungstermine 2026 Erscheinungstermine 2026 - Zeitung \"Am Zeuthener See\" mit Amtsblatt.pdf&nbsp;(PDF, 0.11 MB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2026-03-707154.pdf",
-					"text": "Am Zeuthener See 2026-03 Spatenstich für die Evangelische Grundschule | Beschlossen: Kommunale Wärmeplanung | Erste Maßnahmen aus dem Kinder- und Jugendbudget umgesetzt | Helfen im Verbund | Kindertagespflegen in Zeuthen | Rückblick Frühlingskonzert und weiteres Wissenswertes und Interessantes aus dem Gemeindeleben Download&nbsp;(PDF, 3.25 MB)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2026-03-707155.pdf",
-					"text": "Amtsblatt 2026-03 Download&nbsp;(0.11 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2026-02-706425.pdf",
-					"text": "Am Zeuthener See 2026-02 Download&nbsp;(5.96 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2026-02-706426.pdf",
-					"text": "Amtsblatt 2026-02 Download&nbsp;(0.46 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2026-01-705539.pdf",
-					"text": "Am Zeuthener See 2026-01 Download&nbsp;(2.03 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2026-01-705540.pdf",
-					"text": "Amtsblatt 2026-01 Download&nbsp;(0.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-08-704803.pdf",
-					"text": "Am Zeuthener See 2025-08 Download&nbsp;(2.28 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-08-704804.pdf",
-					"text": "Amtsblatt 2025-08 Download&nbsp;(0.31 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-07-703701.pdf",
-					"text": "Am Zeuthener See 2025-07 Download&nbsp;(2.79 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-07-703702.pdf",
-					"text": "Amtsblatt 2025-07 Download&nbsp;(0.24 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-06-702779.pdf",
-					"text": "Am Zeuthener See 2025-06 Download&nbsp;(2.51 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-06-702778.pdf",
-					"text": "Amtsblatt 2025-06 Download&nbsp;(0.69 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-05-702739.pdf",
-					"text": "Am Zeuthener See 2025-05 Download&nbsp;(2.05 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-05-702777.pdf",
-					"text": "Amtsblatt 2025-05 Download&nbsp;(0.90 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-04-700768.pdf",
-					"text": "Am Zeuthener See 2025-04 Download&nbsp;(4.72 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-04-700769.pdf",
-					"text": "Amtsblatt 2025-04 Download&nbsp;(0.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-03-699998.pdf",
-					"text": "Am Zeuthener See 2025-03 Download&nbsp;(1.82 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-03-699997.pdf",
-					"text": "Amtsblatt 2025-03 Download&nbsp;(0.09 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-02-706424.pdf",
-					"text": "Am Zeuthener See 2025-02 Download&nbsp;(5.96 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-02-699407.pdf",
-					"text": "Amtsblatt 2025-02 Download&nbsp;(0.13 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2025-01-698519.pdf",
-					"text": "Am Zeuthener See 2025-01 Download&nbsp;(3.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2025-01-698518.pdf",
-					"text": "Amtsblatt 2025-01 Download&nbsp;(0.43 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-06-696393.pdf",
-					"text": "Am Zeuthener See 2024-06 Download&nbsp;(2.72 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-06-696392.pdf",
-					"text": "Amtsblatt 2024-06 Download&nbsp;(0.13 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-05-695768.pdf",
-					"text": "Am Zeuthener See 2024-05 Download&nbsp;(2.38 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-05-695769.pdf",
-					"text": "Amtsblatt 2024-05 Download&nbsp;(0.90 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-04-694531.pdf",
-					"text": "Am Zeuthener See 2024-04 Download&nbsp;(2.03 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-04-694532.pdf",
-					"text": "Amtsblatt 2024-04 Download&nbsp;(1.04 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-03-691341.pdf",
-					"text": "Am Zeuthener See 2024-03 Download&nbsp;(1.88 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-03-691340.pdf",
-					"text": "Amtsblatt 2024-03 Download&nbsp;(0.76 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-02-690564.pdf",
-					"text": "Am Zeuthener See 2024-02 Download&nbsp;(2.34 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-02-690565.pdf",
-					"text": "Amtsblatt 2024-02 Download&nbsp;(1.47 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2024-01-689878.pdf",
-					"text": "Am Zeuthener See 2024-01 Download&nbsp;(2.11 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2024-01-689879.pdf",
-					"text": "Amtsblatt 2024-01 Download&nbsp;(0.13 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-07-689035.pdf",
-					"text": "Am Zeuthener See 2023-07 Download&nbsp;(1.85 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-06-687857.pdf",
-					"text": "Am Zeuthener See 2023-06 Download&nbsp;(7.64 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-06-689034.pdf",
-					"text": "Amtsblatt 2023-06 Download&nbsp;(0.12 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-05-686674.pdf",
-					"text": "Am Zeuthener See 2023-05 Download&nbsp;(2.37 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-05-687831.pdf",
-					"text": "Amtsblatt 2023-05 Download&nbsp;(0.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-04-685944.pdf",
-					"text": "Am Zeuthener See 2023-04 Download&nbsp;(1.76 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-04-686673.pdf",
-					"text": "Amtsblatt 2023-04 Download&nbsp;(0.25 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-03-685002.pdf",
-					"text": "Am Zeuthener See 2023-03 Download&nbsp;(2.07 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-03-685943.pdf",
-					"text": "Amtsblatt 2023-03 Download&nbsp;(0.09 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-02-684040.pdf",
-					"text": "Am Zeuthener See 2023-02 Download&nbsp;(1.68 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-02-685001.pdf",
-					"text": "Amtsblatt 2023-02 Download&nbsp;(0.48 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2023-01-683597.pdf",
-					"text": "Am Zeuthener See 2023-01 Download&nbsp;(1.56 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2023-01-684038.pdf",
-					"text": "Amtsblatt 2023-01 Download&nbsp;(0.63 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-09-690064.pdf",
-					"text": "Amtsblatt 2022-09 Download&nbsp;(0.50 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-08-683003.pdf",
-					"text": "Am Zeuthener See 2022-08 Download&nbsp;(2.38 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-08-690063.pdf",
-					"text": "Amtsblatt 2022-08 Download&nbsp;(0.11 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-07-682157.pdf",
-					"text": "Am Zeuthener See 2022-07 Download&nbsp;(2.18 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-07-690062.pdf",
-					"text": "Amtsblatt 2022-07 Download&nbsp;(0.08 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-06-681580.pdf",
-					"text": "Am Zeuthener See 2022-06 Download&nbsp;(1.85 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-06-690061.pdf",
-					"text": "Amtsblatt 2022-06 Download&nbsp;(0.32 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-05-680159.pdf",
-					"text": "Am Zeuthener See 2022-05 Download&nbsp;(4.26 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-05-690060.pdf",
-					"text": "Amtsblatt 2022-05 Download&nbsp;(0.40 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-04-679226.pdf",
-					"text": "Am Zeuthener See 2022-04 Download&nbsp;(2.28 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-04-690059.pdf",
-					"text": "Amtsblatt 2022-04 Download&nbsp;(0.33 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-03-678158.pdf",
-					"text": "Am Zeuthener See 2022-03 Download&nbsp;(2.19 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-03-677578.pdf",
-					"text": "Amtsblatt 2022-03 Download&nbsp;(0.53 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-02-676860.pdf",
-					"text": "Am Zeuthener See 2022-02 Download&nbsp;(1.11 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-02-676859.pdf",
-					"text": "Amtsblatt 2022-02 Download&nbsp;(0.08 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2022-01-675916.pdf",
-					"text": "Am Zeuthener See 2022-01 Download&nbsp;(1.97 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2022-01-675917.pdf",
-					"text": "Amtsblatt 2022-01 Download&nbsp;(0.30 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-10-675915.pdf",
-					"text": "Am Zeuthener See 2021-10 Download&nbsp;(5.91 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-10-675918.pdf",
-					"text": "Amtsblatt 2021-10 Download&nbsp;(0.32 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-09-673326.pdf",
-					"text": "Am Zeuthener See 2021-09 Download&nbsp;(1.64 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-09-673325.pdf",
-					"text": "Amtsblatt 2021-09 Download&nbsp;(0.09 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-08-672850.pdf",
-					"text": "Am Zeuthener See 2021-08 Download&nbsp;(1.93 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-08-672851.pdf",
-					"text": "Amtsblatt 2021-08 Download&nbsp;(0.09 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-07-672127.pdf",
-					"text": "Am Zeuthener See 2021-07 Download&nbsp;(2.51 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-07-672126.pdf",
-					"text": "Amtsblatt 2021-07 Download&nbsp;(0.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-06-671210.pdf",
-					"text": "Am Zeuthener See 2021-06 Download&nbsp;(2.16 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-06-671211.pdf",
-					"text": "Amtsblatt 2021-06 Download&nbsp;(0.09 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-05-670621.pdf",
-					"text": "Am Zeuthener See 2021-05 Download&nbsp;(1.61 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Amtsblatt-2021-05-670620.pdf",
-					"text": "Amtsblatt 2021-05 Download&nbsp;(0.10 MB, PDF)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.zeuthen.de/Am-Zeuthener-See-2021-04-670218.pdf",
-					"text": "Am Zeuthener See 2021-04 Download&nbsp;(1.98 MB, PDF)",
-					"kind": "pdf"
-				}
-			]
-		},
-		{
-			"municipalityId": "zeuthen",
-			"source": {
-				"id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:09.494Z",
-			"status": "error",
-			"statusCode": 404,
-			"error": "HTTP 404",
-			"discoveredLinks": []
-		}
-	]
+  "municipality": {
+    "id": "zeuthen",
+    "name": "Zeuthen",
+    "district": "Dahme-Spreewald",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "zeuthen-https-www-zeuthen-de-amtsblatt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.zeuthen.de/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "zeuthen",
+      "source": {
+        "id": "zeuthen-https-www-zeuthen-de-amtsblatt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.zeuthen.de/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:53.565Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.zeuthen.de/amtsblatt",
+          "text": "amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.zeuthen.de/formulare",
+          "text": "Formulare & Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.zeuthen.de/Erscheinungstermine-der-Zeitung-Am-Zeuthener-See-mit-Amtsblatt-2026-pdf-707918.pdf",
+          "text": "Erscheinungstermine 2026 Erscheinungstermine der Zeitung \"Am Zeuthener See\" mit Amtsblatt 2026.pdf (PDF, 0.11 MB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2026-05-708368.pdf",
+          "text": "Amtsblatt 2026-05 Öffentliche Bekanntmachung der Beschlüsse der Gemeindevertretung vom 30.06.2026 | B-Pläne Nr. 143; 142 | Mitteilung der Abwägungsergebnisse B-Plan 142 | Beteiligung der Öffentlichkeit zum Entwurf 1. Änderung B-Plan 115-3 Download (PDF, 0.27 MB)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2026-04-707801.pdf",
+          "text": "Amtsblatt 2026-04 Download (0.74 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2026-03-707155.pdf",
+          "text": "Amtsblatt 2026-03 Download (0.11 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2026-02-706426.pdf",
+          "text": "Amtsblatt 2026-02 Download (0.46 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2026-01-705540.pdf",
+          "text": "Amtsblatt 2026-01 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-08-704804.pdf",
+          "text": "Amtsblatt 2025-08 Download (0.31 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-07-703702.pdf",
+          "text": "Amtsblatt 2025-07 Download (0.24 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-06-702778.pdf",
+          "text": "Amtsblatt 2025-06 Download (0.69 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-05-702777.pdf",
+          "text": "Amtsblatt 2025-05 Download (0.90 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-04-700769.pdf",
+          "text": "Amtsblatt 2025-04 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-03-699997.pdf",
+          "text": "Amtsblatt 2025-03 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-02-699407.pdf",
+          "text": "Amtsblatt 2025-02 Download (0.13 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2025-01-698518.pdf",
+          "text": "Amtsblatt 2025-01 Download (0.43 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-06-696392.pdf",
+          "text": "Amtsblatt 2024-06 Download (0.13 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-05-695769.pdf",
+          "text": "Amtsblatt 2024-05 Download (0.90 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-04-694532.pdf",
+          "text": "Amtsblatt 2024-04 Download (1.04 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-03-691340.pdf",
+          "text": "Amtsblatt 2024-03 Download (0.76 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-02-690565.pdf",
+          "text": "Amtsblatt 2024-02 Download (1.47 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2024-01-689879.pdf",
+          "text": "Amtsblatt 2024-01 Download (0.13 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-06-689034.pdf",
+          "text": "Amtsblatt 2023-06 Download (0.12 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-05-687831.pdf",
+          "text": "Amtsblatt 2023-05 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-04-686673.pdf",
+          "text": "Amtsblatt 2023-04 Download (0.25 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-03-685943.pdf",
+          "text": "Amtsblatt 2023-03 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-02-685001.pdf",
+          "text": "Amtsblatt 2023-02 Download (0.48 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2023-01-684038.pdf",
+          "text": "Amtsblatt 2023-01 Download (0.63 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-09-690064.pdf",
+          "text": "Amtsblatt 2022-09 Download (0.50 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-08-690063.pdf",
+          "text": "Amtsblatt 2022-08 Download (0.11 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-07-690062.pdf",
+          "text": "Amtsblatt 2022-07 Download (0.08 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-06-690061.pdf",
+          "text": "Amtsblatt 2022-06 Download (0.32 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-05-690060.pdf",
+          "text": "Amtsblatt 2022-05 Download (0.40 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-04-690059.pdf",
+          "text": "Amtsblatt 2022-04 Download (0.33 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-03-677578.pdf",
+          "text": "Amtsblatt 2022-03 Download (0.53 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-02-676859.pdf",
+          "text": "Amtsblatt 2022-02 Download (0.08 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2022-01-675917.pdf",
+          "text": "Amtsblatt 2022-01 Download (0.30 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-10-675918.pdf",
+          "text": "Amtsblatt 2021-10 Download (0.32 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-09-673325.pdf",
+          "text": "Amtsblatt 2021-09 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-08-672851.pdf",
+          "text": "Amtsblatt 2021-08 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-07-672126.pdf",
+          "text": "Amtsblatt 2021-07 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-06-671211.pdf",
+          "text": "Amtsblatt 2021-06 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-05-670620.pdf",
+          "text": "Amtsblatt 2021-05 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-04-670217.pdf",
+          "text": "Amtsblatt 2021-04 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-03-669678.pdf",
+          "text": "Amtsblatt 2021-03 Download (0.83 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-02-668984.pdf",
+          "text": "Amtsblatt 2021-02 Download (0.12 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2021-01-668180.pdf",
+          "text": "Amtsblatt 2021-01 Download (0.07 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-10-667751.pdf",
+          "text": "Amtsblatt 2020-10 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-09-667304.pdf",
+          "text": "Amtsblatt 2020-09 Download (0.07 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-08-666783.pdf",
+          "text": "Amtsblatt 2020-08 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-07-665994.pdf",
+          "text": "Amtsblatt 2020-07 Download (0.45 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-06-665260.pdf",
+          "text": "Amtsblatt 2020-06 Download (3.20 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-05-664920.pdf",
+          "text": "Amtsblatt 2020-05 Download (0.11 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-04-663919.pdf",
+          "text": "Amtsblatt 2020-04 Download (0.46 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-03-663418.pdf",
+          "text": "Amtsblatt 2020-03 Download (0.41 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2020-01-662614.pdf",
+          "text": "Amtsblatt 2020-01 Download (0.14 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-08-661869.pdf",
+          "text": "Amtsblatt 2019-08 Download (0.12 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-07-661286.pdf",
+          "text": "Amtsblatt 2019-07 Download (0.55 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-06-659918.pdf",
+          "text": "Amtsblatt 2019-06 Download (0.14 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-05-659372.pdf",
+          "text": "Amtsblatt 2019-05 Download (0.74 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-04-659115.pdf",
+          "text": "Amtsblatt 2019-04 Download (0.10 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-03-658797.pdf",
+          "text": "Amtsblatt 2019-03 Download (0.20 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-02-662806.pdf",
+          "text": "Amtsblatt 2019-02 Download (0.08 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2019-01-657562.pdf",
+          "text": "Amtsblatt 2019-01 Download (0.97 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-09-647800.pdf",
+          "text": "Amtsblatt 2018-09 Download (0.11 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-08-646839.pdf",
+          "text": "Amtsblatt 2018-08 Download (0.09 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-07-646247.pdf",
+          "text": "Amtsblatt 2018-07 Download (0.14 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-06-645638.pdf",
+          "text": "Amtsblatt 2018-06 Download (0.08 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-05-645261.pdf",
+          "text": "Amtsblatt 2018-05 Download (0.27 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-04-644584.pdf",
+          "text": "Amtsblatt 2018-04 Download (0.27 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-03-643749.pdf",
+          "text": "Amtsblatt 2018-03 Download (0.25 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-02-643290.pdf",
+          "text": "Amtsblatt 2018-02 Download (0.56 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2018-01-642505.pdf",
+          "text": "Amtsblatt 2018-01 Download (0.28 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-09-640334.pdf",
+          "text": "Amtsblatt 2017-09 Download (0.84 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-08-639879.pdf",
+          "text": "Amtsblatt 2017-08 Download (0.36 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-07-639346.pdf",
+          "text": "Amtsblatt 2017-07 Download (0.26 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-06-639021.pdf",
+          "text": "Amtsblatt 2017-06 Download (0.46 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-05-638528.pdf",
+          "text": "Amtsblatt 2017-05 Download (1.16 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-04-638189.pdf",
+          "text": "Amtsblatt 2017-04 Download (1.87 MB, PDF)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.zeuthen.de/Amtsblatt-2017-03-637553.pdf",
+          "text": "Amtsblatt 2017-03 Download (0.87 MB, PDF)",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "municipalityId": "zeuthen",
+      "source": {
+        "id": "zeuthen-https-www-zeuthen-de-pachtgrundstuecke-6",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.zeuthen.de/Pachtgrundstuecke-674190.html",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:53.536Z",
+      "status": "error",
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "discoveredLinks": []
+    }
+  ]
 }

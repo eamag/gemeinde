@@ -1,435 +1,435 @@
 {
-	"municipality": {
-		"id": "hennigsdorf",
-		"name": "Hennigsdorf",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "hennigsdorf",
-			"source": {
-				"id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:43.424Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Ortsrecht",
-					"text": "Ortsrecht",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
-					"text": "Amtliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2018_1.PDF?1769427551=",
-					"text": "Bekanntmachung der Meldebeh&ouml;rde gem&auml;&szlig; Bundesmeldegesetz (BMG)",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_5001_1.PDF?1760603255=",
-					"text": "&Ouml;B Bekanntmachung &uuml;ber das Wahlergebnis zur Stichwahl des hauptamtlichen B&uuml;rgermeisters",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4773_1.PDF?1756117515=",
-					"text": "&Ouml;ffentliche Bekanntmachung - Aufhebung der Allgemeinverf&uuml;gung Betretungsverbot Waldfl&auml;chen Stadt Hennigsdorf",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4249_1.PDF?1749628298=",
-					"text": "Bekanntmachung des Wasser- und Bodenverbands \"Schnelle Havel\": Gew&auml;sserunterhaltung 2025-2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_5471_1.PDF?1775727682=",
-					"text": "Amtsblatt Nr. 1 2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_5540_1.PDF?1777444945=",
-					"text": "Amtsblatt Nr. 2 2026",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_3856_1.PDF?1742555450=",
-					"text": "Amtsblatt Nr. 1 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4068_1.PDF?1744793863=",
-					"text": "Amtsblatt Nr. 2 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4274_1.PDF?1750248316=",
-					"text": "Amtsblatt Nr. 3 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4908_1.PDF?1758719920=",
-					"text": "Amtsblatt Nr. 4 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4914_1.PDF?1758863721=",
-					"text": "Amtsblatt Nr. 5 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_4985_1.PDF?1759995003=",
-					"text": "Amtsblatt Nr. 6 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_5052_1.PDF?1762167155=",
-					"text": "Amtsblatt Nr. 7 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_5156_1.PDF?1765867654=",
-					"text": "Amtsblatt Nr. 8 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2223_1.PDF?1704714238=",
-					"text": "Amtsblatt Nr. 1 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2495_1.PDF?1728459360=",
-					"text": "Amtsblatt Nr. 2 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2506_1.PDF?1728459394=",
-					"text": "Amtsblatt Nr. 3 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2614_1.PDF?1728459427=",
-					"text": "Amtsblatt Nr. 4 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2826_1.PDF?1728459516=",
-					"text": "Amtsblatt Nr. 5 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2964_1.PDF?1728459565=",
-					"text": "Amtsblatt Nr. 6 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_3188_1.PDF?1728459719=",
-					"text": "Amtsblatt Nr. 7 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_3240_1.PDF?1729580113=",
-					"text": "Amtsblatt Nr. 8 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_3446_1.PDF?1734603055=",
-					"text": "Amtsblatt Nr. 9 2024",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1231_1.PDF?1672325489=",
-					"text": "Amtsblatt Nr. 1 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1391_1.PDF?1679319467=",
-					"text": "Amtsblatt Nr. 2 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1508_1.PDF?1687250857=",
-					"text": "Amtsblatt Nr. 3 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1593_1.PDF?1686301101=",
-					"text": "Amtsblatt Nr. 4 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1784_1.PDF?1690360810=",
-					"text": "Amtsblatt Nr. 5 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1966_1.PDF?1697018438=",
-					"text": "Amtsblatt Nr. 6 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_2173_1.PDF?1701963540=",
-					"text": "Amtsblatt Nr. 7 2023",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_316_1.PDF?1642160962=",
-					"text": "Amtsblatt Nr. 1 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_483_1.PDF?1647610655=",
-					"text": "Amtsblatt Nr. 2 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_593_1.PDF?1650374008=",
-					"text": "Amtsblatt Nr. 3 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_701_1.PDF?1654848923=",
-					"text": "Amtsblatt Nr. 4 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_903_1.PDF?1659080274=",
-					"text": "Amtsblatt Nr. 5 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1095_1.PDF?1665558983=",
-					"text": "Amtsblatt Nr. 6 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_1148_1.PDF?1668441743=",
-					"text": "Amtsblatt Nr. 7 2022",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3353_1.PDF?1610702291=",
-					"text": "Amtsblatt Nr. 1 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3448_1.PDF?1615541107=",
-					"text": "Amtsblatt Nr. 2 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3491_1.PDF?1619520197=",
-					"text": "Amtsblatt Nr. 3 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3573_1.PDF?1623075652=",
-					"text": "Amtsblatt Nr. 4 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3699_1.PDF?1627285833=",
-					"text": "Amtsblatt Nr. 5 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_41_1.PDF?1633588423=",
-					"text": "Amtsblatt Nr. 6 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/3590_132_1.PDF?1636181345=",
-					"text": "Amtsblatt Nr. 7 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen/Amtsblatt-Nr-8-2021.php?amp%3BFID=3590.279.1&amp%3BLa=1&amp%3BModID=6&amp%3BNavID=2713.36&object=tx%2C3590.3",
-					"text": "Amtsblatt Nr. 8 2021",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2851_1.PDF?1578572338=",
-					"text": "Amtsblatt Nr. 1 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2942_1.PDF?1584084958=",
-					"text": "Amtsblatt Nr. 2 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3042_1.PDF?1591861046=",
-					"text": "Amtsblatt Nr. 3 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3081_1.PDF?1594987952=",
-					"text": "Amtsblatt Nr. 4 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3152_1.PDF?1600775667=",
-					"text": "Amtsblatt Nr. 5 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3230_1.PDF?1604054065=",
-					"text": "Amtsblatt Nr. 6 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_3335_1.PDF?1608129643=",
-					"text": "Amtsblatt Nr. 7 2020",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2174_1.PDF?1547128592=",
-					"text": "Amtsblatt Nr. 1 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2397_1.PDF?1553784016=",
-					"text": "Amtsblatt Nr. 2 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2478_1.PDF?1557390198=",
-					"text": "Amtsblatt Nr. 3 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2552_1.PDF?1561095960=",
-					"text": "Amtsblatt Nr. 4 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2650_1.PDF?1563515334=",
-					"text": "Amtsblatt Nr. 5 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2767_1.PDF?1568970149=",
-					"text": "Amtsblatt Nr. 6 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2797_1.PDF?1571997549=",
-					"text": "Amtsblatt Nr. 7 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2831_1.PDF?1574951649=",
-					"text": "Amtsblatt Nr. 8 2019",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1502_1.PDF?1515682381=",
-					"text": "Amtsblatt Nr. 1 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1610_1.PDF?1520325805=",
-					"text": "Amtsblatt Nr. 2 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1637_1.PDF?1521803415=",
-					"text": "Amtsblatt Nr. 3 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1745_1.PDF?1527145962=",
-					"text": "Amtsblatt Nr. 4 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1809_1.PDF?1530516995=",
-					"text": "Amtsblatt Nr. 5 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1843_1.PDF?1532425165=",
-					"text": "Amtsblatt Nr. 6 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2011_1.PDF?1540187634=",
-					"text": "Amtsblatt Nr. 7 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2074_1.PDF?1542115967=",
-					"text": "Amtsblatt Nr. 8 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_2145_1.PDF?1545211160=",
-					"text": "Amtsblatt Nr. 9 2018",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_461_1.PDF?1487351987=",
-					"text": "Amtsblatt Nr. 1 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_919_1.PDF?1494847272=",
-					"text": "Amtsblatt Nr. 2 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_920_1.PDF?1494847279=",
-					"text": "Amtsblatt Nr. 3 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1119_1.PDF?1499156821=",
-					"text": "Amtsblatt Nr. 4 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1214_1.PDF?1501753739=",
-					"text": "Amtsblatt Nr. 5 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1373_1.PDF?1508406298=",
-					"text": "Amtsblatt Nr. 6 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1392_1.PDF?1510840881=",
-					"text": "Amtsblatt Nr. 7 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_1459_1.PDF?1513780820=",
-					"text": "Amtsblatt Nr. 8 2017",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.hennigsdorf.de/media/custom/2713_213_1.PDF?1486033387=",
-					"text": "Amtsblatt Nr. 1 2016",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "hennigsdorf",
+    "name": "Hennigsdorf",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "hennigsdorf",
+      "source": {
+        "id": "hennigsdorf-https-www-hennigsdorf-de-rathaus-verwalt",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:16.809Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Ortsrecht",
+          "text": "Ortsrecht",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen",
+          "text": "Amtliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2018_1.PDF?1769427551=",
+          "text": "Bekanntmachung der Meldebehörde gemäß Bundesmeldegesetz (BMG)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5471_1.PDF?1775727682=",
+          "text": "Amtsblatt Nr. 1 2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5540_1.PDF?1777444945=",
+          "text": "Amtsblatt Nr. 2 2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5656_1.PDF?1780311888=",
+          "text": "Amtsblatt Nr. 3 2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5809_1.PDF?1784538202=",
+          "text": "Amtsblatt Nr. 4 2026",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_3856_1.PDF?1742555450=",
+          "text": "Amtsblatt Nr. 1 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_4068_1.PDF?1744793863=",
+          "text": "Amtsblatt Nr. 2 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_4274_1.PDF?1750248316=",
+          "text": "Amtsblatt Nr. 3 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_4908_1.PDF?1758719920=",
+          "text": "Amtsblatt Nr. 4 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_4914_1.PDF?1758863721=",
+          "text": "Amtsblatt Nr. 5 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_4985_1.PDF?1759995003=",
+          "text": "Amtsblatt Nr. 6 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5052_1.PDF?1762167155=",
+          "text": "Amtsblatt Nr. 7 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_5156_1.PDF?1765867654=",
+          "text": "Amtsblatt Nr. 8 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2223_1.PDF?1704714238=",
+          "text": "Amtsblatt Nr. 1 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2495_1.PDF?1728459360=",
+          "text": "Amtsblatt Nr. 2 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2506_1.PDF?1728459394=",
+          "text": "Amtsblatt Nr. 3 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2614_1.PDF?1728459427=",
+          "text": "Amtsblatt Nr. 4 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2826_1.PDF?1728459516=",
+          "text": "Amtsblatt Nr. 5 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2964_1.PDF?1728459565=",
+          "text": "Amtsblatt Nr. 6 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_3188_1.PDF?1728459719=",
+          "text": "Amtsblatt Nr. 7 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_3240_1.PDF?1729580113=",
+          "text": "Amtsblatt Nr. 8 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_3446_1.PDF?1734603055=",
+          "text": "Amtsblatt Nr. 9 2024",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1231_1.PDF?1672325489=",
+          "text": "Amtsblatt Nr. 1 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1391_1.PDF?1679319467=",
+          "text": "Amtsblatt Nr. 2 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1508_1.PDF?1687250857=",
+          "text": "Amtsblatt Nr. 3 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1593_1.PDF?1686301101=",
+          "text": "Amtsblatt Nr. 4 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1784_1.PDF?1690360810=",
+          "text": "Amtsblatt Nr. 5 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1966_1.PDF?1697018438=",
+          "text": "Amtsblatt Nr. 6 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_2173_1.PDF?1701963540=",
+          "text": "Amtsblatt Nr. 7 2023",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_316_1.PDF?1642160962=",
+          "text": "Amtsblatt Nr. 1 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_483_1.PDF?1647610655=",
+          "text": "Amtsblatt Nr. 2 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_593_1.PDF?1650374008=",
+          "text": "Amtsblatt Nr. 3 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_701_1.PDF?1654848923=",
+          "text": "Amtsblatt Nr. 4 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_903_1.PDF?1659080274=",
+          "text": "Amtsblatt Nr. 5 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1095_1.PDF?1665558983=",
+          "text": "Amtsblatt Nr. 6 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_1148_1.PDF?1668441743=",
+          "text": "Amtsblatt Nr. 7 2022",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3353_1.PDF?1610702291=",
+          "text": "Amtsblatt Nr. 1 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3448_1.PDF?1615541107=",
+          "text": "Amtsblatt Nr. 2 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3491_1.PDF?1619520197=",
+          "text": "Amtsblatt Nr. 3 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3573_1.PDF?1623075652=",
+          "text": "Amtsblatt Nr. 4 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3699_1.PDF?1627285833=",
+          "text": "Amtsblatt Nr. 5 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_41_1.PDF?1633588423=",
+          "text": "Amtsblatt Nr. 6 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/3590_132_1.PDF?1636181345=",
+          "text": "Amtsblatt Nr. 7 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/Rathaus/Verwaltung/Amtliche-Bekanntmachungen/Amtsblatt-Nr-8-2021.php?amp%3BFID=3590.279.1&amp%3BModID=6&amp%3BNavID=2713.36&object=tx%2C3590.3",
+          "text": "Amtsblatt Nr. 8 2021",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2851_1.PDF?1578572338=",
+          "text": "Amtsblatt Nr. 1 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2942_1.PDF?1584084958=",
+          "text": "Amtsblatt Nr. 2 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3042_1.PDF?1591861046=",
+          "text": "Amtsblatt Nr. 3 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3081_1.PDF?1594987952=",
+          "text": "Amtsblatt Nr. 4 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3152_1.PDF?1600775667=",
+          "text": "Amtsblatt Nr. 5 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3230_1.PDF?1604054065=",
+          "text": "Amtsblatt Nr. 6 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_3335_1.PDF?1608129643=",
+          "text": "Amtsblatt Nr. 7 2020",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2174_1.PDF?1547128592=",
+          "text": "Amtsblatt Nr. 1 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2397_1.PDF?1553784016=",
+          "text": "Amtsblatt Nr. 2 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2478_1.PDF?1557390198=",
+          "text": "Amtsblatt Nr. 3 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2552_1.PDF?1561095960=",
+          "text": "Amtsblatt Nr. 4 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2650_1.PDF?1563515334=",
+          "text": "Amtsblatt Nr. 5 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2767_1.PDF?1568970149=",
+          "text": "Amtsblatt Nr. 6 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2797_1.PDF?1571997549=",
+          "text": "Amtsblatt Nr. 7 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2831_1.PDF?1574951649=",
+          "text": "Amtsblatt Nr. 8 2019",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1502_1.PDF?1515682381=",
+          "text": "Amtsblatt Nr. 1 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1610_1.PDF?1520325805=",
+          "text": "Amtsblatt Nr. 2 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1637_1.PDF?1521803415=",
+          "text": "Amtsblatt Nr. 3 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1745_1.PDF?1527145962=",
+          "text": "Amtsblatt Nr. 4 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1809_1.PDF?1530516995=",
+          "text": "Amtsblatt Nr. 5 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1843_1.PDF?1532425165=",
+          "text": "Amtsblatt Nr. 6 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2011_1.PDF?1540187634=",
+          "text": "Amtsblatt Nr. 7 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2074_1.PDF?1542115967=",
+          "text": "Amtsblatt Nr. 8 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_2145_1.PDF?1545211160=",
+          "text": "Amtsblatt Nr. 9 2018",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_461_1.PDF?1487351987=",
+          "text": "Amtsblatt Nr. 1 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_919_1.PDF?1494847272=",
+          "text": "Amtsblatt Nr. 2 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_920_1.PDF?1494847279=",
+          "text": "Amtsblatt Nr. 3 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1119_1.PDF?1499156821=",
+          "text": "Amtsblatt Nr. 4 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1214_1.PDF?1501753739=",
+          "text": "Amtsblatt Nr. 5 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1373_1.PDF?1508406298=",
+          "text": "Amtsblatt Nr. 6 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1392_1.PDF?1510840881=",
+          "text": "Amtsblatt Nr. 7 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_1459_1.PDF?1513780820=",
+          "text": "Amtsblatt Nr. 8 2017",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_213_1.PDF?1486033387=",
+          "text": "Amtsblatt Nr. 1 2016",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.hennigsdorf.de/media/custom/2713_214_1.PDF?1486033392=",
+          "text": "Amtsblatt Nr. 2 2016",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

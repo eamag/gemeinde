@@ -1,87 +1,87 @@
 {
-	"municipality": {
-		"id": "potsdam",
-		"name": "Potsdam",
-		"district": "kreisfreie Stadt",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.potsdam.de/de/amtsblatt-12023",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "potsdam",
-			"source": {
-				"id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.potsdam.de/de/amtsblatt-12023",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:47.867Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.potsdam.de/de/stadtrecht-satzungen-und-verordnungen",
-					"text": "Satzungen und Verordnungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.potsdam.de/de/amtsblatt",
-					"text": "Amtsblätter",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.potsdam.de/system/files/documents/amtsblatt_potsdam_01_2023_final.pdf",
-					"text": "Amtsblatt 1/2023 1,1 MB | PDF",
-					"kind": "pdf"
-				},
-				{
-					"url": "http://www.potsdam.de/de/amtsblatt-12023",
-					"text": "Cookie-Einstellungen verwalten",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "potsdam",
-			"source": {
-				"id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:47.867Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.potsdam.de/de/kategorie/immobilien",
-					"text": "Immobilien",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
-					"text": "Cookie-Einstellungen verwalten",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "potsdam",
+    "name": "Potsdam",
+    "district": "kreisfreie Stadt",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.potsdam.de/de/amtsblatt-12023",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "potsdam",
+      "source": {
+        "id": "potsdam-https-www-potsdam-de-de-amtsblatt-12023",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.potsdam.de/de/amtsblatt-12023",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:29.405Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.potsdam.de/de/stadtrecht-satzungen-und-verordnungen",
+          "text": "Satzungen und Verordnungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.potsdam.de/de/amtsblatt",
+          "text": "Amtsblätter",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.potsdam.de/system/files/documents/amtsblatt_potsdam_01_2023_final.pdf",
+          "text": "Amtsblatt 1/2023 1,1 MB | PDF",
+          "kind": "pdf"
+        },
+        {
+          "url": "http://www.potsdam.de/de/amtsblatt-12023",
+          "text": "Cookie-Einstellungen verwalten",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "potsdam",
+      "source": {
+        "id": "potsdam-https-www-potsdam-de-de-285-landeshaupts",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:29.600Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.potsdam.de/de/kategorie/immobilien",
+          "text": "Immobilien",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.potsdam.de/de/285-landeshauptstadt-verkauft-drei-baugrundstuecke",
+          "text": "Cookie-Einstellungen verwalten",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

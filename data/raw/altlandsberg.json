@@ -1,60 +1,65 @@
 {
-	"municipality": {
-		"id": "altlandsberg",
-		"name": "Altlandsberg",
-		"district": "Märkisch-Oderland",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "altlandsberg",
-			"source": {
-				"id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:34.809Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.altlandsberg.de/buergerservice-verwaltung/rathaus/amtsblatt-und-stadtmagazin",
-					"text": "Amtsblatt und Stadtmagazin",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.altlandsberg.de/wirtschaft-stadtentwicklung/stadtentwicklung/bauleitplanung/oeffentliche-bekanntmachungen",
-					"text": "Öffentliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen/oeffentliche-bekanntmachungen",
-					"text": "Öffentliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.altlandsberg.de/amtliche-bekanntmachungen/sonstige-bekanntmachungen",
-					"text": "Sonstige Bekanntmachungen",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "altlandsberg",
+    "name": "Altlandsberg",
+    "district": "Märkisch-Oderland",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "altlandsberg",
+      "source": {
+        "id": "altlandsberg-https-www-altlandsberg-de-amtliche-bekan",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:03.839Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.altlandsberg.de/buergerservice-verwaltung/rathaus/amtsblatt-und-stadtmagazin",
+          "text": "Amtsblatt und Stadtmagazin",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.altlandsberg.de/wirtschaft-stadtentwicklung/stadtentwicklung/bauleitplanung/oeffentliche-bekanntmachungen",
+          "text": "Öffentliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen/oeffentliche-bekanntmachungen",
+          "text": "Öffentliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen/sonstige-bekanntmachungen",
+          "text": "Sonstige Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.altlandsberg.de/amtliche-bekanntmachungen/beschluesse",
+          "text": "Beschlüsse",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

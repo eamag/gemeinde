@@ -1,90 +1,65 @@
 {
-	"municipality": {
-		"id": "schulzendorf",
-		"name": "Schulzendorf",
-		"district": "Dahme-Spreewald",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.schulzendorf.de/amtsblatt/index.php",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "schulzendorf",
-			"source": {
-				"id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.schulzendorf.de/amtsblatt/index.php",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:39:00.666Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.schulzendorf.de/seite/854197/bekanntmachung-zur-%C3%B6ffentlichen-auslage-des-entwurfs-der-kommunalen-w%C3%A4rmeplanung.html",
-					"text": "Bekanntmachung zur &ouml;ffentlichen Auslage des Entwurfs der Kommunalen W&auml;rmeplanung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schulzendorf.de/amtsblatt/index.php",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schulzendorf.de/bekanntmachungen/index.php",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schulzendorf.de/rechtsgrundlagen/index.php?typ=1",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/0fa9450ec11675e8b61353ddb1f3f19917543/Gemeindekurier_05-26_1.pdf",
-					"text": "05/2026 vom 10.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/0fa9450ec11675e8b61353ddb1f3f19917543/Gemeindekurier_06-26_1.pdf",
-					"text": "06/2026 vom 20.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/0fa9450ec11675e8b61353ddb1f3f19917543/Gemeindekurier_07-26.pdf",
-					"text": "07/2026 vom 29.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/0fa9450ec11675e8b61353ddb1f3f19917543/Gemeindekurier_08-26.pdf",
-					"text": "08/2026 vom 11.05.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/0fa9450ec11675e8b61353ddb1f3f19917543/Gemeindekurier_17-25.pdf",
-					"text": ".2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schulzendorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.schulzendorf.de%2Famtsblatt%2Findex.php",
-					"text": "link?referrer=https%3A%2F%2Fwww.schulzendorf.de%2Famtsblatt%2Findex.php",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schulzendorf.de/amtsblatt/index.php?modus=drucken",
-					"text": "index.php?modus=drucken",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "schulzendorf",
+    "name": "Schulzendorf",
+    "district": "Dahme-Spreewald",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.schulzendorf.de/amtsblatt/index.php",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "schulzendorf",
+      "source": {
+        "id": "schulzendorf-https-www-schulzendorf-de-amtsblatt-inde",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.schulzendorf.de/amtsblatt/index.php",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:43.266Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.schulzendorf.de/seite/854197/bekanntmachung-zur-%C3%B6ffentlichen-auslage-des-entwurfs-der-kommunalen-w%C3%A4rmeplanung.html",
+          "text": "Bekanntmachung zur öffentlichen Auslage des Entwurfs der Kommunalen Wärmeplanung",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schulzendorf.de/amtsblatt/index.php",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schulzendorf.de/bekanntmachungen/index.php",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schulzendorf.de/rechtsgrundlagen/index.php?typ=1",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schulzendorf.de/contact/index/link?referrer=https%3A%2F%2Fwww.schulzendorf.de%2Famtsblatt%2Findex.php",
+          "text": "link?referrer=https%3A%2F%2Fwww.schulzendorf.de%2Famtsblatt%2Findex.php",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schulzendorf.de/amtsblatt/index.php?modus=drucken",
+          "text": "index.php?modus=drucken",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

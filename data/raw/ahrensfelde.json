@@ -1,142 +1,147 @@
 {
-	"municipality": {
-		"id": "ahrensfelde",
-		"name": "Ahrensfelde",
-		"district": "Barnim",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
-				"discoveryMethod": "homepage"
-			},
-			{
-				"id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "ahrensfelde",
-			"source": {
-				"id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:34.578Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-archiv",
-					"text": "Amtsblatt-Archiv",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-abonnieren",
-					"text": "Amtsblatt abonnieren",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-nicht-erhalten-",
-					"text": "Amtsblatt nicht erhalten?",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/beitrag-einreichen",
-					"text": "Beitrag einreichen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/veroeffentlichungs-richtlinie",
-					"text": "Veröffentlichungs-Richtlinie",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtliche-bekanntmachungen",
-					"text": "Amtliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/aktuelles-mehr/amtliche-bekanntmachungen/amtliche-bekanntmachungen-suche",
-					"text": "Amtliche Bekanntmachungen - Suche",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/politik-verwaltung/ortsrecht-satzungen",
-					"text": "Ortsrecht & Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/rathaus-online/amtsblatt",
-					"text": "Rathaus online",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/rathaus-online/satzungen",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/portal/seiten/amtsblatt-900000010-30601.html?amp%3BbrotID=900000105&amp%3Brubrik=900000033&naviID=900000105",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/portal/seiten/amtsblatt-900000010-30601.html",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/portal/seiten/bekanntmachungen-900000029-30601.html",
-					"text": "Bekanntm.",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "ahrensfelde",
-			"source": {
-				"id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:34.578Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
-					"text": "Grundstücksausschreibungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/portal/seiten/grundstuecksausschreibungen-900000303-30601.html?amp%3BbrotID=900000358&amp%3Brubrik=900000003&naviID=900000358",
-					"text": "Grundstücksausschreibungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.ahrensfelde.de/politik-verwaltung/verwaltung/steuern-finanzen/steuern-abgaben/grundsteuer",
-					"text": "Grundsteuer",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "ahrensfelde",
+    "name": "Ahrensfelde",
+    "district": "Barnim",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
+        "discoveryMethod": "homepage"
+      },
+      {
+        "id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "ahrensfelde",
+      "source": {
+        "id": "ahrensfelde-https-www-ahrensfelde-de-aktuelles-mehr-",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:03.366Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-archiv",
+          "text": "Amtsblatt-Archiv",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-abonnieren",
+          "text": "Amtsblatt abonnieren",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/amtsblatt-nicht-erhalten-",
+          "text": "Amtsblatt nicht erhalten?",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/beitrag-einreichen",
+          "text": "Beitrag einreichen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/werbeanzeige-buchen",
+          "text": "Werbeanzeige buchen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtsblatt/veroeffentlichungs-richtlinie",
+          "text": "Veröffentlichungs-Richtlinie",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtliche-bekanntmachungen",
+          "text": "Amtliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/aktuelles-mehr/amtliche-bekanntmachungen/amtliche-bekanntmachungen-suche",
+          "text": "Amtliche Bekanntmachungen - Suche",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/politik-verwaltung/ortsrecht-satzungen",
+          "text": "Ortsrecht & Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/rathaus-online/amtsblatt",
+          "text": "Rathaus online",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/rathaus-online/satzungen",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/portal/seiten/amtsblatt-900000010-30601.html?amp%3BbrotID=900000105&amp%3Brubrik=900000033&naviID=900000105",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/portal/seiten/amtsblatt-900000010-30601.html",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/portal/seiten/bekanntmachungen-900000029-30601.html",
+          "text": "Bekanntm.",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "ahrensfelde",
+      "source": {
+        "id": "ahrensfelde-https-www-ahrensfelde-de-bauen-umwelt-wi",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:03.359Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.ahrensfelde.de/bauen-umwelt-wirtschaft/grundstuecksausschreibungen",
+          "text": "Grundstücksausschreibungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/portal/seiten/grundstuecksausschreibungen-900000303-30601.html?amp%3BbrotID=900000358&amp%3Brubrik=900000003&naviID=900000358",
+          "text": "Grundstücksausschreibungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.ahrensfelde.de/politik-verwaltung/verwaltung/steuern-finanzen/steuern-abgaben/grundsteuer",
+          "text": "Grundsteuer",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

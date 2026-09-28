@@ -1,107 +1,107 @@
 {
-	"municipality": {
-		"id": "hohen-neuendorf",
-		"name": "Hohen Neuendorf",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
-				"discoveryMethod": "homepage"
-			},
-			{
-				"id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://hohen-neuendorf.de/de/liegenschaften",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "hohen-neuendorf",
-			"source": {
-				"id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:43.609Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen",
-					"text": "Ortsrecht / Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/allgemeine-bekanntmachungen",
-					"text": "Allgemeine Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/archiv",
-					"text": "Archiv",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/abwasser-wohnungswirtschaft",
-					"text": "Eigenbetrieb Abwasser und Eigenbetrieb Wohnungswirtschaft",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/haushalt-und-jahresabschluss",
-					"text": "Haushalt und Jahresabschluss",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/satzungen-richtlinien-ordnungen",
-					"text": "Satzungen, Richtlinien und Ordnungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/stadtplanung/weitere-staedtebauliche-satzungen",
-					"text": "Weitere städtebauliche Satzungen",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "hohen-neuendorf",
-			"source": {
-				"id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://hohen-neuendorf.de/de/liegenschaften",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:43.609Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/grundstuecke",
-					"text": "Grundstücke",
-					"kind": "html"
-				},
-				{
-					"url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/grundstuecke/grundstuecksausschreibungen",
-					"text": "Grundstücksausschreibungen",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "hohen-neuendorf",
+    "name": "Hohen Neuendorf",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
+        "discoveryMethod": "homepage"
+      },
+      {
+        "id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://hohen-neuendorf.de/de/liegenschaften",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "hohen-neuendorf",
+      "source": {
+        "id": "hohen-neuendorf-https-hohen-neuendorf-de-rathaus-politik",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://hohen-neuendorf.de/rathaus-politik/bekanntmachungen",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:18.022Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen",
+          "text": "Ortsrecht / Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/allgemeine-bekanntmachungen",
+          "text": "Allgemeine Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/archiv",
+          "text": "Archiv",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/abwasser-wohnungswirtschaft",
+          "text": "Eigenbetrieb Abwasser und Eigenbetrieb Wohnungswirtschaft",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/haushalt-und-jahresabschluss",
+          "text": "Haushalt und Jahresabschluss",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/rathaus-politik/bekanntmachungen/satzungen-richtlinien-ordnungen",
+          "text": "Satzungen, Richtlinien und Ordnungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/stadtplanung/weitere-staedtebauliche-satzungen",
+          "text": "Weitere städtebauliche Satzungen",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "hohen-neuendorf",
+      "source": {
+        "id": "hohen-neuendorf-https-hohen-neuendorf-de-de-liegenschaft",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://hohen-neuendorf.de/de/liegenschaften",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:18.015Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/grundstuecke",
+          "text": "Grundstücke",
+          "kind": "html"
+        },
+        {
+          "url": "https://hohen-neuendorf.de/de/bauen-wirtschaft/grundstuecke/grundstuecksausschreibungen",
+          "text": "Grundstücksausschreibungen",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

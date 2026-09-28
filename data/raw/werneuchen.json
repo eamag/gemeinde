@@ -1,150 +1,145 @@
 {
-	"municipality": {
-		"id": "werneuchen",
-		"name": "Werneuchen",
-		"district": "Barnim",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "werneuchen",
-			"source": {
-				"id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:39:08.340Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/satzungen",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/oeffentliche-bekanntmachungen",
-					"text": "Öffentliche Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/portal/seiten/amtsblatt-900000022-30690.html?amp%3BbrotID=900000069&amp%3Brubrik=900000001&naviID=900000069",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/medien/bilder/amtsblatt_web.jpg?20211214101500=",
-					"text": "amtsblatt_web.jpg?20211214101500=",
-					"kind": "html"
-				},
-				{
-					"url": "mailto:&",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=1&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "1",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=2&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "2",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=3&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "3",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=25&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "25",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=26&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "26",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=27&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=261",
-					"text": "27",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/M2VhZGNkZjU1OTM5MGEzYmZNeDlxb0JHNzVXWGFtOThvNlFsaUw1SGNLSzVZQ0FQNkJJVm5HTGloeGIvWVNEcmc0MFhOSXpVVkdZWWNjRTFuU1pyRTBNNE4rb2grZlRjcURrU1E0VG8vZ09UcWxsRnY5UURIcmkzcUtibUhKMDNGaHlzM0JXQzFUbDJRdG5Y",
-					"text": "Amtsblatt26-05.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/NjQ0YjkyZjRmYWIwY2FjNUtNby9VLzhxNnlRT3dHTTBxeEZPejRxTEtHbGlUTUg0dVFYUENhVk5MSFRFTnAwNjEvNzV6enpxNEJXYk9USzd3NXIwSGIxY3BpNGNWUGxLcCtMMWZCb25oRkNmdjZWSkZUVFNMTVVjakZvTk1rS0NsV3NXdmkvQVBML2dRWmwv",
-					"text": "Amtsblatt26-04.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/MWQyZmQyMDU4MzU4NTU1MUlUYW9HdUZINGlNU3ZNL0pnMlY0QTZ2b3VnRTc5RUxZaWQ1ZmFMaFdicW5RQktCdmRlMDkwV1BlK0NqemlsaHRNQkhpWUdkYVByejJaN2t5UnRZcUlYLzIwVkpZdUt3RndiM0tNbFFiYW01cnhIK05BZXVBUng5bkxpK09ELzBW",
-					"text": "Amtsblatt26-03.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/YmQwMzNmZWMyOWE1ODQxYmJZQXdJTmQyYzBxblRGemY3RHZzaWY5UzZWU3BPa3g0clo3c3diZnMzQ3F1L0RvR1RuL012VUd1bTZMZEk1VTQxczVFOTNaZjVlc1lwTC81ZFpmb3hSNVFwU0YreTFZUS9pN1F0YU1IT096aGs5SlNWYlBucjVBZ2pZMExLMGV2",
-					"text": "Amtsblatt26-02.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/YjZjOGUyZWQ3YWQ2NWY2ZEZvT0svL2crYjE3OFVUVko5ekM3R1g0Z2ZsbkRIWlJud2VWKzJadGJkczNPemZSaDlQL0dIbENjbmlMWmJRRDRPMW9zUEI0ai9LVnUya2VoYS9rUEhGcXkyM29HR3FpUUVGRXNncVBmNTRSdzR6SjlDY2NYdG4yR1dhZ0xYVGJt",
-					"text": "Amtsblatt26-01.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/NGI5MzdjZTZiYTg3MWUwMkNKVVZhU3ExVnRjcFFTTTZzc0o0ajF2QUpZaDh0Mkpsc2J0SU93TFltMGtNeHpvN3JxU3QycDk4MHFHeWJKa2hsdC91Sm9JTUtiSlIxOXlXaEt3bjd2T01pK2pRUmJuL3plR0d4WnVOSWVPWEJVa1ZWdy9qb012VmZteThPS0M2",
-					"text": "Amtsblatt25-12.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/OTljYmYwZmQ3NmYyMDZkZkNoYmpOd1NNb3lLMXJiSnJ3M01kMy8yVWVLeTBJdkRKZUF4cksvdFFzNXJwY1FZYStkQ2poaEl4VllSMlc4bzdaZElOUExPSHJ0TU02SGJSbUxoM2U1SStzNnh2SkpubFdJYlFwdTVjNzN6Z2FzZTkyNVFPdmduUkxhckxTZlkv",
-					"text": "Amtsblatt25-11.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/NjE4YjE0ODhkZTNjYTM2ZFBwTUl1WUdjbi83QXRQMVQ1VlFtSzdqdHdJUEV0WkplMlNJajJYdmVSZ3ArTFByWFVldm9VbG4wVWJFRUNmTzRqVjluUlZkOC8rZ1RQbG1BM0tMa2k3alZmTWlJbTliaXlHT2FxUkErdTIzbkJlOUE2Ni9HM3Q2TGhWVDhUT2xL",
-					"text": "Amtsblatt25-10.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/NDkwYzMzM2JkYzY4MGYyOTUyN3VzV3lMSVdSWG5hV25DTW9wRXNEUVlNYm9pRENNRE5yYk5UTHhOQUQ2SW90YTVvY2pNdjRNdkFOV0VEY1BLaFF1cTdKT0hhVTNPM0lXQjB5Y2FXR3Bsc2xnS2gzeHQ3TzlWaTZRNzJqMzZ3SE16V0wzNjE1QzZka0NwRHA3",
-					"text": "Amtsblatt25-09.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/downloads/datei/MTgyM2UwYjgxZWNmNDFhZGJKUWtqU3dlblBlNkkzYTJCMFF6TXI4Y2NDMlMwWUQwcmo3SGhpWFpJYjBrTjRUUUIrQ09wUkFYZHZWanZjQ0RMV2RwSXVJd1RwUzFIcXg4MmxGYitwemZKZkluUmEySGMwbTd1WllweHpqWWNFalFuQUVtZGUwaktmK0dPTktF",
-					"text": "Amtsblatt25-08.pdf",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.werneuchen-barnim.de/barrierefreiheit/barriere_melden.html?url=https%3A%2F%2Fwww.werneuchen-barnim.de%2Fstadtverwaltung%2Famtsblatt",
-					"text": "Barriere melden",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "werneuchen",
+    "name": "Werneuchen",
+    "district": "Barnim",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "werneuchen",
+      "source": {
+        "id": "werneuchen-https-www-werneuchen-barnim-de-stadtverw",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:52.059Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/satzungen",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/oeffentliche-bekanntmachungen",
+          "text": "Öffentliche Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/portal/seiten/amtsblatt-900000022-30690.html?amp%3BbrotID=900000069&amp%3Brubrik=900000001&naviID=900000069",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/medien/bilder/amtsblatt_web.jpg?20211214101500=",
+          "text": "amtsblatt_web.jpg?20211214101500=",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=1&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "1",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=2&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "2",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=3&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "3",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=25&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "25",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=26&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "26",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/stadtverwaltung/amtsblatt?amp%3BbrotID=900000069&amp%3BcontainerSort=4&amp%3Bid=900000048&amp%3Bid=900000048&amp%3Bkein_blaettern=0&amp%3BnaviID=900000069&amp%3Bnavi_typ=2&amp%3BnolisScrollTo=nolis_seiten_dokumente_ebene900000032&amp%3Bowner=30690&amp%3Bowner=30690&amp%3Bp900000032=27&amp%3Brubrik=0&amp%3Bsite=900000022&amp%3Btyp=2&amp%3Bwebcode_id=0&total=265",
+          "text": "27",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/N2IzNTk5MzJiMWNmZThkMUwwR20rdGN5a015WEh1TzNYTDBRcG1mRnpteDRGcmlLNHYwSTFrejRPNVFtMTQyaVdJcW90T04wSmEvVmh2ZDFUdlJRTmxoSXcxOWVXQWJVMU5lSGltak9pWndyTHlyemVzdUI3R2JzM0NmUld0b2tvTW1vWnBqV0w1RGFSQ1hX",
+          "text": "Amtsblatt26-09.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/MDFlOTI3NDI1OTc2OTg2NjZoRXNEMDhCbzY5ZXUrcEdRZmFLUi9mSGhudWNYVlJZTVlFd3NvUDZtaDYrbG5sand2V01hRHl5b1NrSFBWVTc1RENPbGplWTRvcjlMN1RKeDF3bUtMMDA2Umt3WkRkb29oY1A4WkdDZDVWNEpZS3BtVTJ2cVBCRFB4aTJKODhZ",
+          "text": "Amtsblatt26-08.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/MmU0MTE2YTc1NGM5MzZhYm5oT2pCRG9HYWNFQ3puemRNS3ViazZHODU4RHhDTjM4RkpMaTI1SlFzSG1VUmRKdVB0ZVJqRHFOckM3cG5QSmFmVlJuV2trM1Y0NmxoMUdpd0JKcktyTmROL01uYm5vY1picGxHQ0hBa05ZUUJ5SjZsSlFDY1pBeXQ3RVhNUFBV",
+          "text": "Amtsblatt26-07.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/NmJmYWZkNmRiYWI2ODM5OXVxaC9nb1RYeXc0aG42WGd6UUFNZmZtRGxER2wvRlEzTm5lZ2Z5VzVxWnM1RnlieEM3RGdFM1FQblJtaG9uakt2WDY4eGRSZTkxNHE3TjJGRE1qVWtpY0JzVjhDNzFpajZVd3pobHVZZ0ptRFIzVGEyVkQyYlFMdXBhQnliK25L",
+          "text": "Amtsblatt26-06.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/M2VhZGNkZjU1OTM5MGEzYmZNeDlxb0JHNzVXWGFtOThvNlFsaUw1SGNLSzVZQ0FQNkJJVm5HTGloeGIvWVNEcmc0MFhOSXpVVkdZWWNjRTFuU1pyRTBNNE4rb2grZlRjcURrU1E0VG8vZ09UcWxsRnY5UURIcmkzcUtibUhKMDNGaHlzM0JXQzFUbDJRdG5Y",
+          "text": "Amtsblatt26-05.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/NjQ0YjkyZjRmYWIwY2FjNUtNby9VLzhxNnlRT3dHTTBxeEZPejRxTEtHbGlUTUg0dVFYUENhVk5MSFRFTnAwNjEvNzV6enpxNEJXYk9USzd3NXIwSGIxY3BpNGNWUGxLcCtMMWZCb25oRkNmdjZWSkZUVFNMTVVjakZvTk1rS0NsV3NXdmkvQVBML2dRWmwv",
+          "text": "Amtsblatt26-04.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/MWQyZmQyMDU4MzU4NTU1MUlUYW9HdUZINGlNU3ZNL0pnMlY0QTZ2b3VnRTc5RUxZaWQ1ZmFMaFdicW5RQktCdmRlMDkwV1BlK0NqemlsaHRNQkhpWUdkYVByejJaN2t5UnRZcUlYLzIwVkpZdUt3RndiM0tNbFFiYW01cnhIK05BZXVBUng5bkxpK09ELzBW",
+          "text": "Amtsblatt26-03.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/YmQwMzNmZWMyOWE1ODQxYmJZQXdJTmQyYzBxblRGemY3RHZzaWY5UzZWU3BPa3g0clo3c3diZnMzQ3F1L0RvR1RuL012VUd1bTZMZEk1VTQxczVFOTNaZjVlc1lwTC81ZFpmb3hSNVFwU0YreTFZUS9pN1F0YU1IT096aGs5SlNWYlBucjVBZ2pZMExLMGV2",
+          "text": "Amtsblatt26-02.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/YjZjOGUyZWQ3YWQ2NWY2ZEZvT0svL2crYjE3OFVUVko5ekM3R1g0Z2ZsbkRIWlJud2VWKzJadGJkczNPemZSaDlQL0dIbENjbmlMWmJRRDRPMW9zUEI0ai9LVnUya2VoYS9rUEhGcXkyM29HR3FpUUVGRXNncVBmNTRSdzR6SjlDY2NYdG4yR1dhZ0xYVGJt",
+          "text": "Amtsblatt26-01.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/downloads/datei/NGI5MzdjZTZiYTg3MWUwMkNKVVZhU3ExVnRjcFFTTTZzc0o0ajF2QUpZaDh0Mkpsc2J0SU93TFltMGtNeHpvN3JxU3QycDk4MHFHeWJKa2hsdC91Sm9JTUtiSlIxOXlXaEt3bjd2T01pK2pRUmJuL3plR0d4WnVOSWVPWEJVa1ZWdy9qb012VmZteThPS0M2",
+          "text": "Amtsblatt25-12.pdf",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.werneuchen-barnim.de/barrierefreiheit/barriere_melden.html?url=https%3A%2F%2Fwww.werneuchen-barnim.de%2Fstadtverwaltung%2Famtsblatt",
+          "text": "Barriere melden",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

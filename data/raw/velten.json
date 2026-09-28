@@ -1,435 +1,435 @@
 {
-	"municipality": {
-		"id": "velten",
-		"name": "Velten",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "velten-https-velten-de-verwaltung-politik-aktue",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "velten",
-			"source": {
-				"id": "velten-https-velten-de-verwaltung-politik-aktue",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:05.020Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Stadtpolitik/Ortsrecht-Satzungen",
-					"text": "Ortsrecht & Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Soziales-Beteiligung/B%C3%BCrgerbeteiligung/Offenlegungen/Gestaltungssatzung",
-					"text": "Gestaltungssatzung",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Bauen-Wirtschaft/Stadtentwicklung/Bebauungspl%C3%A4ne-Satzungen",
-					"text": "Bebauungspl�ne/Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.179.1&amp%3BModID=10&object=tx%7C3631.89.1",
-					"text": "Kinderbetreuung - Anmelden f�r Kita und Hort",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/index.php?amp%3BFID=3631.414.1&amp%3BModID=6&object=tx%7C3631.3.1",
-					"text": "Stra�enreinigungssatzung",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.204.1&amp%3BModID=10&object=tx%7C3631.89.1",
-					"text": "Hundeanzeige",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.254.1&amp%3BModID=10&object=tx%7C3631.89.1",
-					"text": "Personalausweis - Alle Dienstleistungen und Terminvereinbarungen auf einen Blick",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.260.1&amp%3BModID=10&object=tx%7C3631.89.1",
-					"text": "Reisepass - Alle Dienstleistungen und Terminvereinbarungen auf einen Blick",
-					"kind": "html"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2517.1.PDF",
-					"text": "Formular SEPA Lastschrift",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2589.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 30.01.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2635.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 13.03.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2672.1.PDF",
-					"text": "Amtsblatt Nr. 3 mit Haushalt - Herausgabe: 23.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2127.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 06.01.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2142.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 24.01.2025 (Sonderver&ouml;ffentlichung",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2195.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 28.02.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2215.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 04.04.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2347.1.PDF",
-					"text": "Amtsblatt Nr. 5. - Herausgabe: 20.06.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2414.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 01.08.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2476.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 29.09.2025 (Sonderver&ouml;ffentlichung)",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2497.1.PDF",
-					"text": "Amtsblatt Nr. 8 - Herausgabe: 24.10.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1677.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 23.02.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1745.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 19.04.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1816.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 13.05.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1836.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 07.06.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1895.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 19.07.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2005.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 11.10.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.2090.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 22.11.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1322.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 03.03.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1370.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 14.04.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1437.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 05.06.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1502.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 21.07.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1586.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 27.10.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1626.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 22.12.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.759.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 07.01.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.760.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 04.03.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.907.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 04.08.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.906.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe_03.06.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1065.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 15.07.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1188.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 30.09.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1216.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 03.11.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.1286.1.PDF",
-					"text": "Amtsblatt Nr. 8 - Herausgabe: 22.12.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.296.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 08.01.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.297.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 26.02.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.298.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 31.03.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.299.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 20.05.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.300.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 25.06.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.301.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 20.08.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.302.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 28.09.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.303.1.PDF",
-					"text": "Amtsblatt Nr. 8 - Herausgabe: 22.10.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.492.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 06.01.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.493.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 28.02.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.494.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 03.04.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.498.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 22.05.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.496.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 03.07.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.497.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 18.09.2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.613.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 25.01.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.614.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 22.02.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.615.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 22.03.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.616.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 05.04.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.617.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 03.05.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.618.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 05.07.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.619.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 30.08.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.620.1.PDF",
-					"text": "Amtsblatt Nr. 8 - Herausgabe: 04.10.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.621.1.PDF",
-					"text": "Amtsblatt Nr. 9 - Herausgabe: 22.11.2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.624.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 23.02.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.625.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 29.03.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.626.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 18.05.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.627.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 06.07.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.628.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 25.09.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.629.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 23.11.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.631.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 28.12.2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.642.1.PDF",
-					"text": "Amtsblatt Nr. 1 - Herausgabe: 24.02.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.645.1.PDF",
-					"text": "Amtsblatt Nr. 2 - Herausgabe: 31.03.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.646.1.PDF",
-					"text": "Amtsblatt Nr. 3 - Herausgabe: 19.05.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.647.1.PDF",
-					"text": "Amtsblatt Nr. 4 - Herausgabe: 14.07.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.649.1.PDF",
-					"text": "Amtsblatt Nr. 5 - Herausgabe: 11.08.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.650.1.PDF",
-					"text": "Amtsblatt Nr. 6 - Herausgabe: 05.10.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.651.1.PDF",
-					"text": "Amtsblatt Nr. 7 - Herausgabe: 30.10.2017",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://velten.de/output/download.php?fid=3631.652.1.PDF",
-					"text": "Amtsblatt Nr. 8 - Herausgabe: 24.11.2017",
-					"kind": "pdf"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "velten",
+    "name": "Velten",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "velten-https-velten-de-verwaltung-politik-aktue",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "velten",
+      "source": {
+        "id": "velten-https-velten-de-verwaltung-politik-aktue",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:49.140Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Stadtpolitik/Ortsrecht-Satzungen",
+          "text": "Ortsrecht & Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Bauen-Wirtschaft/Stadtentwicklung/Bebauungspl%C3%A4ne-Satzungen",
+          "text": "Bebauungspl�ne/Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.179.1&amp%3BModID=10&object=tx%7C3631.89.1",
+          "text": "Kinderbetreuung - Anmelden f�r Kita und Hort",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/index.php?amp%3BFID=3631.414.1&amp%3BModID=6&object=tx%7C3631.3.1",
+          "text": "Stra�enreinigungssatzung",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.204.1&amp%3BModID=10&object=tx%7C3631.89.1",
+          "text": "Hundeanzeige",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.254.1&amp%3BModID=10&object=tx%7C3631.89.1",
+          "text": "Personalausweis - Alle Dienstleistungen und Terminvereinbarungen auf einen Blick",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/Verwaltung-Politik/Aktuelles/Amtsblatt/index.php?amp%3BFID=3631.260.1&amp%3BModID=10&object=tx%7C3631.89.1",
+          "text": "Reisepass - Alle Dienstleistungen und Terminvereinbarungen auf einen Blick",
+          "kind": "html"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2589.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 30.01.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2635.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 13.03.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2672.1.PDF",
+          "text": "Amtsblatt Nr. 3 mit Haushalt - Herausgabe: 23.04.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2773.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 12.06.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2127.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 06.01.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2142.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 24.01.2025 (Sonderveröffentlichung",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2195.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 28.02.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2215.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 04.04.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2347.1.PDF",
+          "text": "Amtsblatt Nr. 5. - Herausgabe: 20.06.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2414.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 01.08.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2476.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 29.09.2025 (Sonderveröffentlichung)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2497.1.PDF",
+          "text": "Amtsblatt Nr. 8 - Herausgabe: 24.10.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1677.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 23.02.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1745.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 19.04.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1816.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 13.05.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1836.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 07.06.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1895.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 19.07.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2005.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 11.10.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.2090.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 22.11.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1322.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 03.03.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1370.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 14.04.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1437.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 05.06.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1502.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 21.07.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1586.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 27.10.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1626.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 22.12.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.759.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 07.01.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.760.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 04.03.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.907.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 04.08.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.906.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe_03.06.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1065.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 15.07.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1188.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 30.09.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1216.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 03.11.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.1286.1.PDF",
+          "text": "Amtsblatt Nr. 8 - Herausgabe: 22.12.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.296.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 08.01.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.297.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 26.02.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.298.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 31.03.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.299.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 20.05.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.300.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 25.06.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.301.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 20.08.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.302.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 28.09.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.303.1.PDF",
+          "text": "Amtsblatt Nr. 8 - Herausgabe: 22.10.2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.492.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 06.01.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.493.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 28.02.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.494.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 03.04.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.498.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 22.05.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.496.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 03.07.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.497.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 18.09.2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.613.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 25.01.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.614.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 22.02.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.615.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 22.03.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.616.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 05.04.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.617.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 03.05.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.618.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 05.07.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.619.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 30.08.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.620.1.PDF",
+          "text": "Amtsblatt Nr. 8 - Herausgabe: 04.10.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.621.1.PDF",
+          "text": "Amtsblatt Nr. 9 - Herausgabe: 22.11.2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.624.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 23.02.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.625.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 29.03.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.626.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 18.05.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.627.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 06.07.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.628.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 25.09.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.629.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 23.11.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.631.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 28.12.2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.642.1.PDF",
+          "text": "Amtsblatt Nr. 1 - Herausgabe: 24.02.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.645.1.PDF",
+          "text": "Amtsblatt Nr. 2 - Herausgabe: 31.03.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.646.1.PDF",
+          "text": "Amtsblatt Nr. 3 - Herausgabe: 19.05.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.647.1.PDF",
+          "text": "Amtsblatt Nr. 4 - Herausgabe: 14.07.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.649.1.PDF",
+          "text": "Amtsblatt Nr. 5 - Herausgabe: 11.08.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.650.1.PDF",
+          "text": "Amtsblatt Nr. 6 - Herausgabe: 05.10.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.651.1.PDF",
+          "text": "Amtsblatt Nr. 7 - Herausgabe: 30.10.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.652.1.PDF",
+          "text": "Amtsblatt Nr. 8 - Herausgabe: 24.11.2017",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://velten.de/output/download.php?fid=3631.653.1.PDF",
+          "text": "Amtsblatt Nr. 9 - Herausgabe: 22.12.2017",
+          "kind": "pdf"
+        }
+      ]
+    }
+  ]
 }

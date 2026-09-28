@@ -1,187 +1,137 @@
 {
-	"municipality": {
-		"id": "dallgow-doberitz",
-		"name": "Dallgow-Döberitz",
-		"district": "Havelland",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.dallgow.de/amtsblatt/index.php",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "dallgow-doberitz",
-			"source": {
-				"id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.dallgow.de/amtsblatt/index.php",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:37.556Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.dallgow.de/news/index.php?rubrik=13",
-					"text": "Bekanntmachungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/amtsblatt/index.php",
-					"text": "Rathauskurier (ehem. Amtsblatt)",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/rechtsgrundlagen/1/satzungen.html",
-					"text": "Ortsrecht / Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Konzept_f_r_die_Kinder-und_Jugendarbeit_Dallgow-D_beritz_2024_final.pdf",
-					"text": "Konzept f&uuml;r die Kinder- & Jugendarbeit",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Dallgow-Doeberitz_Radinfrakonzept_2024-02-20.pdf",
-					"text": "Radverkehrsinfrastruktur-Konzept",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://mil.brandenburg.de/sixcms/media.php/9/Langfassung%202023-08-31_LNVP_2023-2027_final_V.32-CD-bunt.pdf",
-					"text": "Landesnahverkehrsplan 2023-2027",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Massnahmenkatalog_IKK_Gemeinde_Dallgow_D_beritz_2023.pdf",
-					"text": "Ma&szlig;nahmenkatalog",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Informationsbroschuere_Dallgow_Doeberitz_2024.pdf",
-					"text": "Informationsbrosch&uuml;re",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://app-eu.readspeaker.com/cgi-bin/rsent?amp%3Burl=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php&customerid=13299&lang=de_de&readid=readspeaker",
-					"text": "Vorlesen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/contact/index/link?referrer=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
-					"text": "Senden",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/amtsblatt/index.php?modus=drucken",
-					"text": "Drucken",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
-					"text": "Teilen auf Facebook",
-					"kind": "html"
-				},
-				{
-					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
-					"text": "Teilen auf X",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "dallgow-doberitz",
-			"source": {
-				"id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:37.556Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Konzept_f_r_die_Kinder-und_Jugendarbeit_Dallgow-D_beritz_2024_final.pdf",
-					"text": "Konzept f&uuml;r die Kinder- & Jugendarbeit",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
-					"text": "Grundst&uuml;cksangebote",
-					"kind": "html"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Dallgow-Doeberitz_Radinfrakonzept_2024-02-20.pdf",
-					"text": "Radverkehrsinfrastruktur-Konzept",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://mil.brandenburg.de/sixcms/media.php/9/Langfassung%202023-08-31_LNVP_2023-2027_final_V.32-CD-bunt.pdf",
-					"text": "Landesnahverkehrsplan 2023-2027",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Massnahmenkatalog_IKK_Gemeinde_Dallgow_D_beritz_2023.pdf",
-					"text": "Ma&szlig;nahmenkatalog",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.dallgow.de/immobilien/index/kategorie/cat/7/gewerbegebiet",
-					"text": "Gewerbegebiete",
-					"kind": "html"
-				},
-				{
-					"url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/1710ecf154295c49fec5fe05181839e743308/Informationsbroschuere_Dallgow_Doeberitz_2024.pdf",
-					"text": "Informationsbrosch&uuml;re",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://app-eu.readspeaker.com/cgi-bin/rsent?amp%3Burl=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html&customerid=13299&lang=de_de&readid=readspeaker",
-					"text": "Vorlesen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/nauenerstrasse",
-					"text": "Grundstück mit sanierungsbedürftigem Wohngebäude / Nauener Straße 27, Flur 1/ Dallgow, Flurstück 54 in 14624 Dallgow-Döberitz",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/contact/index/link?referrer=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%C3%BCcksangebote.html",
-					"text": "Senden",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html?modus=drucken",
-					"text": "Drucken",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf Facebook",
-					"kind": "html"
-				},
-				{
-					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf X",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "dallgow-doberitz",
+    "name": "Dallgow-Döberitz",
+    "district": "Havelland",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.dallgow.de/amtsblatt/index.php",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "dallgow-doberitz",
+      "source": {
+        "id": "dallgow-doberitz-https-www-dallgow-de-amtsblatt-index-php",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.dallgow.de/amtsblatt/index.php",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:08.349Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.dallgow.de/news/index.php?rubrik=13",
+          "text": "Bekanntmachungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/amtsblatt/index.php",
+          "text": "Rathauskurier (ehem. Amtsblatt)",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/rechtsgrundlagen/1/satzungen.html",
+          "text": "Ortsrecht / Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://app-eu.readspeaker.com/cgi-bin/rsent?amp%3Burl=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php&customerid=13299&lang=de_de&readid=readspeaker",
+          "text": "Vorlesen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/contact/index/link?referrer=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
+          "text": "Senden",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/amtsblatt/index.php?modus=drucken",
+          "text": "Drucken",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
+          "text": "Teilen auf Facebook",
+          "kind": "html"
+        },
+        {
+          "url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.dallgow.de%2Famtsblatt%2Findex.php",
+          "text": "Teilen auf X",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "dallgow-doberitz",
+      "source": {
+        "id": "dallgow-doberitz-https-www-dallgow-de-seite-323599-grunds",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:07.295Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html",
+          "text": "Grundstücksangebote",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/immobilien/index/kategorie/cat/7/gewerbegebiet",
+          "text": "Gewerbegebiete",
+          "kind": "html"
+        },
+        {
+          "url": "https://app-eu.readspeaker.com/cgi-bin/rsent?amp%3Burl=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html&customerid=13299&lang=de_de&readid=readspeaker",
+          "text": "Vorlesen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/nauenerstrasse",
+          "text": "Grundstück mit sanierungsbedürftigem Wohngebäude / Nauener Straße 27, Flur 1/ Dallgow, Flurstück 54 in 14624 Dallgow-Döberitz",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/contact/index/link?referrer=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%C3%BCcksangebote.html",
+          "text": "Senden",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.dallgow.de/seite/323599/grundst%C3%BCcksangebote.html?modus=drucken",
+          "text": "Drucken",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf Facebook",
+          "kind": "html"
+        },
+        {
+          "url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.dallgow.de%2Fseite%2F323599%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf X",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

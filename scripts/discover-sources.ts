@@ -1,5 +1,8 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { fetchTextWithRetry } from './lib/async';
+import { writeFileAtomic } from './lib/io';
+import { canonicalizeUrl, hasAnyKeyword, normalizeWhitespace } from './lib/urls';
 
 function formatElapsed(startMs: number): string {
 	const seconds = Math.round((Date.now() - startMs) / 1000);
@@ -52,6 +55,12 @@ type SeedMunicipality = {
 	sources: SeedSource[];
 };
 
+type DiscoveryFailure = {
+	id: string;
+	name: string;
+	error: string;
+};
+
 type DiscoveryReport = {
 	generatedAt: string;
 	sourceListUrl: string;
@@ -61,6 +70,7 @@ type DiscoveryReport = {
 		withAmtsblattSource: number;
 		withAnySource: number;
 	};
+	failedMunicipalities: DiscoveryFailure[];
 	municipalities: Array<{
 		id: string;
 		name: string;
@@ -101,9 +111,13 @@ type WikidataEntityResponse = {
 	>;
 };
 
-const PROJECT_ROOT = resolve(import.meta.dir, '..');
+// `import.meta.dir` is Bun-only and untyped; `dirname` is the standard equivalent
+// and is understood by both Bun and Node's type definitions.
+const PROJECT_ROOT = resolve(import.meta.dirname, '..');
 const DATA_DIR = resolve(PROJECT_ROOT, 'data');
 const GENERATED_DIR = resolve(DATA_DIR, 'generated');
+const SEED_FILE = resolve(DATA_DIR, 'sources.seed.json');
+const REPORT_FILE = resolve(GENERATED_DIR, 'source-discovery-report.json');
 const WIKI_SOURCE_URL = 'https://de.wikipedia.org/wiki/Liste_von_Orten_im_Berliner_Umland';
 const WEBSITE_OVERRIDES: Record<string, string> = {
 	werneuchen: 'https://www.werneuchen-barnim.de/'
@@ -200,10 +214,6 @@ const FETCH_RETRY_DELAY_MS = 1000;
 const CONCURRENCY = 5;
 const HTML_SAMPLE_SIZE = 50000;
 
-function normalizeWhitespace(value: string): string {
-	return value.replace(/\s+/g, ' ').trim();
-}
-
 function stripTags(value: string): string {
 	return normalizeWhitespace(value.replace(/<[^>]+>/g, ' '));
 }
@@ -227,31 +237,6 @@ function uniqueBy<T>(items: T[], keyFn: (item: T) => string): T[] {
 		out.push(item);
 	}
 	return out;
-}
-
-function hasAnyKeyword(value: string, keywords: string[]): boolean {
-	const lower = value.toLowerCase();
-	return keywords.some((keyword) => lower.includes(keyword.toLowerCase()));
-}
-
-function canonicalizeUrl(url: string): string {
-	const parsed = new URL(url);
-	parsed.hash = '';
-	for (const param of [
-		'utm_source',
-		'utm_medium',
-		'utm_campaign',
-		'utm_term',
-		'utm_content',
-		'gclid',
-		'fbclid',
-		'cid'
-	]) {
-		parsed.searchParams.delete(param);
-	}
-	parsed.searchParams.sort();
-	if (parsed.pathname.endsWith('/')) parsed.pathname = parsed.pathname.slice(0, -1);
-	return parsed.toString();
 }
 
 function extractTagText(html: string, tag: string): string {
@@ -346,41 +331,15 @@ function sourceLabel(type: SourceType): string {
 }
 
 async function fetchText(url: string): Promise<string | null> {
-	async function attempt(targetUrl: string): Promise<string | null> {
-		for (let retry = 0; retry <= FETCH_RETRIES; retry++) {
-			try {
-				const response = await fetch(targetUrl, {
-					headers: {
-						'user-agent': 'gemeinde-discovery-bot/0.1 (+https://example.local)'
-					},
-					redirect: 'follow',
-					signal: AbortSignal.timeout(FETCH_TIMEOUT_MS)
-				});
-				if (response.ok) return await response.text();
-				if (response.status >= 500 && retry < FETCH_RETRIES) {
-					await new Promise((r) => setTimeout(r, FETCH_RETRY_DELAY_MS * (retry + 1)));
-					continue;
-				}
-				return null;
-			} catch {
-				if (retry < FETCH_RETRIES) {
-					await new Promise((r) => setTimeout(r, FETCH_RETRY_DELAY_MS * (retry + 1)));
-					continue;
-				}
-				return null;
-			}
-		}
-		return null;
-	}
+	const result = await fetchTextWithRetry(url, {
+		userAgent: 'gemeinde-discovery-bot/0.1 (+https://example.local)',
+		timeoutMs: FETCH_TIMEOUT_MS,
+		retries: FETCH_RETRIES,
+		retryDelayMs: FETCH_RETRY_DELAY_MS,
+		retryWithHttps: true
+	});
 
-	const direct = await attempt(url);
-	if (direct) return direct;
-
-	if (url.startsWith('http://')) {
-		return await attempt(url.replace('http://', 'https://'));
-	}
-
-	return null;
+	return result.ok ? result.text : null;
 }
 
 async function searchDuckDuckGo(query: string): Promise<string[]> {
@@ -473,11 +432,9 @@ async function getOfficialWebsites(wikidataIds: string[]): Promise<Record<string
 
 async function loadMunicipalities(): Promise<Municipality[]> {
 	async function loadFromCache(): Promise<Municipality[]> {
-		const reportPath = resolve(GENERATED_DIR, 'source-discovery-report.json');
-		const seedPath = resolve(DATA_DIR, 'sources.seed.json');
 		const [reportRaw, seedRaw] = await Promise.all([
-			readFile(reportPath, 'utf8').catch(() => null),
-			readFile(seedPath, 'utf8').catch(() => null)
+			readFile(REPORT_FILE, 'utf8').catch(() => null),
+			readFile(SEED_FILE, 'utf8').catch(() => null)
 		]);
 		if (!reportRaw || !seedRaw) return [];
 
@@ -499,16 +456,28 @@ async function loadMunicipalities(): Promise<Municipality[]> {
 	}
 
 	logPhase('Fetching Wikipedia page');
-	const wikiResponse = await fetch(WIKI_SOURCE_URL, {
-		headers: {
-			'user-agent':
-				'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36'
-		},
-		redirect: 'follow',
-		signal: AbortSignal.timeout(20000)
-	});
-	const html = wikiResponse.ok ? await wikiResponse.text() : null;
-	if (!html) throw new Error('Could not fetch the Berliner Umland source list.');
+	let html: string | null = null;
+	try {
+		const wikiResponse = await fetch(WIKI_SOURCE_URL, {
+			headers: {
+				'user-agent':
+					'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36'
+			},
+			redirect: 'follow',
+			signal: AbortSignal.timeout(20000)
+		});
+		html = wikiResponse.ok ? await wikiResponse.text() : null;
+	} catch (error) {
+		logPhase('Wikipedia page unavailable', error instanceof Error ? error.message : String(error));
+	}
+
+	if (!html) {
+		// Without the source list the run cannot discover anything new, but the
+		// committed report still describes the known municipalities.
+		const cached = await loadFromCache();
+		if (cached.length > 0) return cached;
+		throw new Error('Could not fetch the Berliner Umland source list.');
+	}
 
 	const rows = extractMainTableRows(html);
 	logPhase('Parsing municipality table', `${rows.length} rows found`);
@@ -578,12 +547,24 @@ async function loadMunicipalities(): Promise<Municipality[]> {
 }
 
 async function fetchSitemapUrls(baseWebsite: string): Promise<string[]> {
-	const sitemapsToTry = new Set<string>([new URL('/sitemap.xml', baseWebsite).toString()]);
-	const robotsTxt = await fetchText(new URL('/robots.txt', baseWebsite).toString());
+	let sitemapRoot: string | null;
+	let robotsRoot: string | null;
+	try {
+		sitemapRoot = canonicalizeUrl(new URL('/sitemap.xml', baseWebsite).toString());
+		robotsRoot = canonicalizeUrl(new URL('/robots.txt', baseWebsite).toString());
+	} catch {
+		return [];
+	}
+	if (!sitemapRoot) return [];
+
+	const sitemapsToTry = new Set<string>([sitemapRoot]);
+	const robotsTxt = robotsRoot ? await fetchText(robotsRoot) : null;
 	if (robotsTxt) {
 		for (const line of robotsTxt.split('\n')) {
 			const match = line.match(/^\s*Sitemap:\s*(\S+)/i);
-			if (match) sitemapsToTry.add(match[1].trim());
+			// robots.txt is untrusted input: skip anything that is not a usable URL.
+			const sitemapUrl = match ? canonicalizeUrl(match[1]) : null;
+			if (sitemapUrl) sitemapsToTry.add(sitemapUrl);
 		}
 	}
 
@@ -599,7 +580,9 @@ async function fetchSitemapUrls(baseWebsite: string): Promise<string[]> {
 
 		const xml = await fetchText(sitemapUrl);
 		if (!xml) continue;
-		const locs = [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map((match) => stripTags(match[1]));
+		const locs = [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)]
+			.map((match) => canonicalizeUrl(stripTags(match[1])))
+			.filter((loc): loc is string => loc !== null);
 		if (locs.length === 0) continue;
 
 		const isIndex = /<sitemapindex/i.test(xml);
@@ -640,7 +623,12 @@ function keepDomainUrls(
 	urls: Array<{ url: string; text: string }>,
 	website: string
 ): Array<{ url: string; text: string }> {
-	const domain = new URL(website).hostname.replace(/^www\./, '');
+	let domain: string;
+	try {
+		domain = new URL(website).hostname.replace(/^www\./, '');
+	} catch {
+		return [];
+	}
 	return urls.filter(({ url }) => {
 		try {
 			return new URL(url).hostname.replace(/^www\./, '') === domain;
@@ -691,7 +679,14 @@ async function discoverSourcesForMunicipality(
 	}
 
 	if (candidates.length === 0) {
-		const domain = new URL(municipality.website).hostname.replace(/^www\./, '');
+		let domain: string;
+		try {
+			domain = new URL(municipality.website).hostname.replace(/^www\./, '');
+		} catch {
+			domain = '';
+		}
+		if (!domain) return [];
+
 		const fallbackResults = await searchDuckDuckGo(
 			`site:${domain} (grundstücksangebote OR grundstücksausschreibung OR amtsblatt)`
 		);
@@ -705,7 +700,7 @@ async function discoverSourcesForMunicipality(
 			if (host !== domain) continue;
 
 			const canonical = canonicalizeUrl(url);
-			if (existingUrls.has(canonical)) continue;
+			if (!canonical || existingUrls.has(canonical)) continue;
 
 			const sourceType = classifySource(url, '');
 			if (!sourceType) continue;
@@ -720,11 +715,13 @@ async function discoverSourcesForMunicipality(
 		}
 	}
 
-	const uniqueSources = uniqueBy(candidates, (source) => source.url);
-	const uniqueCanonicalSources = uniqueBy(
-		uniqueSources.map((source) => ({ ...source, url: canonicalizeUrl(source.url) })),
-		(source) => source.url
-	);
+	const canonicalSources = uniqueBy(candidates, (source) => source.url)
+		.map((source) => {
+			const url = canonicalizeUrl(source.url);
+			return url ? { ...source, url } : null;
+		})
+		.filter((source): source is SeedSource => source !== null);
+	const uniqueCanonicalSources = uniqueBy(canonicalSources, (source) => source.url);
 	const ordered = uniqueCanonicalSources.sort((a, b) => {
 		if (a.discoveryMethod !== b.discoveryMethod)
 			return a.discoveryMethod.localeCompare(b.discoveryMethod);
@@ -770,27 +767,71 @@ async function discoverSourcesForMunicipality(
 async function runWithConcurrency<T>(
 	items: T[],
 	concurrency: number,
-	fn: (item: T) => Promise<void>
+	fn: (item: T) => Promise<void>,
+	onError: (item: T, error: unknown) => void
 ): Promise<void> {
 	let index = 0;
 	const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
 		while (index < items.length) {
 			const current = index++;
-			await fn(items[current]);
+			// One failing item must never take down the pool: every other
+			// municipality still has to be discovered.
+			try {
+				await fn(items[current]);
+			} catch (error) {
+				onError(items[current], error);
+			}
 		}
 	});
 	await Promise.all(workers);
 }
 
+/**
+ * Merges this run's discoveries with the seed currently on disk.
+ *
+ * `data/sources.seed.json` is hand-maintained, so a municipality that was not
+ * (re)discovered in this run — still queued when the process was killed, or that
+ * failed — keeps its previously seeded sources untouched. An empty discovery
+ * result is treated the same way: a network hiccup must not silently strip
+ * curated entries from the site.
+ */
+function mergeWithExistingSeed(
+	discovered: SeedMunicipality[],
+	previousSeed: SeedMunicipality[]
+): SeedMunicipality[] {
+	const previousById = new Map(previousSeed.map((municipality) => [municipality.id, municipality]));
+	const merged = discovered.map((municipality) => {
+		const previous = previousById.get(municipality.id);
+		return previous && municipality.sources.length === 0 && previous.sources.length > 0
+			? previous
+			: municipality;
+	});
+
+	for (const municipality of previousSeed) {
+		if (merged.some((entry) => entry.id === municipality.id)) continue;
+		merged.push(municipality);
+	}
+
+	return merged.sort((a, b) => a.name.localeCompare(b.name, 'de'));
+}
+
 async function writeSeedOutput(
 	seedMunicipalities: SeedMunicipality[],
-	municipalities: Municipality[]
+	previousSeed: SeedMunicipality[],
+	municipalities: Municipality[],
+	failures: DiscoveryFailure[]
 ): Promise<void> {
-	await writeFile(
-		resolve(DATA_DIR, 'sources.seed.json'),
-		JSON.stringify(seedMunicipalities, null, 2) + '\n',
-		'utf8'
-	);
+	// Backstop for the merge: if a municipality from the committed seed would be
+	// lost, abort loudly instead of writing a seed that drops it from the site.
+	const written = new Set(seedMunicipalities.map((municipality) => municipality.id));
+	const dropped = previousSeed.filter((municipality) => !written.has(municipality.id));
+	if (dropped.length > 0) {
+		throw new Error(
+			`Refusing to write ${SEED_FILE}: would drop ${dropped.length} previously seeded municipalities: ${dropped
+				.map((municipality) => municipality.name)
+				.join(', ')}`
+		);
+	}
 
 	const coverage = {
 		withOffersSource: seedMunicipalities.filter((m) =>
@@ -807,6 +848,7 @@ async function writeSeedOutput(
 		sourceListUrl: WIKI_SOURCE_URL,
 		municipalityCount: seedMunicipalities.length,
 		coverage,
+		failedMunicipalities: failures,
 		municipalities: seedMunicipalities.map((m) => ({
 			id: m.id,
 			name: m.name,
@@ -816,11 +858,8 @@ async function writeSeedOutput(
 		}))
 	};
 
-	await writeFile(
-		resolve(GENERATED_DIR, 'source-discovery-report.json'),
-		JSON.stringify(report, null, 2) + '\n',
-		'utf8'
-	);
+	await writeFileAtomic(SEED_FILE, JSON.stringify(seedMunicipalities, null, 2) + '\n');
+	await writeFileAtomic(REPORT_FILE, JSON.stringify(report, null, 2) + '\n');
 }
 
 async function main(): Promise<void> {
@@ -838,7 +877,17 @@ async function main(): Promise<void> {
 		`${municipalities.length} found (${formatElapsed(municipalitiesStart)})`
 	);
 
+	// The committed seed is the baseline: anything this run does not rediscover is
+	// carried over instead of being dropped.
+	const previousSeed = await readFile(SEED_FILE, 'utf8')
+		.then((content) => JSON.parse(content) as SeedMunicipality[])
+		.catch(() => [] as SeedMunicipality[]);
+	if (previousSeed.length > 0) {
+		logPhase('Loaded existing seed', `${previousSeed.length} municipalities on disk`);
+	}
+
 	const results = new Map<string, SeedMunicipality>();
+	const failures: DiscoveryFailure[] = [];
 	const total = municipalities.length;
 	let completed = 0;
 
@@ -847,53 +896,69 @@ async function main(): Promise<void> {
 
 	const existingUrls = new Set<string>();
 
-	await runWithConcurrency(municipalities, CONCURRENCY, async (municipality) => {
-		const discoveredSources = await discoverSourcesForMunicipality(municipality, existingUrls);
-		const combinedSources = uniqueBy(
-			[...discoveredSources, ...(MANUAL_SOURCES[municipality.id] ?? [])].map((source) => ({
-				...source,
-				url: canonicalizeUrl(source.url)
-			})),
-			(source) => `${source.type}::${source.url}`
-		);
+	const publish = async (): Promise<void> => {
+		const merged = mergeWithExistingSeed([...results.values()], previousSeed);
+		await writeSeedOutput(merged, previousSeed, municipalities, failures);
+	};
 
-		for (const source of combinedSources) {
-			existingUrls.add(source.url);
+	await runWithConcurrency(
+		municipalities,
+		CONCURRENCY,
+		async (municipality) => {
+			const discoveredSources = await discoverSourcesForMunicipality(municipality, existingUrls);
+			const combinedSources = uniqueBy(
+				[...discoveredSources, ...(MANUAL_SOURCES[municipality.id] ?? [])]
+					.map((source) => {
+						const url = canonicalizeUrl(source.url);
+						return url ? { ...source, url } : null;
+					})
+					.filter((source): source is SeedSource => source !== null),
+				(source) => `${source.type}::${source.url}`
+			);
+
+			for (const source of combinedSources) {
+				existingUrls.add(source.url);
+			}
+
+			const seedMunicipality: SeedMunicipality = {
+				id: municipality.id,
+				name: municipality.name,
+				district: municipality.district,
+				state: municipality.state,
+				sources: combinedSources.map((source) => ({
+					id: source.id,
+					type: source.type,
+					label: source.label,
+					url: source.url,
+					discoveryMethod: source.discoveryMethod
+				}))
+			};
+
+			results.set(municipality.id, seedMunicipality);
+
+			completed++;
+			const sourceCount = combinedSources.length;
+			const types = combinedSources.map((s) => s.type).join(', ') || 'none';
+			logProgress(completed, total, municipality.name, `${sourceCount} source(s): ${types}`);
+
+			if (completed % 10 === 0 || completed === total) {
+				await publish();
+			}
+		},
+		(municipality, error) => {
+			completed++;
+			failures.push({
+				id: municipality.id,
+				name: municipality.name,
+				error: error instanceof Error ? error.message : String(error)
+			});
+			logProgress(completed, total, municipality.name, 'FAILED — keeping previous sources');
 		}
-
-		const seedMunicipality: SeedMunicipality = {
-			id: municipality.id,
-			name: municipality.name,
-			district: municipality.district,
-			state: municipality.state,
-			sources: combinedSources.map((source) => ({
-				id: source.id,
-				type: source.type,
-				label: source.label,
-				url: source.url,
-				discoveryMethod: source.discoveryMethod
-			}))
-		};
-
-		results.set(municipality.id, seedMunicipality);
-
-		completed++;
-		const sourceCount = combinedSources.length;
-		const types = combinedSources.map((s) => s.type).join(', ') || 'none';
-		logProgress(completed, total, municipality.name, `${sourceCount} source(s): ${types}`);
-
-		if (completed % 10 === 0 || completed === total) {
-			const sorted = [...results.values()].sort((a, b) => a.name.localeCompare(b.name, 'de'));
-			await writeSeedOutput(sorted, municipalities);
-		}
-	});
+	);
 
 	logPhase('Discovery complete', formatElapsed(discoveryStart));
 
-	const seedMunicipalities = [...results.values()].sort((a, b) =>
-		a.name.localeCompare(b.name, 'de')
-	);
-
+	const seedMunicipalities = mergeWithExistingSeed([...results.values()], previousSeed);
 	const coverage = {
 		withOffersSource: seedMunicipalities.filter((m) =>
 			m.sources.some((s) => s.type === 'offers_page')
@@ -906,31 +971,8 @@ async function main(): Promise<void> {
 
 	const noSources = seedMunicipalities.filter((m) => m.sources.length === 0);
 
-	const report: DiscoveryReport = {
-		generatedAt: new Date().toISOString(),
-		sourceListUrl: WIKI_SOURCE_URL,
-		municipalityCount: seedMunicipalities.length,
-		coverage,
-		municipalities: seedMunicipalities.map((m) => ({
-			id: m.id,
-			name: m.name,
-			website: municipalities.find((item) => item.id === m.id)?.website ?? '',
-			sourcesFound: m.sources.length,
-			sources: m.sources
-		}))
-	};
-
 	logPhase('Writing output files');
-	await writeFile(
-		resolve(DATA_DIR, 'sources.seed.json'),
-		JSON.stringify(seedMunicipalities, null, 2) + '\n',
-		'utf8'
-	);
-	await writeFile(
-		resolve(GENERATED_DIR, 'source-discovery-report.json'),
-		JSON.stringify(report, null, 2) + '\n',
-		'utf8'
-	);
+	await publish();
 
 	console.log('');
 	console.log('  ┌─────────────────────────────────────────────┐');
@@ -941,13 +983,21 @@ async function main(): Promise<void> {
 		`  │  With Amtsblatt           ${String(coverage.withAmtsblattSource).padStart(18)} │`
 	);
 	console.log(`  │  No sources found         ${String(noSources.length).padStart(18)} │`);
+	console.log(`  │  Failed discovery         ${String(failures.length).padStart(18)} │`);
 	console.log(`  │  Total elapsed            ${formatElapsed(scriptStart).padStart(18)} │`);
 	console.log('  └─────────────────────────────────────────────┘');
 
+	if (failures.length > 0) {
+		console.log(`\n  Municipalities that failed discovery (previous sources kept):`);
+		for (const failure of failures) {
+			console.log(`    - ${failure.name} (${failure.id}): ${failure.error}`);
+		}
+	}
+
 	if (noSources.length > 0) {
 		console.log(`\n  Municipalities without sources:`);
-		for (const m of noSources) {
-			console.log(`    - ${m.name} (${m.district})`);
+		for (const municipality of noSources) {
+			console.log(`    - ${municipality.name} (${municipality.district})`);
 		}
 	}
 

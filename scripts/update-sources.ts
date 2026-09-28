@@ -1,5 +1,14 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile } from 'node:fs/promises';
 import { basename, resolve } from 'node:path';
+import { fetchTextWithRetry } from './lib/async';
+import { writeFileAtomic } from './lib/io';
+import {
+	canonicalizeUrl,
+	decodeHtmlEntities,
+	hasAnyKeyword,
+	isIgnorableHref,
+	normalizeWhitespace
+} from './lib/urls';
 
 type SourceType = 'offers_page' | 'amtsblatt' | 'news' | 'documents';
 
@@ -46,7 +55,9 @@ type GeneratedIndex = {
 	}>;
 };
 
-const PROJECT_ROOT = resolve(import.meta.dir, '..');
+// `import.meta.dir` is Bun-only and untyped; `dirname` is the standard equivalent
+// and is understood by both Bun and Node's type definitions.
+const PROJECT_ROOT = resolve(import.meta.dirname, '..');
 const SEED_PATH = resolve(PROJECT_ROOT, 'data/sources.seed.json');
 const RAW_DIR = resolve(PROJECT_ROOT, 'data/raw');
 const GENERATED_DIR = resolve(PROJECT_ROOT, 'data/generated');
@@ -71,61 +82,32 @@ const OFFERS_KEYWORDS = [
 ];
 const AMTSBLATT_KEYWORDS = ['amtsblatt', 'bekanntmachung', 'satzung', 'ortsrecht'];
 
-function normalizeWhitespace(value: string): string {
-	return value.replace(/\s+/g, ' ').trim();
+const FETCH_TIMEOUT_MS = 15000;
+const FETCH_RETRIES = 2;
+const FETCH_RETRY_DELAY_MS = 1000;
+const USER_AGENT = 'gemeinde-links-bot/0.1 (+https://example.local; purpose=public-link-indexing)';
+
+/**
+ * Keyword set that makes a link relevant for a source type. `news` and
+ * `documents` have no keyword set, so links are never collected for them.
+ */
+function relevantKeywords(sourceType: SourceType): string[] {
+	if (sourceType === 'amtsblatt') return AMTSBLATT_KEYWORDS;
+	if (sourceType === 'offers_page') return OFFERS_KEYWORDS;
+	return [];
 }
 
-function decodeHtmlEntities(value: string): string {
-	return value
-		.replaceAll('&amp;', '&')
-		.replaceAll('&quot;', '"')
-		.replaceAll('&#39;', "'")
-		.replaceAll('&lt;', '<')
-		.replaceAll('&gt;', '>');
-}
+/**
+ * A link is relevant when its href or anchor text matches the source type's
+ * keyword set. The keyword match is required for every link — being a PDF is
+ * never sufficient on its own. Matching normalizes HTML entities and German
+ * umlauts on both sides, so `Baugrundst&uuml;cke` matches `Baugrundstücke`.
+ */
+function isRelevantLink(sourceType: SourceType, href: string, text: string): boolean {
+	const combined = `${href} ${text}`;
+	if (hasAnyKeyword(combined, EMPLOYMENT_KEYWORDS)) return false;
 
-function containsAny(haystack: string, needles: string[]): boolean {
-	return needles.some((needle) => haystack.includes(needle));
-}
-
-function canonicalizeUrl(url: string): string {
-	const parsed = new URL(url);
-	parsed.hash = '';
-	const paramsToDrop = [
-		'utm_source',
-		'utm_medium',
-		'utm_campaign',
-		'utm_term',
-		'utm_content',
-		'gclid',
-		'fbclid',
-		'cid'
-	];
-	for (const param of paramsToDrop) {
-		parsed.searchParams.delete(param);
-	}
-	parsed.searchParams.sort();
-	if (parsed.pathname.endsWith('/')) parsed.pathname = parsed.pathname.slice(0, -1);
-	return parsed.toString();
-}
-
-function isRelevantLink(
-	sourceType: SourceType,
-	href: string,
-	text: string,
-	isPdf: boolean
-): boolean {
-	const combined = `${href} ${text}`.toLowerCase();
-	if (containsAny(combined, EMPLOYMENT_KEYWORDS)) return false;
-
-	if (sourceType === 'amtsblatt') {
-		return isPdf || containsAny(combined, AMTSBLATT_KEYWORDS);
-	}
-	if (sourceType === 'offers_page') {
-		return isPdf || containsAny(combined, OFFERS_KEYWORDS);
-	}
-
-	return false;
+	return hasAnyKeyword(combined, relevantKeywords(sourceType));
 }
 
 function extractLinks(html: string, baseUrl: string, sourceType: SourceType): DiscoveredLink[] {
@@ -136,16 +118,15 @@ function extractLinks(html: string, baseUrl: string, sourceType: SourceType): Di
 	let match: RegExpExecArray | null;
 	while ((match = anchorRegex.exec(html)) !== null) {
 		const rawHref = normalizeWhitespace(match[1] ?? '');
-		if (!rawHref || rawHref.startsWith('#') || rawHref.toLowerCase().startsWith('javascript:')) {
-			continue;
-		}
+		if (isIgnorableHref(rawHref)) continue;
 
-		let absoluteUrl: string;
+		let absoluteUrl: string | null;
 		try {
 			absoluteUrl = canonicalizeUrl(new URL(rawHref, baseUrl).toString());
 		} catch {
 			continue;
 		}
+		if (!absoluteUrl) continue;
 
 		const anchorText = normalizeWhitespace(
 			decodeHtmlEntities((match[2] ?? '').replace(/<[^>]+>/g, ' '))
@@ -154,7 +135,7 @@ function extractLinks(html: string, baseUrl: string, sourceType: SourceType): Di
 		const lowerHref = absoluteUrl.toLowerCase();
 
 		const isPdf = lowerHref.endsWith('.pdf') || lowerText.includes('pdf');
-		if (!isRelevantLink(sourceType, lowerHref, lowerText, isPdf)) {
+		if (!isRelevantLink(sourceType, lowerHref, lowerText)) {
 			continue;
 		}
 
@@ -174,49 +155,37 @@ function extractLinks(html: string, baseUrl: string, sourceType: SourceType): Di
 }
 
 async function fetchSource(municipalityId: string, source: SourceSeed): Promise<SourceSnapshot> {
-	const fetchedAt = new Date().toISOString();
+	const result = await fetchTextWithRetry(source.url, {
+		userAgent: USER_AGENT,
+		timeoutMs: FETCH_TIMEOUT_MS,
+		retries: FETCH_RETRIES,
+		retryDelayMs: FETCH_RETRY_DELAY_MS
+	});
 
-	try {
-		const response = await fetch(source.url, {
-			headers: {
-				'user-agent':
-					'gemeinde-links-bot/0.1 (+https://example.local; purpose=public-link-indexing)'
-			}
-		});
-
-		if (!response.ok) {
-			return {
-				municipalityId,
-				source,
-				fetchedAt,
-				status: 'error',
-				statusCode: response.status,
-				error: `HTTP ${response.status}`,
-				discoveredLinks: []
-			};
-		}
-
-		const html = await response.text();
-		const discoveredLinks = extractLinks(html, source.url, source.type);
-
+	if (!result.ok) {
 		return {
 			municipalityId,
 			source,
-			fetchedAt,
-			status: 'ok',
-			statusCode: response.status,
-			discoveredLinks
-		};
-	} catch (error) {
-		return {
-			municipalityId,
-			source,
-			fetchedAt,
+			fetchedAt: new Date().toISOString(),
 			status: 'error',
-			error: error instanceof Error ? error.message : String(error),
+			statusCode: result.status,
+			error: result.error,
 			discoveredLinks: []
 		};
 	}
+
+	// Resolve relative links against the post-redirect URL: a redirect to another
+	// host or directory would otherwise break every relative link.
+	const baseUrl = result.url || source.url;
+
+	return {
+		municipalityId,
+		source,
+		fetchedAt: new Date().toISOString(),
+		status: 'ok',
+		statusCode: result.status,
+		discoveredLinks: extractLinks(result.text, baseUrl, source.type)
+	};
 }
 
 async function main(): Promise<void> {
@@ -243,7 +212,7 @@ async function main(): Promise<void> {
 		});
 
 		const municipalityRawPath = resolve(RAW_DIR, `${municipality.id}.json`);
-		await writeFile(
+		await writeFileAtomic(
 			municipalityRawPath,
 			JSON.stringify(
 				{
@@ -253,8 +222,7 @@ async function main(): Promise<void> {
 				},
 				null,
 				2
-			) + '\n',
-			'utf8'
+			) + '\n'
 		);
 	}
 
@@ -263,7 +231,7 @@ async function main(): Promise<void> {
 		municipalities
 	};
 
-	await writeFile(GENERATED_INDEX_PATH, JSON.stringify(generatedIndex, null, 2) + '\n', 'utf8');
+	await writeFileAtomic(GENERATED_INDEX_PATH, JSON.stringify(generatedIndex, null, 2) + '\n');
 
 	const sourceCount = municipalities.reduce(
 		(sum, municipality) => sum + municipality.sources.length,

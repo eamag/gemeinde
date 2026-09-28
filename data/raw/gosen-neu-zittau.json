@@ -1,65 +1,65 @@
 {
-	"municipality": {
-		"id": "gosen-neu-zittau",
-		"name": "Gosen-Neu Zittau",
-		"district": "Oder-Spree",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "homepage"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "gosen-neu-zittau",
-			"source": {
-				"id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
-				"discoveryMethod": "homepage"
-			},
-			"fetchedAt": "2026-05-22T11:38:39.736Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
-					"text": "Grundst&uuml;cksangebote",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.amt-spreenhagen.de/immobilien/index/kategorie/cat/7/gewerbegebiet",
-					"text": "Gewerbegebiete",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.amt-spreenhagen.de/contact/index/link?referrer=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%C3%BCcksangebote.html",
-					"text": "link?referrer=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%C3%BCcksangebote.html",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html?modus=drucken",
-					"text": "grundst%C3%BCcksangebote.html?modus=drucken",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf Facebook",
-					"kind": "html"
-				},
-				{
-					"url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%25C3%25BCcksangebote.html",
-					"text": "Teilen auf X",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "gosen-neu-zittau",
+    "name": "Gosen-Neu Zittau",
+    "district": "Oder-Spree",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "homepage"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "gosen-neu-zittau",
+      "source": {
+        "id": "gosen-neu-zittau-https-www-amt-spreenhagen-de-seite-33097",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
+        "discoveryMethod": "homepage"
+      },
+      "fetchedAt": "2026-09-27T21:19:12.083Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html",
+          "text": "Grundstücksangebote",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.amt-spreenhagen.de/immobilien/index/kategorie/cat/7/gewerbegebiet",
+          "text": "Gewerbegebiete",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.amt-spreenhagen.de/contact/index/link?referrer=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%C3%BCcksangebote.html",
+          "text": "link?referrer=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%C3%BCcksangebote.html",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.amt-spreenhagen.de/seite/330974/grundst%C3%BCcksangebote.html?modus=drucken",
+          "text": "grundst%C3%BCcksangebote.html?modus=drucken",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf Facebook",
+          "kind": "html"
+        },
+        {
+          "url": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.amt-spreenhagen.de%2Fseite%2F330974%2Fgrundst%25C3%25BCcksangebote.html",
+          "text": "Teilen auf X",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

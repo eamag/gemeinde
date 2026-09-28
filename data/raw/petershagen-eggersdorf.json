@@ -1,462 +1,462 @@
 {
-	"municipality": {
-		"id": "petershagen-eggersdorf",
-		"name": "Petershagen/Eggersdorf",
-		"district": "Märkisch-Oderland",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "petershagen-eggersdorf",
-			"source": {
-				"id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:47.742Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
-					"text": "Deutsch",
-					"kind": "html"
-				},
-				{
-					"url": "https://doppeldorf.de/gemeindepolitik/ortsrecht-satzung",
-					"text": "Ortsrecht (Satzung)",
-					"kind": "html"
-				},
-				{
-					"url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht",
-					"text": "Bürger, Staat & Ortsrecht",
-					"kind": "html"
-				},
-				{
-					"url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht/buergerbeteiligung",
-					"text": "Bürgerbeteiligung",
-					"kind": "html"
-				},
-				{
-					"url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht/volksinitiativen",
-					"text": "Volksinitiativen",
-					"kind": "html"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-01.pdf",
-					"text": "Amtsblatt 01 Januar 2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-2026-02.pdf",
-					"text": "Amtsblatt 02 Februar 2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-03.pdf",
-					"text": "Amtsblatt 03 März 2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-04.pdf",
-					"text": "Amtsblatt 04 April 2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-05.pdf",
-					"text": "Amtsblatt 05 Mai 2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/0174_Amtsblatt_Ausgabe_03-25.pdf",
-					"text": "Amtsblatt 03 März 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_02_2025.pdf",
-					"text": "Amtsblatt 02 Februar 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_01_Januar_2025.pdf",
-					"text": "Amtsblatt 01 Januar 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-Ausgabe_05-25.pdf",
-					"text": "Amtsblatt 05 Mai 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_2025-06.pdf",
-					"text": "Amtsblatt 06 Juni 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-07.pdf",
-					"text": "Amtsblatt 07 Juli 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-08.pdf",
-					"text": "Amtsblatt 08 August 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-09.pdf",
-					"text": "Amtsblatt 09 September 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-10.pdf",
-					"text": "Amtsblatt 10 Oktober 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-11.pdf",
-					"text": "Amtsblatt 11 November 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-12.pdf",
-					"text": "Amtsblatt 12 Dezember 2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_13_Dezember_2024.pdf",
-					"text": "Amtsblatt 13 Dezember 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_12_Dezember.pdf",
-					"text": "Amtsblatt 12 Dezember 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-11_November_2024.pdf",
-					"text": "Amtsblatt 11 November 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_10_Oktober.pdf",
-					"text": "Amtsblatt 10 Oktober 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_08_August_2024.pdf",
-					"text": "Amtsblatt 08 August 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_07_Juli_2024.pdf",
-					"text": "Amtsblatt 07 Juli 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_06_Juni_2024.pdf",
-					"text": "Amtsblatt 06 Juni 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_05_2024.pdf",
-					"text": "Amtsblatt 05 Mai 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_04_April_2024.pdf",
-					"text": "Amtsblatt 04 April 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_03_M%C3%A4rz_2024.pdf",
-					"text": "Amtsblatt 03 März 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_02_Februar_2024.pdf",
-					"text": "Amtsblatt 02 Februar 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_01_Januar_2024.pdf",
-					"text": "Amtsblatt 01 Januar 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_11_Dezember_2023.pdf",
-					"text": "Amtsblatt 12 / Dezember 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-11-2023.pdf",
-					"text": "Amtsblatt 11 / November 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2023.pdf",
-					"text": "Amtsblatt 10 / Oktober 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2023.pdf",
-					"text": "Amtsblatt 09 / September 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-08-2023.pdf",
-					"text": "Amtsblatt 08 / August 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2023.pdf",
-					"text": "Amtsblatt 07 / Juli 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-06-2023.pdf",
-					"text": "Amtsblatt 06 / Juni 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2023.pdf",
-					"text": "Amtsblatt 05 / Mai 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2023.pdf",
-					"text": "Amtsblatt 04 / April 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2023.pdf",
-					"text": "Amtsblatt 03 / März 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2023.pdf",
-					"text": "Amtsblatt 02 / Februar 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2023.pdf",
-					"text": "Amtsblatt 01/ Januar 2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2022.pdf",
-					"text": "Amtsblatt Januar 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2022-Haushalt.pdf",
-					"text": "Amtsblatt Januar/Februar 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2022.pdf",
-					"text": "Amtsblatt/03 Februar 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2022.pdf",
-					"text": "Amtsblatt 04/März 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2022.pdf",
-					"text": "Amtsblatt 05 April/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-06-2022.pdf",
-					"text": "Amtsblatt Mai/06 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2022.pdf",
-					"text": "Amtsblatt 07 / Juni 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-08-2022.pdf",
-					"text": "Amtsblatt 08 / Juli 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2022.pdf",
-					"text": "Amtsblatt 09 / August 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2022.pdf",
-					"text": "Amtsblatt 10 / September 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-11-2022.pdf",
-					"text": "Amtsblatt 11 / Oktober 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-12-2022.pdf",
-					"text": "Amtsblatt 12 / November 2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2021.pdf",
-					"text": "Amtsblatt Januar 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-02-2021.pdf",
-					"text": "Amtsblatt Februar 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2021.pdf",
-					"text": "Amtsblatt März 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2021.pdf",
-					"text": "Amtsblatt April 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2021.pdf",
-					"text": "Amtsblatt Mai 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-06-2021.pdf",
-					"text": "Amtsblatt Juni 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2021.pdf",
-					"text": "Amtsblatt Juli 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Sonderausgabe-Kitasatzg-PE-08-2021.pdf",
-					"text": "Amtsblatt August 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2021.pdf",
-					"text": "Amtsblatt September 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2021.pdf",
-					"text": "Amtsblatt Oktober 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-11-2021.pdf",
-					"text": "Amtsblatt November 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-12-2021.pdf",
-					"text": "Amtsblatt Dezember 2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/1509_ab_PE_01-2020.pdf",
-					"text": "Amtsblatt Januar 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2020.pdf",
-					"text": "Amtsblatt Februar 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-03-2020.pdf",
-					"text": "Amtsblatt März 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-04-2020.pdf",
-					"text": "Amtsblatt April 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-05-2020.pdf",
-					"text": "Amtsblatt Mai 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Juni-2020.pdf",
-					"text": "Amtsblatt Juni 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Juli-2020.pdf",
-					"text": "Amtsblatt Juli 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-08-2020.pdf",
-					"text": "Amtsblatt September 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Oktober-2020.pdf",
-					"text": "Amtsblatt Oktober 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-11-2020.pdf",
-					"text": "Amtsblatt November 2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_12_2020.pdf",
-					"text": "Amtsblatt Dezember 2020",
-					"kind": "pdf"
-				}
-			]
-		},
-		{
-			"municipalityId": "petershagen-eggersdorf",
-			"source": {
-				"id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:47.742Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
-					"text": "Deutsch",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "petershagen-eggersdorf",
+    "name": "Petershagen/Eggersdorf",
+    "district": "Märkisch-Oderland",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "petershagen-eggersdorf",
+      "source": {
+        "id": "petershagen-eggersdorf-https-doppeldorf-de-gemeindepolitik-amts",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:29.259Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://doppeldorf.de/gemeindepolitik/amtsblatt",
+          "text": "Deutsch",
+          "kind": "html"
+        },
+        {
+          "url": "https://doppeldorf.de/gemeindepolitik/ortsrecht-satzung",
+          "text": "Ortsrecht (Satzung)",
+          "kind": "html"
+        },
+        {
+          "url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht",
+          "text": "Bürger, Staat & Ortsrecht",
+          "kind": "html"
+        },
+        {
+          "url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht/buergerbeteiligung",
+          "text": "Bürgerbeteiligung",
+          "kind": "html"
+        },
+        {
+          "url": "https://doppeldorf.de/hilfe-in-allen-lebenslagen/buerger-staat-ortsrecht/volksinitiativen",
+          "text": "Volksinitiativen",
+          "kind": "html"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-01.pdf",
+          "text": "Amtsblatt 01 Januar 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-2026-02.pdf",
+          "text": "Amtsblatt 02 Februar 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-03.pdf",
+          "text": "Amtsblatt 03 März 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-04.pdf",
+          "text": "Amtsblatt 04 April 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-05.pdf",
+          "text": "Amtsblatt 05 Mai 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-06.pdf",
+          "text": "Amtsblatt 06 Juni 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-07.pdf",
+          "text": "Amtsblatt 07 Juli 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2026-08.pdf",
+          "text": "Amtsblatt 08 August 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/0174_Amtsblatt_Ausgabe_03-25.pdf",
+          "text": "Amtsblatt 03 März 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_02_2025.pdf",
+          "text": "Amtsblatt 02 Februar 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_01_Januar_2025.pdf",
+          "text": "Amtsblatt 01 Januar 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-Ausgabe_05-25.pdf",
+          "text": "Amtsblatt 05 Mai 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_2025-06.pdf",
+          "text": "Amtsblatt 06 Juni 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-07.pdf",
+          "text": "Amtsblatt 07 Juli 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-08.pdf",
+          "text": "Amtsblatt 08 August 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-09.pdf",
+          "text": "Amtsblatt 09 September 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-10.pdf",
+          "text": "Amtsblatt 10 Oktober 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-11.pdf",
+          "text": "Amtsblatt 11 November 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-2025-12.pdf",
+          "text": "Amtsblatt 12 Dezember 2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_13_Dezember_2024.pdf",
+          "text": "Amtsblatt 13 Dezember 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_12_Dezember.pdf",
+          "text": "Amtsblatt 12 Dezember 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-11_November_2024.pdf",
+          "text": "Amtsblatt 11 November 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_10_Oktober.pdf",
+          "text": "Amtsblatt 10 Oktober 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_08_August_2024.pdf",
+          "text": "Amtsblatt 08 August 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_07_Juli_2024.pdf",
+          "text": "Amtsblatt 07 Juli 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_06_Juni_2024.pdf",
+          "text": "Amtsblatt 06 Juni 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_05_2024.pdf",
+          "text": "Amtsblatt 05 Mai 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_04_April_2024.pdf",
+          "text": "Amtsblatt 04 April 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_03_M%C3%A4rz_2024.pdf",
+          "text": "Amtsblatt 03 März 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_02_Februar_2024.pdf",
+          "text": "Amtsblatt 02 Februar 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_01_Januar_2024.pdf",
+          "text": "Amtsblatt 01 Januar 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt_11_Dezember_2023.pdf",
+          "text": "Amtsblatt 12 / Dezember 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-11-2023.pdf",
+          "text": "Amtsblatt 11 / November 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2023.pdf",
+          "text": "Amtsblatt 10 / Oktober 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2023.pdf",
+          "text": "Amtsblatt 09 / September 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-08-2023.pdf",
+          "text": "Amtsblatt 08 / August 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2023.pdf",
+          "text": "Amtsblatt 07 / Juli 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/Amtsblatt-PE-06-2023.pdf",
+          "text": "Amtsblatt 06 / Juni 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2023.pdf",
+          "text": "Amtsblatt 05 / Mai 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2023.pdf",
+          "text": "Amtsblatt 04 / April 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2023.pdf",
+          "text": "Amtsblatt 03 / März 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2023.pdf",
+          "text": "Amtsblatt 02 / Februar 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2023.pdf",
+          "text": "Amtsblatt 01/ Januar 2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2022.pdf",
+          "text": "Amtsblatt Januar 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2022-Haushalt.pdf",
+          "text": "Amtsblatt Januar/Februar 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2022.pdf",
+          "text": "Amtsblatt/03 Februar 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2022.pdf",
+          "text": "Amtsblatt 04/März 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2022.pdf",
+          "text": "Amtsblatt 05 April/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-06-2022.pdf",
+          "text": "Amtsblatt Mai/06 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2022.pdf",
+          "text": "Amtsblatt 07 / Juni 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt_PE-08-2022.pdf",
+          "text": "Amtsblatt 08 / Juli 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2022.pdf",
+          "text": "Amtsblatt 09 / August 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2022.pdf",
+          "text": "Amtsblatt 10 / September 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-11-2022.pdf",
+          "text": "Amtsblatt 11 / Oktober 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-12-2022.pdf",
+          "text": "Amtsblatt 12 / November 2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-01-2021.pdf",
+          "text": "Amtsblatt Januar 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-02-2021.pdf",
+          "text": "Amtsblatt Februar 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-03-2021.pdf",
+          "text": "Amtsblatt März 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-04-2021.pdf",
+          "text": "Amtsblatt April 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-05-2021.pdf",
+          "text": "Amtsblatt Mai 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-06-2021.pdf",
+          "text": "Amtsblatt Juni 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-07-2021.pdf",
+          "text": "Amtsblatt Juli 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Sonderausgabe-Kitasatzg-PE-08-2021.pdf",
+          "text": "Amtsblatt August 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-09-2021.pdf",
+          "text": "Amtsblatt September 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-10-2021.pdf",
+          "text": "Amtsblatt Oktober 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-11-2021.pdf",
+          "text": "Amtsblatt November 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-12-2021.pdf",
+          "text": "Amtsblatt Dezember 2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/1509_ab_PE_01-2020.pdf",
+          "text": "Amtsblatt Januar 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-PE-02-2020.pdf",
+          "text": "Amtsblatt Februar 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-03-2020.pdf",
+          "text": "Amtsblatt März 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-04-2020.pdf",
+          "text": "Amtsblatt April 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-05-2020.pdf",
+          "text": "Amtsblatt Mai 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Juni-2020.pdf",
+          "text": "Amtsblatt Juni 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-Juli-2020.pdf",
+          "text": "Amtsblatt Juli 2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://doppeldorf.de/fileadmin/user_upload/gemeindepolitik/Amtsblatt/Amtsblatt-08-2020.pdf",
+          "text": "Amtsblatt September 2020",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "municipalityId": "petershagen-eggersdorf",
+      "source": {
+        "id": "petershagen-eggersdorf-https-doppeldorf-de-buergerservice-grund",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:29.253Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://doppeldorf.de/buergerservice/grundstuecke-und-wohnungen",
+          "text": "Deutsch",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

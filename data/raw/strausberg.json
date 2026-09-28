@@ -1,77 +1,77 @@
 {
-	"municipality": {
-		"id": "strausberg",
-		"name": "Strausberg",
-		"district": "Märkisch-Oderland",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.stadt-strausberg.de/bekanntmachungen",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "strausberg",
-			"source": {
-				"id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.stadt-strausberg.de/bekanntmachungen",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:02.080Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.stadt-strausberg.de/bekanntmachungen",
-					"text": "Bekanntmachung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.stadt-strausberg.de/neue-strausberger-zeitung",
-					"text": "Neue Strausberger Zeitung / Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.stadt-strausberg.de/satzungen-und-verordnungen-2-2",
-					"text": "Satzungen & Verordnungen",
-					"kind": "html"
-				}
-			]
-		},
-		{
-			"municipalityId": "strausberg",
-			"source": {
-				"id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:39:02.080Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
-					"text": "Ausschreibung von Bau- &#038; Erholungsgrundstücken",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "strausberg",
+    "name": "Strausberg",
+    "district": "Märkisch-Oderland",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.stadt-strausberg.de/bekanntmachungen",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "strausberg",
+      "source": {
+        "id": "strausberg-https-www-stadt-strausberg-de-bekanntmac",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.stadt-strausberg.de/bekanntmachungen",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:48.350Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.stadt-strausberg.de/bekanntmachungen",
+          "text": "Bekanntmachung",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.stadt-strausberg.de/neue-strausberger-zeitung",
+          "text": "Neue Strausberger Zeitung / Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.stadt-strausberg.de/satzungen-und-verordnungen-2-2",
+          "text": "Satzungen & Verordnungen",
+          "kind": "html"
+        }
+      ]
+    },
+    {
+      "municipalityId": "strausberg",
+      "source": {
+        "id": "strausberg-https-www-stadt-strausberg-de-ausschreib",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:47.798Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.stadt-strausberg.de/ausschreibung-von-bau-erholungsgrundstuecken",
+          "text": "Ausschreibung von Bau- & Erholungsgrundstücken",
+          "kind": "html"
+        }
+      ]
+    }
+  ]
 }

@@ -1,3 +1,27 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* Theme is driven by a `.dark` class on <html> rather than the media query alone, so
+   an explicit light/dark choice in the theme switcher can win over the OS setting.
+   The inline bootstrap in app.html sets this class before first paint, so there is
+   no flash of the wrong scheme. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+	color-scheme: light;
+}
+
+html.dark {
+	color-scheme: dark;
+}
+
+body {
+	background-color: var(--color-white);
+	color: var(--color-neutral-900);
+}
+
+html.dark body {
+	background-color: var(--color-neutral-950);
+	color: var(--color-neutral-100);
+}

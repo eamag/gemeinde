@@ -2,11 +2,19 @@
 
 Interactive map and link aggregator for municipal property listings (Grundstücksausschreibungen) and official gazettes (Amtsblätter) in the Berlin metropolitan area.
 
-Built with [SvelteKit](https://svelte.dev/docs/kit), [Tailwind CSS](https://tailwindcss.com), [Leaflet](https://leafletjs.com), and deployed to [Cloudflare Workers](https://developers.cloudflare.com/workers/).
+Built with [SvelteKit](https://svelte.dev/docs/kit), [Tailwind CSS](https://tailwindcss.com), [MapLibre GL JS](https://maplibre.org), and deployed to [Cloudflare Workers](https://developers.cloudflare.com/workers/).
 
 ## Features
 
 - **Interactive map** of municipalities in the Berliner Umland with clickable markers
+  - MapLibre GL JS over a key-free [OpenFreeMap](https://openfreemap.org) vector basemap, with a
+    matching dark style that follows the visitor's colour-scheme preference
+  - An **Auto / Light / Dark** switch that persists to `localStorage`; an inline bootstrap in
+    `app.html` applies the choice before first paint, so there is no flash of the wrong scheme
+  - Optional overlay of **S-Bahn and Regional (RE/RB) lines**, simplified from OpenStreetMap
+    route relations and fetched only when first switched on
+  - Sources whose last fetch failed are visibly marked as unavailable rather than silently
+    rendered as a working link
 - **Automated source discovery** — crawls municipal websites via sitemaps, homepage links, and DuckDuckGo to find Amtsblatt and property listing pages
 - **Link indexing pipeline** — fetches source pages and extracts relevant PDF and HTML links
 - **50+ municipalities** seeded from the [Wikipedia list of Berliner Umland locations](https://de.wikipedia.org/wiki/Liste_von_Orten_im_Berliner_Umland) with official websites resolved via Wikidata

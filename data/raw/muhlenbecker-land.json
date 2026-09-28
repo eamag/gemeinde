@@ -1,435 +1,435 @@
 {
-	"municipality": {
-		"id": "muhlenbecker-land",
-		"name": "Mühlenbecker Land",
-		"district": "Oberhavel",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "muhlenbecker-land-amtsblatt-manual",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
-				"discoveryMethod": "manual"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "muhlenbecker-land",
-			"source": {
-				"id": "muhlenbecker-land-amtsblatt-manual",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
-				"discoveryMethod": "manual"
-			},
-			"fetchedAt": "2026-05-22T11:38:45.961Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=3",
-					"text": "Startseite",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=44",
-					"text": "Impressum",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=46",
-					"text": "Datenschutzerklärung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=50",
-					"text": "Sitemap",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=49",
-					"text": "Schriftgr&ouml;&szlig;e:",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=1165",
-					"text": "Volltextsuche",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/leitbild",
-					"text": "Politik & Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick",
-					"text": "Kommunale Gremien",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-ortsbeiraete-ob",
-					"text": "Ortsbeiräte",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-gemeindevertretung-gv",
-					"text": "Gemeindevertretung",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/der-haupt-und-finanzausschuss-hufa",
-					"text": "Hauptausschuss",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-fachausschuesse",
-					"text": "Fachausschüsse",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/politiker-a-z",
-					"text": "Politiker A-Z",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/sitzungstermine",
-					"text": "Sitzungstermine",
-					"kind": "html"
-				},
-				{
-					"url": "http://www.g-m-l.de/ris-2013/instanz_1/index-satzung.htm",
-					"text": "Ortsrecht & Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/haushalt-der-gemeinde-muehlenbecker-land",
-					"text": "Haushaltspläne",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land",
-					"text": "Wahlen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/bundestagswahl-2025",
-					"text": "Bundestagswahl 2025",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/ehrenamtliche-wahlhelfer",
-					"text": "Wahlhelfer sein",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/briefwahl-beantragen",
-					"text": "Briefwahl beantragen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/_processed_/d/c/csm_Sonderamtsblatt_vom_16.05.2026_77f6c4ca05.jpg",
-					"text": "csm_Sonderamtsblatt_vom_16.05.2026_77f6c4ca05.jpg",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2026/Amtsblatt-2026-02_2_web.pdf",
-					"text": "Sonderamtsblatt Nr. 01/2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2026/23_-_Amtsblatt-2026-01_9-web.pdf",
-					"text": "Amtsblatt Nr. 01/2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/28_Amtsblatt-2025-05_2-web.pdf",
-					"text": "Amtsblatt Nr. 05/2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-2025-04_web.pdf",
-					"text": "Amtsblatt Nr. 04/2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-2025-03_Webversion.pdf",
-					"text": "Amtsblatt Nr. 03/2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/WEB_Version_Amtsblatt-2025-2-04_72dpi-1.pdf",
-					"text": "Amtsblatt Nr. 02/2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-01-2025_WEB-1.pdf",
-					"text": "Amtsblatt Nr. 01/2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_Nr._05_WEB_.pdf",
-					"text": "Amtsblatt 05/2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_2024_04_Web-1.pdf",
-					"text": "Amtsblatt 04/2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/WEB_Sonderamtsblatt_Nr._2.pdf",
-					"text": "Sonderamtsblatt Nr. 02/2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-2024-03_5-web.pdf",
-					"text": "Amtsblatt 03/2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-Nr-2_2024_04_web.pdf",
-					"text": "Amtsblatt 02/ 2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_Sonderwahlen-Nr-1_2024_07.pdf",
-					"text": "Sonderamtsblatt Nr. 01/2024&nbsp;",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-Nr-1_-_2024.pdf",
-					"text": "Amtsblatt Nr. 01/2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt-Nr-5_web.pdf",
-					"text": "Amtsblatt Nr. 05/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Sonderamtsblatt_Nummer_02.pdf",
-					"text": "Sonderamtsblatt Nr. 02/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt-Nr._4-KO_04.pdf",
-					"text": "Amtsblatt Nr. 04/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_Juli_2023.pdf",
-					"text": "Amtsblatt Nr. 03/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/WEB_20230515_Amtsblatt_Nr_2.pdf",
-					"text": "Amtsblatt Nr. 02/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_23_01_20230302_Sonderamtsblatt01_Final.pdf",
-					"text": "Sonderamtsblatt Nr. 01/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_01-2023.pdf",
-					"text": "Amtsblatt Nr. 01/2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr_1_2022_WEB.pdf",
-					"text": "Amtsblatt Nr. 01/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Sonderamtsblatt_Nr_2_WEB.pdf",
-					"text": "Sonderamtsblatt Nr. 02/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr_3_WEB.pdf",
-					"text": "Amtsblatt Nr. 03/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/WEB-0722-Amtsblatt_Nr4.pdf",
-					"text": "Amtsblatt Nr. 04/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._5_Sonderamtsblatt_WEB.pdf",
-					"text": "Sonderamtsblatt Nr. 05/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._6_Sonderamtsblatt_WEB.pdf",
-					"text": "Sonderamtsblatt Nr. 06/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._7_KO8_.pdf",
-					"text": "Amtsblatt Nr. 07/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Sonderamtsblatt_Nr_8_KO4.pdf",
-					"text": "Sonderamtsblatt Nr. 08/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_09_-_2022.pdf",
-					"text": "Amtsblatt Nr. 09/2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Sonderamtsblatt_Januar_2021_WEB.pdf",
-					"text": "Amtsblatt Nr. 01/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr_2_WEB__003_.pdf",
-					"text": "Amtsblatt Nr. 02/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_3_WEB.pdf",
-					"text": "Amtsblatt Nr. 03/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_N_4_WEB.pdf",
-					"text": "Amtsblatt Nr. 04/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/WEB_Amtsblatt_Nr_5.pdf",
-					"text": "Amtsblatt Nr. 05/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Sonderamtsblatt_Nr_6_WEB.pdf",
-					"text": "Amtsblatt Nr. 06/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/WEB_0921_Sonderamtsblatt_Nr_7_September_2021.pdf",
-					"text": "Amtsblatt Nr. 07/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_8_WEB.pdf",
-					"text": "Amtsblatt Nr. 08/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Sonderamtsblatt_2021_Nr_9_WEB.pdf",
-					"text": "Amtsblatt Nr. 09/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_10_WEB_Version_.pdf",
-					"text": "Amtsblatt Nr. 10/2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2020_AB-01.pdf",
-					"text": "Amtsblatt Nr. 01/2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._02-2020.pdf",
-					"text": "Amtsblatt Nr. 02/2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._3_WEB_1_.pdf",
-					"text": "Amtsblatt Nr. 03/2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._4_WEB__002_.pdf",
-					"text": "Amtsblatt Nr. 04/2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/WEB_Version_Amtsblatt_Nr5.pdf",
-					"text": "Amtsblatt Nr. 05/2020",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-07.pdf",
-					"text": "Amtsblatt Nr. 07/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-06.pdf",
-					"text": "Amtsblatt Nr. 06/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-05.pdf",
-					"text": "Amtsblatt Nr. 05/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-04.pdf",
-					"text": "Amtsblatt Nr. 04/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-03.pdf",
-					"text": "Amtsblatt Nr. 03/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-02.pdf",
-					"text": "Amtsblatt Nr. 02/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-01.pdf",
-					"text": "Amtsblatt Nr. 01/2019",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-07_Web.pdf",
-					"text": "Amtsblatt Nr. 07/2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-06.pdf",
-					"text": "Amtsblatt Nr. 06/2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-05.pdf",
-					"text": "Amtsblatt Nr. 05/2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-04.pdf",
-					"text": "Sonderamtsblatt Nr. 04/2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-03.pdf",
-					"text": "Amtsblatt Nr. 03/2018",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-02.pdf",
-					"text": "Amtsblatt Nr. 02/2018",
-					"kind": "pdf"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "muhlenbecker-land",
+    "name": "Mühlenbecker Land",
+    "district": "Oberhavel",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "muhlenbecker-land-amtsblatt-manual",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
+        "discoveryMethod": "manual"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "muhlenbecker-land",
+      "source": {
+        "id": "muhlenbecker-land-amtsblatt-manual",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
+        "discoveryMethod": "manual"
+      },
+      "fetchedAt": "2026-09-27T21:19:23.719Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=3",
+          "text": "Startseite",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=44",
+          "text": "Impressum",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=46",
+          "text": "Datenschutzerklärung",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=50",
+          "text": "Sitemap",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=49",
+          "text": "Schriftgröße:",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/index.php?id=1165",
+          "text": "Volltextsuche",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/aktuelles-aus-politischen-gremien-und-behoerden",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/leitbild",
+          "text": "Politik & Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick",
+          "text": "Kommunale Gremien",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-ortsbeiraete-ob",
+          "text": "Ortsbeiräte",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-gemeindevertretung-gv",
+          "text": "Gemeindevertretung",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/der-haupt-und-finanzausschuss-hufa",
+          "text": "Hauptausschuss",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/die-fachausschuesse",
+          "text": "Fachausschüsse",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/kommunale-gremien-auf-einen-blick/politiker-a-z",
+          "text": "Politiker A-Z",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/sitzungstermine",
+          "text": "Sitzungstermine",
+          "kind": "html"
+        },
+        {
+          "url": "http://www.g-m-l.de/ris-2013/instanz_1/index-satzung.htm",
+          "text": "Ortsrecht & Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/haushalt-der-gemeinde-muehlenbecker-land",
+          "text": "Haushaltspläne",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land",
+          "text": "Wahlen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/bundestagswahl-2025",
+          "text": "Bundestagswahl 2025",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/ehrenamtliche-wahlhelfer",
+          "text": "Wahlhelfer sein",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/de/politik-satzungen/wahlen-im-muehlenbecker-land/briefwahl-beantragen",
+          "text": "Briefwahl beantragen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2026/September_2026/15_-_Web_Version_-_Amtsblatt-2026-S2_3-web.pdf",
+          "text": "Sonderamtsblatt Nr. 02/2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt-2026-03_4_web__1_.pdf",
+          "text": "Amtsblatt Nr. 03/2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2026/Amtsblatt_002.pdf",
+          "text": "Amtsblatt Nr. 02/2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2026/23_-_Amtsblatt-2026-01_9-web.pdf",
+          "text": "Amtsblatt Nr. 01/2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/28_Amtsblatt-2025-05_2-web.pdf",
+          "text": "Amtsblatt Nr. 05/2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-2025-04_web.pdf",
+          "text": "Amtsblatt Nr. 04/2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-2025-03_Webversion.pdf",
+          "text": "Amtsblatt Nr. 03/2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/WEB_Version_Amtsblatt-2025-2-04_72dpi-1.pdf",
+          "text": "Amtsblatt Nr. 02/2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2025/Amtsblatt-01-2025_WEB-1.pdf",
+          "text": "Amtsblatt Nr. 01/2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/_processed_/2/d/csm_Amtsblatt-2026-03_4_web__1_-1_c161d6be73.png",
+          "text": "csm_Amtsblatt-2026-03_4_web__1_-1_c161d6be73.png",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_Nr._05_WEB_.pdf",
+          "text": "Amtsblatt 05/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_2024_04_Web-1.pdf",
+          "text": "Amtsblatt 04/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/WEB_Sonderamtsblatt_Nr._2.pdf",
+          "text": "Sonderamtsblatt Nr. 02/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-2024-03_5-web.pdf",
+          "text": "Amtsblatt 03/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-Nr-2_2024_04_web.pdf",
+          "text": "Amtsblatt 02/ 2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt_Sonderwahlen-Nr-1_2024_07.pdf",
+          "text": "Sonderamtsblatt Nr. 01/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2024/Amtsblatt-Nr-1_-_2024.pdf",
+          "text": "Amtsblatt Nr. 01/2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt-Nr-5_web.pdf",
+          "text": "Amtsblatt Nr. 05/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Sonderamtsblatt_Nummer_02.pdf",
+          "text": "Sonderamtsblatt Nr. 02/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt-Nr._4-KO_04.pdf",
+          "text": "Amtsblatt Nr. 04/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_Juli_2023.pdf",
+          "text": "Amtsblatt Nr. 03/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/WEB_20230515_Amtsblatt_Nr_2.pdf",
+          "text": "Amtsblatt Nr. 02/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_23_01_20230302_Sonderamtsblatt01_Final.pdf",
+          "text": "Sonderamtsblatt Nr. 01/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2023/Amtsblatt_01-2023.pdf",
+          "text": "Amtsblatt Nr. 01/2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr_1_2022_WEB.pdf",
+          "text": "Amtsblatt Nr. 01/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Sonderamtsblatt_Nr_2_WEB.pdf",
+          "text": "Sonderamtsblatt Nr. 02/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr_3_WEB.pdf",
+          "text": "Amtsblatt Nr. 03/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/WEB-0722-Amtsblatt_Nr4.pdf",
+          "text": "Amtsblatt Nr. 04/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._5_Sonderamtsblatt_WEB.pdf",
+          "text": "Sonderamtsblatt Nr. 05/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._6_Sonderamtsblatt_WEB.pdf",
+          "text": "Sonderamtsblatt Nr. 06/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_Nr._7_KO8_.pdf",
+          "text": "Amtsblatt Nr. 07/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Sonderamtsblatt_Nr_8_KO4.pdf",
+          "text": "Sonderamtsblatt Nr. 08/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2022/Amtsblatt_09_-_2022.pdf",
+          "text": "Amtsblatt Nr. 09/2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Sonderamtsblatt_Januar_2021_WEB.pdf",
+          "text": "Amtsblatt Nr. 01/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr_2_WEB__003_.pdf",
+          "text": "Amtsblatt Nr. 02/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_3_WEB.pdf",
+          "text": "Amtsblatt Nr. 03/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_N_4_WEB.pdf",
+          "text": "Amtsblatt Nr. 04/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/WEB_Amtsblatt_Nr_5.pdf",
+          "text": "Amtsblatt Nr. 05/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Sonderamtsblatt_Nr_6_WEB.pdf",
+          "text": "Amtsblatt Nr. 06/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/WEB_0921_Sonderamtsblatt_Nr_7_September_2021.pdf",
+          "text": "Amtsblatt Nr. 07/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_8_WEB.pdf",
+          "text": "Amtsblatt Nr. 08/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Sonderamtsblatt_2021_Nr_9_WEB.pdf",
+          "text": "Amtsblatt Nr. 09/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2021/Amtsblatt_Nr_10_WEB_Version_.pdf",
+          "text": "Amtsblatt Nr. 10/2021",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2020_AB-01.pdf",
+          "text": "Amtsblatt Nr. 01/2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._02-2020.pdf",
+          "text": "Amtsblatt Nr. 02/2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._3_WEB_1_.pdf",
+          "text": "Amtsblatt Nr. 03/2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/Amtsblatt_Nr._4_WEB__002_.pdf",
+          "text": "Amtsblatt Nr. 04/2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/WEB_Version_Amtsblatt_Nr5.pdf",
+          "text": "Amtsblatt Nr. 05/2020",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-07.pdf",
+          "text": "Amtsblatt Nr. 07/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-06.pdf",
+          "text": "Amtsblatt Nr. 06/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-05.pdf",
+          "text": "Amtsblatt Nr. 05/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-04.pdf",
+          "text": "Amtsblatt Nr. 04/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-03.pdf",
+          "text": "Amtsblatt Nr. 03/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-02.pdf",
+          "text": "Amtsblatt Nr. 02/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2019_AB-01.pdf",
+          "text": "Amtsblatt Nr. 01/2019",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-07_Web.pdf",
+          "text": "Amtsblatt Nr. 07/2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-06.pdf",
+          "text": "Amtsblatt Nr. 06/2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-05.pdf",
+          "text": "Amtsblatt Nr. 05/2018",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.muehlenbecker-land.de/fileadmin/Dateien/Dateien/Rathaus_Verwaltung/Amtsblaetter/2018_AB-04.pdf",
+          "text": "Sonderamtsblatt Nr. 04/2018",
+          "kind": "pdf"
+        }
+      ]
+    }
+  ]
 }

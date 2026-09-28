@@ -1,522 +1,457 @@
 {
-	"municipality": {
-		"id": "schoneiche-bei-berlin",
-		"name": "Schöneiche bei Berlin",
-		"district": "Oder-Spree",
-		"state": "Brandenburg",
-		"sources": [
-			{
-				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			{
-				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
-				"discoveryMethod": "sitemap"
-			}
-		]
-	},
-	"fetchedAt": "2026-05-22T11:38:34.577Z",
-	"sources": [
-		{
-			"municipalityId": "schoneiche-bei-berlin",
-			"source": {
-				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
-				"type": "amtsblatt",
-				"label": "Amtsblatt / Bekanntmachungen",
-				"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:53.977Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/rathaus/informationen/amtsblatt",
-					"text": "Zur Navigation springen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
-					"text": "Amtsblatt",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/satzungen",
-					"text": "Satzungen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260508_Amtsblatt_Nr.07.pdf",
-					"text": "Amtsblatt Nr. 7 vom 08.05.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20230524_Amtsblatt%20Nr.%206%20-%20El-HA-Korrektur.pdf",
-					"text": "Amtsblatt Nr. 6 vom 23.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260417_Amtsblatt_Nr.05.pdf",
-					"text": "Amtsblatt Nr. 5 vom 17.04.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260313_Amtsblatt_Nr.4.pdf",
-					"text": "Amtsblatt Nr. 4 vom 13.03.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260220_Amtsblatt_Nr.03.pdf",
-					"text": "Amtsblatt Nr. 3 vom 20.02.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260130_Amtsblatt_Nr.02.pdf",
-					"text": "Amtsblatt Nr. 2 vom 30.01.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260109_Amtsblatt_Nr.01.pdf",
-					"text": "Amtsblatt Nr. 1 vom 09.01.2026",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251128_Amtsblatt_Nr.14.pdf",
-					"text": "Amtsblatt Nr. 14 vom 28.11.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251111_Amtsblatt_Nr.13.pdf",
-					"text": "Amtsblatt Nr. 13 vom 11.11.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251002_Amtsblatt_Nr.12.pdf",
-					"text": "Amtsblatt Nr. 12 vom 02.10.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250916_Amtsblatt_Nr.11.pdf",
-					"text": "Amtsblatt Nr. 11 vom 16.09.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250808_Amtsblatt_Nr.10.pdf",
-					"text": "Amtsblatt Nr. 10 vom 08.08.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250718_Amtsblatt_Nr.9.pdf",
-					"text": "Amtsblatt Nr. 9 vom 18.07.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250627_Amtsblatt_Nr.8.pdf",
-					"text": "Amtsblatt Nr. 8 vom 27.06.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250606%20Amtsblatt_Nr.7.pdf",
-					"text": "Amtsblatt Nr. 7 vom 06.06.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250505%20Amtsblatt%20Nr.6.pdf",
-					"text": "Amtsblatt Nr. 6 vom 05.05.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250328%20Amtsblatt%20Nr.5.pdf",
-					"text": "Amtsblatt Nr. 5 vom 28.03.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250314%20Amtsblatt%20Nr.%204.pdf",
-					"text": "Amtsblatt Nr. 4 vom 14.03.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250225%20Amtsblatt%20Nr.3.pdf",
-					"text": "Amtsblatt Nr. 3 vom 25.02.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250131%20Amtsblatt_Nr.2.pdf",
-					"text": "Amtsblatt Nr. 2 vom 31.01.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250114_Amtsblatt_Nr.1.pdf",
-					"text": "Amtsblatt Nr. 1 vom 14.01.2025",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241217%20Amtsblatt%20Nr.20.pdf",
-					"text": "Amtsblatt Nr. 20 vom 17.12.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241128%20Amtsblatt%20Nr.19.pdf",
-					"text": "Amtsblatt Nr. 19 vom 28.11.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241128%20Amtsblatt%20Nr.18.pdf",
-					"text": "Amtsblatt Nr. 18 vom 28.11.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241112%20Amtsblatt%20Nr.17.pdf",
-					"text": "Amtsblatt Nr. 17 vom 12.11.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241018%20Amtsblatt%20Nr.16.pdf",
-					"text": "Amtsblatt Nr. 16 vom 18.10.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241016%20Amtsblatt%20Nr.15.pdf",
-					"text": "Amtsblatt N. 15 vom 16.10.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240926%20Amtsblatt%20Nr.14.pdf",
-					"text": "Amtsblatt N. 14 vom 26.09.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240910%20Amtsblatt%20Nr.13.pdf",
-					"text": "Amtsblatt Nr. 13 vom 10.09.202",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240726%20Amtsblatt%20Nr.12.pdf",
-					"text": "Amtsblatt Nr. 12 vom 26.07.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240716%20Amtsblatt%20Nr.11.pdf",
-					"text": "Amtsblatt Nr. 11 vom 16.07.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240627%20Amtsblatt%20Nr.10.pdf",
-					"text": "Amtsblatt Nr. 10 vom 27.06.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240614%20Amtsblatt%20Nr.9.pdf",
-					"text": "Amtsblatt Nr. 9 vom 14.06.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240528%20Amtsblatt%20Nr.8.pdf",
-					"text": "Amtsblatt Nr. 8 vom 28.05.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240507%20Amtsblatt%20Nr.7.pdf",
-					"text": "Amtsblatt Nr. 7 vom 07.05.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240416%20Amtsblatt%20Nr.6.pdf",
-					"text": "Amtsblatt Nr. 6 vom 16.04.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240412%20Amtsblatt%20Nr.5.pdf",
-					"text": "Amtsblatt Nr. 5 vom 12.04.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240328%20Amtsblatt%20Nr.4.pdf",
-					"text": "Amtsblatt Nr. 4 vom 28.03.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240312%20Amtsblatt%20Nr.3.pdf",
-					"text": "Amtsblatt Nr. 3 vom 12.03.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240216%20Amtsblatt%20Nr.2.pdf",
-					"text": "Amtsblatt Nr. 2 vom 16.02.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240123%20Amtsblatt%20Nr.1.pdf",
-					"text": "Amtsblatt Nr. 1 vom 23.01.2024",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230110%20Amtsblatt%20Nr.%201.pdf",
-					"text": "Amtblatt Nr. 1 vom 10.01.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230127%20Amtsblatt%20Nr.2.pdf",
-					"text": "Amtblatt Nr. 2 vom 27.01.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230228%20Amtsblatt%20Nr.%203.pdf",
-					"text": "Amtblatt Nr. 3 vom 28.02.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230317%20Amtsblatt%20Nr.%204.pdf",
-					"text": "Amtblatt Nr. 4 vom 17.03.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230502%20Amtsblatt%20Nr.%205.pdf",
-					"text": "Amtblatt Nr. 5 vom 02.05.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230522%20Amtsblatt%20Nr.%206.pdf",
-					"text": "Amtblatt Nr. 6 vom 22.05.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230523%20Amtsblatt%20Nr.%207.pdf",
-					"text": "Amtblatt Nr. 7 vom 23.05.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230613%20Amtsblatt%20Nr.%208.pdf",
-					"text": "Amtblatt Nr. 8 vom 13.06.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230630%20Amtsblatt%20Nr.%209.pdf",
-					"text": "Amtsblatt Nr. 9 vom 30.06.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230829%20Amtsblatt%20Nr.%2010.pdf",
-					"text": "Amtsblatt Nr. 10 vom 29.08.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230915%20Amtsblatt%20Nr.%2011.pdf",
-					"text": "Amtsblatt Nr. 11 vom 15.09.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231004%20Amtsblatt%20Nr.%2012.pdf",
-					"text": "Amtsblatt Nr. 12 vom 04.10.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231020%20Amtsblatt%20Nr.%2013.pdf",
-					"text": "Amtsblatt Nr. 13 vom 20.10.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231114%20Amtsblatt%20Nr.%2014.pdf",
-					"text": "Amtsblatt Nr. 14 vom 14.11.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231201_Amtsblatt%20Nr.%2015.pdf",
-					"text": "Amtsblatt Nr. 15 vom 01.12.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231220%20Amtsblatt%20Nr.%2016.pdf",
-					"text": "Amtblatt Nr. 16 vom 20.12.2023",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220111%20Amtsblatt%20Nr.%201.pdf",
-					"text": "Amtsblatt Nr. 1 vom 11.01.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220128%20Amtsblatt%20Nr.%202.pdf",
-					"text": "Amtsblatt Nr. 2 vom 28.01.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220222%20Amtsblatt%20Nr.%203.pdf",
-					"text": "Amtsblatt Nr. 3 vom 22.02.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220301%20Amtsblatt%20Nr.%204.pdf",
-					"text": "Amtsblatt Nr. 4 vom 01.03.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220318%20Amtsblatt%20Nr.%205.pdf",
-					"text": "Amtsblatt Nr. 5 vom 18.03.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220419%20Amtsblatt%20Nr.%206.pdf",
-					"text": "Amtsblatt Nr. 6 vom 19.04.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220503%20Amtsblatt%20Nr.%207.pdf",
-					"text": "Amtsblatt Nr. 7 vom 03.05.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220520%20Amtsblatt%20Nr.%208.pdf",
-					"text": "Amtsblatt Nr. 8 vom 20.05.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220607%20Amtsblatt%20Nr.%209.pdf",
-					"text": "Amtsblatt Nr. 9 vom 07.06.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220624%20Amtsblatt%20Nr.%2010.pdf",
-					"text": "Amtsblatt Nr. 10 vom 24.06.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220823%20Amtsblatt%20Nr.%2011.pdf",
-					"text": "Amtsblatt Nr. 11 vom 23.08.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220909_Amtsblatt%20Nr.%2012.pdf",
-					"text": "Amtsblatt Nr. 12 vom 09.09.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20221004%20Amtsblatt%20Nr.%2013.pdf",
-					"text": "Amtsblatt Nr. 13 vom 04.10.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20221021%20Amtsblatt%20Nr.%2014.pdf",
-					"text": "Amtsblatt Nr. 14 vom 21.10.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20221122%20Amtsblatt%20Nr.%2015.pdf",
-					"text": "Amtsblatt Nr. 15 vom 22.11.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20221209%20Amtsblatt%20Nr.%2016.pdf",
-					"text": "Amtsblatt Nr. 16 vom 09.12.2022",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2021/20210112_Amtsblatt_Nr.%201.pdf",
-					"text": "Amtsblatt Nr. 1 vom 12.01.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2021/20210129%20Amtsblatt%20Nr.%202.pdf",
-					"text": "Amtsblatt Nr. 2 vom 29.01.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2021/20210223%20Amtsblatt%20Nr.%203.pdf",
-					"text": "Amtsblatt Nr. 3 vom 23.02.2021",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2021/20210312%20Amtsblatt%20Nr.%204.pdf",
-					"text": "Amtsblatt Nr. 4 vom 12.03.2021",
-					"kind": "pdf"
-				}
-			]
-		},
-		{
-			"municipalityId": "schoneiche-bei-berlin",
-			"source": {
-				"id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
-				"type": "offers_page",
-				"label": "Grundstücksangebote / Ausschreibungen",
-				"url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
-				"discoveryMethod": "sitemap"
-			},
-			"fetchedAt": "2026-05-22T11:38:53.977Z",
-			"status": "ok",
-			"statusCode": 200,
-			"discoveredLinks": [
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
-					"text": "Zur Navigation springen",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Verkaufsangebot%20Heinrich-Mann-Str.%2030.pdf",
-					"text": "Informationen im PDF zum Download",
-					"kind": "pdf"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/1%20Stra%C3%9Fenansicht.JPG",
-					"text": "1%20Stra%C3%9Fenansicht.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/2%20Stra%C3%9Fenansicht.JPG",
-					"text": "2%20Stra%C3%9Fenansicht.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/3%20Wochenendhaus%20%28nord%C3%B6stl.%20Anschicht%29.JPG",
-					"text": "3%20Wochenendhaus%20%28nord%C3%B6stl.%20Anschicht%29.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/4%20Wochenendhaus%20%28nordwestl.%20Ansicht%29.JPG",
-					"text": "4%20Wochenendhaus%20%28nordwestl.%20Ansicht%29.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/5%20Wochenendhaus%20%28s%C3%BCdwestl.%20Ansicht%29.JPG",
-					"text": "5%20Wochenendhaus%20%28s%C3%BCdwestl.%20Ansicht%29.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/6%20Wochenendhaus%20Innenansicht.JPG",
-					"text": "6%20Wochenendhaus%20Innenansicht.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/7%20Wochenendhaus%20Innenansicht.JPG",
-					"text": "7%20Wochenendhaus%20Innenansicht.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/8%20Wochenendhaus%20Innenansicht.JPG",
-					"text": "8%20Wochenendhaus%20Innenansicht.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/9%20Schuppen%20%28Au%C3%9Fenansicht%29.JPG",
-					"text": "9%20Schuppen%20%28Au%C3%9Fenansicht%29.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Ausschreibungen/Grundstuecke/Erbbaurecht/10%20Schuppen%20%28Innenansicht%29.JPG",
-					"text": "10%20Schuppen%20%28Innenansicht%29.JPG",
-					"kind": "html"
-				},
-				{
-					"url": "mailto:liegenschaften@schoeneiche.de",
-					"text": "liegenschaften@schoeneiche.de",
-					"kind": "html"
-				}
-			]
-		}
-	]
+  "municipality": {
+    "id": "schoneiche-bei-berlin",
+    "name": "Schöneiche bei Berlin",
+    "district": "Oder-Spree",
+    "state": "Brandenburg",
+    "sources": [
+      {
+        "id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      {
+        "id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
+        "discoveryMethod": "sitemap"
+      }
+    ]
+  },
+  "fetchedAt": "2026-09-27T21:19:03.095Z",
+  "sources": [
+    {
+      "municipalityId": "schoneiche-bei-berlin",
+      "source": {
+        "id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-rath",
+        "type": "amtsblatt",
+        "label": "Amtsblatt / Bekanntmachungen",
+        "url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:36.576Z",
+      "status": "ok",
+      "statusCode": 200,
+      "discoveredLinks": [
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/rathaus/informationen/amtsblatt",
+          "text": "Zur Navigation springen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/amtsblatt",
+          "text": "Amtsblatt",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/rathaus/informationen/satzungen",
+          "text": "Satzungen",
+          "kind": "html"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260925_Amtsblatt_Nr.14.pdf",
+          "text": "Amtsblatt Nr. 14 vom 25.09.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260904_Amtsblatt_Nr.13.pdf",
+          "text": "Amtsblatt Nr. 13 vom 04.09.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260821_Amtsblatt%20Nr.12.pdf",
+          "text": "Amtsblatt Nr. 12 vom 21.08.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260728_Amtsblatt_Nr.11.pdf",
+          "text": "Amtsblatt Nr. 11 vom 28.07.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260717_Amtsblatt_Nr.10.pdf",
+          "text": "Amtsblatt Nr. 10 vom 17.07.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260626_Amtsblatt_Nr.09.pdf",
+          "text": "Amtsblatt Nr. 9 vom 26.06.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260605_Amtsblatt_Nr.08.pdf",
+          "text": "Amtsblatt Nr. 8 vom 05.06.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260508_Amtsblatt_Nr.07.pdf",
+          "text": "Amtsblatt Nr. 7 vom 08.05.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20230524_Amtsblatt%20Nr.%206%20-%20El-HA-Korrektur.pdf",
+          "text": "Amtsblatt Nr. 6 vom 23.04.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260417_Amtsblatt_Nr.05.pdf",
+          "text": "Amtsblatt Nr. 5 vom 17.04.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260313_Amtsblatt_Nr.4.pdf",
+          "text": "Amtsblatt Nr. 4 vom 13.03.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260220_Amtsblatt_Nr.03.pdf",
+          "text": "Amtsblatt Nr. 3 vom 20.02.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260130_Amtsblatt_Nr.02.pdf",
+          "text": "Amtsblatt Nr. 2 vom 30.01.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2026/20260109_Amtsblatt_Nr.01.pdf",
+          "text": "Amtsblatt Nr. 1 vom 09.01.2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251128_Amtsblatt_Nr.14.pdf",
+          "text": "Amtsblatt Nr. 14 vom 28.11.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251111_Amtsblatt_Nr.13.pdf",
+          "text": "Amtsblatt Nr. 13 vom 11.11.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20251002_Amtsblatt_Nr.12.pdf",
+          "text": "Amtsblatt Nr. 12 vom 02.10.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250916_Amtsblatt_Nr.11.pdf",
+          "text": "Amtsblatt Nr. 11 vom 16.09.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250808_Amtsblatt_Nr.10.pdf",
+          "text": "Amtsblatt Nr. 10 vom 08.08.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250718_Amtsblatt_Nr.9.pdf",
+          "text": "Amtsblatt Nr. 9 vom 18.07.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250627_Amtsblatt_Nr.8.pdf",
+          "text": "Amtsblatt Nr. 8 vom 27.06.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250606%20Amtsblatt_Nr.7.pdf",
+          "text": "Amtsblatt Nr. 7 vom 06.06.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250505%20Amtsblatt%20Nr.6.pdf",
+          "text": "Amtsblatt Nr. 6 vom 05.05.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250328%20Amtsblatt%20Nr.5.pdf",
+          "text": "Amtsblatt Nr. 5 vom 28.03.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250314%20Amtsblatt%20Nr.%204.pdf",
+          "text": "Amtsblatt Nr. 4 vom 14.03.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250225%20Amtsblatt%20Nr.3.pdf",
+          "text": "Amtsblatt Nr. 3 vom 25.02.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250131%20Amtsblatt_Nr.2.pdf",
+          "text": "Amtsblatt Nr. 2 vom 31.01.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2025/20250114_Amtsblatt_Nr.1.pdf",
+          "text": "Amtsblatt Nr. 1 vom 14.01.2025",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241217%20Amtsblatt%20Nr.20.pdf",
+          "text": "Amtsblatt Nr. 20 vom 17.12.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241128%20Amtsblatt%20Nr.19.pdf",
+          "text": "Amtsblatt Nr. 19 vom 28.11.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241128%20Amtsblatt%20Nr.18.pdf",
+          "text": "Amtsblatt Nr. 18 vom 28.11.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241112%20Amtsblatt%20Nr.17.pdf",
+          "text": "Amtsblatt Nr. 17 vom 12.11.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241018%20Amtsblatt%20Nr.16.pdf",
+          "text": "Amtsblatt Nr. 16 vom 18.10.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20241016%20Amtsblatt%20Nr.15.pdf",
+          "text": "Amtsblatt N. 15 vom 16.10.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240926%20Amtsblatt%20Nr.14.pdf",
+          "text": "Amtsblatt N. 14 vom 26.09.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240910%20Amtsblatt%20Nr.13.pdf",
+          "text": "Amtsblatt Nr. 13 vom 10.09.202",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240726%20Amtsblatt%20Nr.12.pdf",
+          "text": "Amtsblatt Nr. 12 vom 26.07.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240716%20Amtsblatt%20Nr.11.pdf",
+          "text": "Amtsblatt Nr. 11 vom 16.07.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240627%20Amtsblatt%20Nr.10.pdf",
+          "text": "Amtsblatt Nr. 10 vom 27.06.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240614%20Amtsblatt%20Nr.9.pdf",
+          "text": "Amtsblatt Nr. 9 vom 14.06.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240528%20Amtsblatt%20Nr.8.pdf",
+          "text": "Amtsblatt Nr. 8 vom 28.05.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240507%20Amtsblatt%20Nr.7.pdf",
+          "text": "Amtsblatt Nr. 7 vom 07.05.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240416%20Amtsblatt%20Nr.6.pdf",
+          "text": "Amtsblatt Nr. 6 vom 16.04.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240412%20Amtsblatt%20Nr.5.pdf",
+          "text": "Amtsblatt Nr. 5 vom 12.04.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240328%20Amtsblatt%20Nr.4.pdf",
+          "text": "Amtsblatt Nr. 4 vom 28.03.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240312%20Amtsblatt%20Nr.3.pdf",
+          "text": "Amtsblatt Nr. 3 vom 12.03.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240216%20Amtsblatt%20Nr.2.pdf",
+          "text": "Amtsblatt Nr. 2 vom 16.02.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2024/20240123%20Amtsblatt%20Nr.1.pdf",
+          "text": "Amtsblatt Nr. 1 vom 23.01.2024",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230110%20Amtsblatt%20Nr.%201.pdf",
+          "text": "Amtblatt Nr. 1 vom 10.01.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230127%20Amtsblatt%20Nr.2.pdf",
+          "text": "Amtblatt Nr. 2 vom 27.01.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230228%20Amtsblatt%20Nr.%203.pdf",
+          "text": "Amtblatt Nr. 3 vom 28.02.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230317%20Amtsblatt%20Nr.%204.pdf",
+          "text": "Amtblatt Nr. 4 vom 17.03.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230502%20Amtsblatt%20Nr.%205.pdf",
+          "text": "Amtblatt Nr. 5 vom 02.05.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230522%20Amtsblatt%20Nr.%206.pdf",
+          "text": "Amtblatt Nr. 6 vom 22.05.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230523%20Amtsblatt%20Nr.%207.pdf",
+          "text": "Amtblatt Nr. 7 vom 23.05.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230613%20Amtsblatt%20Nr.%208.pdf",
+          "text": "Amtblatt Nr. 8 vom 13.06.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230630%20Amtsblatt%20Nr.%209.pdf",
+          "text": "Amtsblatt Nr. 9 vom 30.06.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230829%20Amtsblatt%20Nr.%2010.pdf",
+          "text": "Amtsblatt Nr. 10 vom 29.08.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20230915%20Amtsblatt%20Nr.%2011.pdf",
+          "text": "Amtsblatt Nr. 11 vom 15.09.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231004%20Amtsblatt%20Nr.%2012.pdf",
+          "text": "Amtsblatt Nr. 12 vom 04.10.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231020%20Amtsblatt%20Nr.%2013.pdf",
+          "text": "Amtsblatt Nr. 13 vom 20.10.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231114%20Amtsblatt%20Nr.%2014.pdf",
+          "text": "Amtsblatt Nr. 14 vom 14.11.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231201_Amtsblatt%20Nr.%2015.pdf",
+          "text": "Amtsblatt Nr. 15 vom 01.12.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2023/20231220%20Amtsblatt%20Nr.%2016.pdf",
+          "text": "Amtblatt Nr. 16 vom 20.12.2023",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220111%20Amtsblatt%20Nr.%201.pdf",
+          "text": "Amtsblatt Nr. 1 vom 11.01.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220128%20Amtsblatt%20Nr.%202.pdf",
+          "text": "Amtsblatt Nr. 2 vom 28.01.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220222%20Amtsblatt%20Nr.%203.pdf",
+          "text": "Amtsblatt Nr. 3 vom 22.02.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220301%20Amtsblatt%20Nr.%204.pdf",
+          "text": "Amtsblatt Nr. 4 vom 01.03.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220318%20Amtsblatt%20Nr.%205.pdf",
+          "text": "Amtsblatt Nr. 5 vom 18.03.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220419%20Amtsblatt%20Nr.%206.pdf",
+          "text": "Amtsblatt Nr. 6 vom 19.04.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220503%20Amtsblatt%20Nr.%207.pdf",
+          "text": "Amtsblatt Nr. 7 vom 03.05.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220520%20Amtsblatt%20Nr.%208.pdf",
+          "text": "Amtsblatt Nr. 8 vom 20.05.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220607%20Amtsblatt%20Nr.%209.pdf",
+          "text": "Amtsblatt Nr. 9 vom 07.06.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220624%20Amtsblatt%20Nr.%2010.pdf",
+          "text": "Amtsblatt Nr. 10 vom 24.06.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220823%20Amtsblatt%20Nr.%2011.pdf",
+          "text": "Amtsblatt Nr. 11 vom 23.08.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20220909_Amtsblatt%20Nr.%2012.pdf",
+          "text": "Amtsblatt Nr. 12 vom 09.09.2022",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.schoeneiche-bei-berlin.de/files/uploads/Rathaus/Informationen/Amtsblatt/2022/20221004%20Amtsblatt%20Nr.%2013.pdf",
+          "text": "Amtsblatt Nr. 13 vom 04.10.2022",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "municipalityId": "schoneiche-bei-berlin",
+      "source": {
+        "id": "schoneiche-bei-berlin-https-www-schoeneiche-bei-berlin-de-grun",
+        "type": "offers_page",
+        "label": "Grundstücksangebote / Ausschreibungen",
+        "url": "https://www.schoeneiche-bei-berlin.de/grundstuecke",
+        "discoveryMethod": "sitemap"
+      },
+      "fetchedAt": "2026-09-27T21:19:36.022Z",
+      "status": "error",
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "discoveredLinks": []
+    }
+  ]
 }
